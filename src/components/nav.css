@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:10vh;
+    box-sizing: border-box;
+    margin:2rem;
+    gap:5rem;
+}
+.navleft,.navright{
+    display:flex;
+    gap:5rem;
+}
+.nav a{
+    color: rgb(175, 148, 100);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.logo img{
+    width:7vw;
+    height:12vh;
+    scale: 1.6;
+}

@@ -1,0 +1,39 @@
+.form{
+    display:flex;
+    gap:12rem;
+    justify-content:center;
+    border-radius: 2rem;
+    padding:10rem 3rem 3rem 3rem;
+    box-sizing: border-box;
+}
+.formheading{
+    display:flex;
+    flex-direction: column;
+    gap:0.5rem;
+    /* color:white; */
+}
+.forminput form{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.forminput input{
+    background-color:black;
+    color:rgb(175, 148, 100);
+    font-weight: bold;
+    padding: 1rem;
+    width:40vw;
+    /* margin: 1rem; */
+    border-radius: 2rem;
+    border: none;
+}
+#specific-details{
+    height:15vh;
+}
+#booknow{
+    background-color:black;
+    color:rgb(175, 148, 100);
+    font-weight: bold;
+    width:42vw !important;
+    cursor: pointer;
+}

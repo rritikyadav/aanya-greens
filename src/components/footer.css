@@ -1,0 +1,37 @@
+.footer{
+    background-color: rgb(35, 33, 33);
+    height:45vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5vh;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    gap:5vw;
+    margin-top:5vh;
+}
+
+.detail{
+    width:27vw;
+    height:30vh;
+    border-radius: 2rem;
+    /* background-color: white; */
+    color:white;
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+.detail img{
+    width:15vw;
+    height:20vh;
+}
+
+.copyright{
+    color:white;
+}

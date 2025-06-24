@@ -1,0 +1,81 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Cinzel,serif;
+    scrollbar-width: none;
+}
+body{
+    background-color: rgb(18,18,18);    
+}
+
+.imagesection{
+    height:60vh;
+}
+
+.imagesection img{
+    width:100%;
+    height:100%;
+    border-radius: 2rem;
+}
+
+.contactinfo{
+    background-color:rgb(18,18,18);
+    height:50vh;
+    width:70vw;
+    position:absolute;
+    top:60vh;
+    left:14vw;
+    border-radius: 2rem;
+    display: flex;
+    gap:3vw;
+}
+
+.contactcard{
+    height:35vh;
+    width:20vw;
+    background-color: rgb(18,18,18);
+    border-radius: 2rem;
+    margin:auto;
+}
+.contactcard h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.contactcard p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.7rem;
+}   
+
+.instagram{
+    margin-top:37vh;
+    /* background-color: green; */
+    display:flex;
+    flex-direction: column;
+    gap:5vh;
+    align-items: center;
+}
+.username{
+    margin-top: 4vh;
+    display:flex;
+    gap:0.5rem;
+    align-items: center;
+}
+.username img{
+    height:4vh;
+    width:4vw;
+}
+.postcards{
+    display:flex;
+    gap:2vw;
+}
+.postcard{
+    width:22vw;
+    height:80vh;
+    background-color: yellow;
+    border-radius: 2rem;
+}
+.form{
+    margin-top: 0vh;
+}
