@@ -1,11 +1,11 @@
 import React from "react";
 import './form.css';
 
-function Form(){
+function Form({style}){
     return(
 
         <>
-             <div className="form">
+             <div className="formstart" style={style}>
         <div className="formheading">
           <h1>For Booking</h1>
           <p>Wanna Book For Parties? Feel Free To Fill The Form</p>

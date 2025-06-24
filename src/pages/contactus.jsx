@@ -1,8 +1,8 @@
 import React from 'react';
 import './contactus.css';
-import Nav from './nav.jsx';
-import Footer from './footer.jsx';
-import Form from './form.jsx';
+import Nav from '../components/nav.jsx';
+import Footer from '../components/footer.jsx';
+import Form from '../components/form.jsx';
 
 function Contactus(){
 
@@ -48,7 +48,7 @@ function Contactus(){
     </div>
     </div>
 
-    <Form />
+    <Form style={{marginTop : "0vh"}} />
 
     <Footer />  
 

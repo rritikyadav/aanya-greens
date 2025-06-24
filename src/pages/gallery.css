@@ -1,0 +1,17 @@
+*{
+    color:rgb(175,148,100)
+}
+
+.galleryimages{
+    margin: 15vh 2vw 15vh 2vw;
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   justify-items: center;
+   align-content: center ;
+   gap:1.5vh;
+}
+.galleryimages img{
+    width: 18vw;
+    height:35vh;
+    border-radius: 2rem;
+}

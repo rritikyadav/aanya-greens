@@ -9,16 +9,16 @@ function Nav() {
 <div className="nav">
         <div className="navleft">
           <Link to ="/">Home</Link>
-          <Link to ="#">Accomodations</Link>
+          <Link to ="/Accomodations">Accomodations</Link>
           <Link to="#">Activities</Link>
         </div>
         <div className="logo">
           <img src="./src/assets/blacklogo.png" alt="ritik" />
         </div>
         <div className="navright">
-          <Link to ="#">Gallery</Link>
+          <Link to ="/Gallery">Gallery</Link>
           <Link to ="/contactus">Contact us</Link>
-          <Link to ="#">Restraunt</Link>
+          <Link to ="#">About us</Link>
         </div>
       </div>
 </>

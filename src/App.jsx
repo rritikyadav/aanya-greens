@@ -26,7 +26,7 @@ function App() {
       </div>
 
 
-      <Form/>
+      <Form style = {{marginTop: "100vh" }} />
       <Footer/>
     </>
   );
