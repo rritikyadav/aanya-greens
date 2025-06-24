@@ -27,7 +27,14 @@ function Accomodations() {
                 <img src="./src/assets/main.jpg" alt="" />
             </div>
         </div>
-        <div className="boxsvgs"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+        
+        <div className="boxsvgs">
+        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
+        </div>
 
       </div>
 
@@ -50,6 +57,13 @@ function Accomodations() {
                 <img src="./src/assets/main.jpg" alt="" />
             </div>
             <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
+        </div>
+         <div className="boxsvgs">
+        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
         </div>
 
       </div>
@@ -74,6 +88,13 @@ function Accomodations() {
                 <img src="./src/assets/main.jpg" alt="" />
             </div>
         </div>
+         <div className="boxsvgs">
+        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
+        </div>
 
       </div>
 
@@ -97,6 +118,13 @@ function Accomodations() {
                 <img src="./src/assets/main.jpg" alt="" />
             </div>
             <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
+        </div>
+         <div className="boxsvgs">
+        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
         </div>
 
       </div>

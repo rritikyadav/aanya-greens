@@ -20,13 +20,13 @@ function App() {
         <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
         <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
         <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
+        {/* <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
         <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
-        <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
-        <div className="img"><img src="./src/assets/main.jpg" alt="" /></div>
+        <div className="img"><img src="./src/assets/main.jpg" alt="" /></div> */}
       </div>
 
 
-      <Form style = {{marginTop: "100vh" }} />
+      <Form style = {{marginTop: "55vh" }} />
       <Footer/>
     </>
   );

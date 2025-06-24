@@ -22,8 +22,9 @@ body{
 
 .gallerysection{
   width:95vw;
-  height:125vh;
-  padding:1.5rem;
+  /* height:125vh; */
+  height:75vh;
+  padding:2.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
   background-color: rgb(18,18,18);
   position:absolute;
@@ -37,8 +38,8 @@ body{
   align-items: center;
   /* box-shadow:2px 2px 2px whitesmoke; */
 }
-.img img{
-  width:25vw;
+.gallerysection .img img{
+  width:27vw;
   height:35vh;
   border-radius: 2rem;
 }
