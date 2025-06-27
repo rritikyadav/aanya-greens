@@ -5,7 +5,7 @@ function Form({style}){
     return(
 
         <>
-             <div className="formstart" style={style}>
+             <div className="formstart">
         <div className="formheading">
           <h1>For Booking</h1>
           <p>Wanna Book For Parties? Feel Free To Fill The Form</p>

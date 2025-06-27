@@ -20,7 +20,7 @@ function Footer() {
             <p>eeeeeeeeeeeeeee</p>
           </div>
           <div className="detail footerlogo">
-            <img src="./src/assets/blacklogo.png" alt="" />
+            <img src="./src/assets/blacklogo1.png" alt="" />
           </div>
         </div>
         <div className="copyright">

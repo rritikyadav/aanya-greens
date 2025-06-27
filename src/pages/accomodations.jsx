@@ -1,11 +1,13 @@
 import React from "react";
 import "./accomodations.css";
 import Nav from "../components/nav.jsx";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/Footer.jsx";
+import ScrollToTop from "../components/scrolltotop.jsx";
 
 function Accomodations() {
   return (
     <>
+      <ScrollToTop />
       <Nav />
 
       <div className="mudroom box">
@@ -19,22 +21,25 @@ function Accomodations() {
         </p>
         <div className="line"></div>
         <div className="boximg">
-            <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
-            <div className="boxsideimg">
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-            </div>
+          <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
+          <div className="boxsideimg">
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+          </div>
         </div>
-        
+
         <div className="boxsvgs">
-        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
         </div>
+
+        <div className="svgexplain"><p>Wifi | RoomService | BathTub | Ac | customersupport</p></div>
+        <div className="svgline"></div>
 
       </div>
 
@@ -50,21 +55,23 @@ function Accomodations() {
         </p>
         <div className="line"></div>
         <div className="boximg">
-            <div className="boxsideimg">
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-            </div>
-            <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
+          <div className="boxsideimg">
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+          </div>
+          <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
         </div>
-         <div className="boxsvgs">
-        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
+        <div className="boxsvgs">
+          <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
         </div>
+        <div className="svgexplain"><p>Wifi | RoomService | BathTub | Ac | customersupport</p></div>
+        <div className="svgline"></div>
 
       </div>
 
@@ -80,21 +87,23 @@ function Accomodations() {
         </p>
         <div className="line"></div>
         <div className="boximg">
-            <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
-            <div className="boxsideimg">
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-            </div>
+          <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
+          <div className="boxsideimg">
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+          </div>
         </div>
-         <div className="boxsvgs">
-        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
+        <div className="boxsvgs">
+          <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
         </div>
+        <div className="svgexplain"><p>Wifi | RoomService | BathTub | Ac | customersupport</p></div>
+        <div className="svgline"></div>
 
       </div>
 
@@ -111,21 +120,23 @@ function Accomodations() {
         </p>
         <div className="line"></div>
         <div className="boximg">
-            <div className="boxsideimg">
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-            </div>
-            <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
+          <div className="boxsideimg">
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./src/assets/main.jpg" alt="" />
+          </div>
+          <div className="boxmainimg"><img src="./src/assets/main.jpg" alt="" /></div>
         </div>
-         <div className="boxsvgs">
-        <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
-        <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
+        <div className="boxsvgs">
+          <div className="svg"><img src="./src/assets/svgs/wifi.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/roomservice.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/bathtub.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/ac.svg" alt="" /></div>
+          <div className="svg"><img src="./src/assets/svgs/customersupport.svg" alt="" /></div>
         </div>
+        <div className="svgexplain"><p>Wifi | RoomService | BathTub | Ac | customersupport</p></div>
+        <div className="svgline"></div>
 
       </div>
 

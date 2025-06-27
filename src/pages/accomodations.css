@@ -69,3 +69,14 @@
 .svg img{
     filter:invert();
 }
+
+.svgexplain{
+    margin-top:-2vh;
+}
+.svgline{
+    margin-top: -4vh;
+    height:0.1vh;
+    width:20vw;
+    background-color:rgb(158, 146, 146);
+    border-radius: 2rem;
+}
