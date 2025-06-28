@@ -1,14 +1,14 @@
 import React from 'react';
 import './gallery.css';
-import Nav from '../components/nav.jsx';
+import Navbar from '../components/navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import ScrollToTop from '../components/scrolltotop.jsx';
+import ScrollToTop from '../rarecomponents/scrolltotop.jsx';
 
 function Gallery (){
     return(
     <>
     <ScrollToTop/>
-        <Nav/>
+        <Navbar/>
             <div className="galleryimages">
                 <img src="./src/assets/main.jpg" alt="" />
                 <img src="./src/assets/main.jpg" alt="" />

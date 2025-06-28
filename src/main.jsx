@@ -7,12 +7,15 @@ import Accomodations from './pages/accomodations.jsx';
 import Gallery from './pages/gallery.jsx';
 import Contactus from './pages/contactus.jsx';
 import AboutUs from './pages/aboutus.jsx';
+import EventsActivities from './pages/events&activities.jsx';
 
 const router = createBrowserRouter([
 
   {path: '/', element: <App />},
   
   {path: '/Accomodations', element: <Accomodations/>},
+
+  {path:'/event&activities', element:<EventsActivities/>},
   
   {path: '/contactus', element: <Contactus />},
   

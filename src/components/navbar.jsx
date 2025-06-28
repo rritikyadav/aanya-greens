@@ -1,8 +1,8 @@
 import React from "react";
-import './nav.css';
+import './navbar.css';
 import { Link } from "react-router-dom";  
 
-function Nav() {
+function Navbar() {
 
     return(
 <>
@@ -10,7 +10,7 @@ function Nav() {
         <div className="navleft">
           <Link to ="/">Home</Link>
           <Link to ="/Accomodations">Accomodations</Link>
-          <Link to="#">Events & <br/> Activities</Link>
+          <Link to="/event&activities">Events & <br/> Activities</Link>
         </div>
         <div className="logo">
          <Link to = "/"><img src="./src/assets/blacklogo1.png" alt="ritik" /></Link>
@@ -25,4 +25,4 @@ function Nav() {
 
     )
 }
-export default Nav;
+export default Navbar;

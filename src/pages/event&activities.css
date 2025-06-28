@@ -1,0 +1,45 @@
+.eventheading{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 15vh;
+}
+.eventbox{
+    margin:10vh auto 20vh auto;
+    display: flex;
+    gap:4vw;
+    width:80vw;
+    height:60vh;
+}
+
+.eventboxinfo{
+    width:38vw;
+    display: flex;
+    flex-direction: column;
+    gap:3vh;
+    justify-content: center;
+    /* align-items: center; */
+}
+.eventboxinfo h1{
+    font-size: 4rem;
+    font-family: 'EduCursive', cursive;
+}
+.eventboxinfo p{
+    color:rgb(182, 168, 148);
+    
+}
+
+.eventboximg{
+    width:38vw;
+    display:flex;
+    gap:1vw;
+    height:60vh;
+}
+
+.eventboximg img{
+   width:18.5vw;
+   height:50vh;
+}
+.eventboximg img:last-child{
+    align-self: flex-end;
+}
+

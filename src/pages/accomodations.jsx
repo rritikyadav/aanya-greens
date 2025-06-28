@@ -1,14 +1,14 @@
 import React from "react";
 import "./accomodations.css";
-import Nav from "../components/nav.jsx";
+import Navbar from "../components/navbar.jsx";
 import Footer from "../components/Footer.jsx";
-import ScrollToTop from "../components/scrolltotop.jsx";
+import ScrollToTop from "../rarecomponents/scrolltotop.jsx";
 
 function Accomodations() {
   return (
     <>
       <ScrollToTop />
-      <Nav />
+      <Navbar />
 
       <div className="mudroom box">
         <h1>Mud Room</h1>

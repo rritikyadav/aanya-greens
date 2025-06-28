@@ -1,0 +1,35 @@
+.weddingheading {
+  text-align: center;
+  font-size: 5rem;
+  margin:10vh 0 5vh 0;
+  font-family: eduCursive, cursive;
+}
+.weddingimages{
+  width:90vw;
+  height:60vh;
+  display: flex;
+  gap:1vw;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.firstdouble, .seconddouble{
+  display:flex;
+  flex-direction: column;
+  gap:1vh;
+}
+.firstdouble img, .seconddouble img{
+  width:10vw;
+  height:29.5vh;
+  border-radius:2rem;
+}
+.verticalweddingimg{
+  width:15vw;
+  height:60vh;
+  border-radius:2rem;
+}
+.horizontalweddingimg{
+  width:35vw;
+  height:57vh;
+  border-radius:2rem;
+}

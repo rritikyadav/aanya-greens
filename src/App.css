@@ -53,7 +53,7 @@ body {
 .mainaccomodationheading h1{
    font-family: 'EduCursive', cursive;
     font-size:5rem;
-    font-weight: 1900;
+    font-weight: 5000;
 }
 
 .mainaccomodation {
@@ -110,4 +110,54 @@ body {
 .Accomodationbox.shrunk {
   flex: 0.8;
   /* filter: brightness(0.7); */
+}
+
+
+
+
+
+.mainpageeventheading{
+  text-align: center;
+  font-size: 5rem;
+  margin:10vh 0 5vh 0;
+  font-family: eduCursive, cursive;
+}
+.mainpageeventinfo{
+  margin:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:4vw;
+  width:90vw;
+  height:50vh;
+  /* background-color: red; */
+}
+.eventpara{
+  width:40vw;
+  height:40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:15vh;
+}
+.eventimages{
+  width:46vw;
+  height:45vh;
+  display: flex;
+  flex-direction: column;
+  gap:0.3vw;
+  /* background-color: yellow; */
+}
+.eventimagesbox1 , .eventimagesbox2{
+  display:flex;
+  gap:0.3vw;
+}
+.eventimagesbox2{
+  margin-left: 6vw;
+}
+.eventimagesbox1 img, .eventimagesbox2 img{
+  width:20vw;
+  height:22vh;
+  border-radius:2rem;
 }

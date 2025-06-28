@@ -1,16 +1,16 @@
 import React from 'react';
 import './contactus.css';
-import Nav from '../components/nav.jsx';
+import Navbar from '../components/navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Form from '../components/form.jsx';
-import ScrollToTop from '../components/scrolltotop.jsx';
+import ScrollToTop from '../rarecomponents/scrolltotop.jsx';
 
 function Contactus() {
 
     return (
         <>
             <ScrollToTop />
-            <Nav />
+            <Navbar />
 
             <div className="imagesection"><img src="./src/assets/main.jpg" alt="" /></div>
 
