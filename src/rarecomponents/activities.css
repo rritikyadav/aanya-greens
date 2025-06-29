@@ -1,9 +1,11 @@
 .activitiesheading{
     text-align: center;
-    font-size: 2rem;
     margin-top:15vh;
 }
-
+.activitiesheading h1{
+    font-family: eduCursive,cursive;
+    font-size: 5rem;
+}
 .activitiesbox{
     width:90vw;
     height:78vh;
