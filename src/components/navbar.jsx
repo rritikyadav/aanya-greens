@@ -13,7 +13,7 @@ function Navbar() {
           <Link to="/event&activities">Events & <br/> Activities</Link>
         </div>
         <div className="logo">
-         <Link to = "/"><img src="./src/assets/blacklogo1.png" alt="ritik" /></Link>
+         <Link to = "/"><img src="./dist/assets/blacklogo1.png" alt="ritik" /></Link>
         </div>
         <div className="navright">
           <Link to ="/Gallery">Gallery</Link>
