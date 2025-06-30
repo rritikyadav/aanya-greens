@@ -5,9 +5,11 @@
   scrollbar-width: none;
   color: rgb(175, 148, 100);
 }
-body {
-  background-color: rgb(18, 18, 18);
+
+body{
+  background-color: white;
 }
+
 .mainimg {
   width: 100vw;
   height: 99vh;
@@ -22,15 +24,16 @@ body {
 }
 
 .gallerysection {
-  width: 95vw;
+  width: 92vw;
   /* height:125vh; */
   height: 82vh;
   padding: 2.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
-  background-color: rgb(18, 18, 18);
+  /* background-color: rgb(18, 18, 18); */
+  background-color: white;
   position: absolute;
   top: 105vh;
-  right: 2vw;
+  right: 3.5vw;
   border-radius: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -42,7 +45,7 @@ body {
 .gallerysection .img img {
   width: 27vw;
   height: 35vh;
-  border-radius: 2rem;
+  border-radius:1rem;
 }
 
 .mainaccomodationheading {
