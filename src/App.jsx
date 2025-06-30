@@ -55,23 +55,23 @@ function App() {
         <img src="./src/assets/main.jpg" alt="ritik" />
       </div>
 
-      <div className="gallerysection">
-        <div className="img">
+      <div className="mainpagegallerysection">
+        <div className="mainpagegalleryimg">
           <img src="./src/assets/main.jpg" alt="" />
         </div>
-        <div className="img">
+        <div className="mainpagegalleryimg">
           <img src="./src/assets/main.jpg" alt="" />
         </div>
-        <div className="img">
+        <div className="mainpagegalleryimg">
           <img src="./src/assets/main.jpg" alt="" />
         </div>
-        <div className="img">
+        <div className="mainpagegalleryimg">
           <img src="./src/assets/main.jpg" alt="" />
         </div>
-        <div className="img">
+        <div className="mainpagegalleryimg">
           <img src="./src/assets/main.jpg" alt="" />
         </div>
-        <div className="img">
+        <div className="mainpagegalleryimg">
           <img src="./src/assets/main.jpg" alt="" />
         </div>
       </div>

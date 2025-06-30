@@ -7,7 +7,7 @@
     font-size: 5rem;
 }
 .activitiesbox{
-    width:90vw;
+    width:90%;
     height:78vh;
     margin:10vh auto 10vh auto;
     display: flex;
@@ -43,4 +43,54 @@
     font-family: 'EduCursive', cursive;
     font-size:2rem;
     font-weight: 1900;;
+}
+
+@media screen and (max-width: 768px) {
+ 
+    .activitiesheading{
+    text-align: center;
+    margin-top: 6svh;
+}
+.activitiesheading h1{
+    font-family: eduCursive,cursive;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.activitiesbox{
+    width:100%;
+    height:90svh;
+    margin:5svh auto 10svh auto;
+    display: flex;
+    flex-direction: column;
+    gap:1.5svw;
+    justify-content: center;
+}
+
+.activities{
+    width:93%;
+    height:20svh;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.activity2,.activity4{
+    align-self: flex-end;
+}
+.activities img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.activities h1{
+    position: absolute;
+    bottom: 0.5svh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'EduCursive', cursive;
+    font-size:1.5rem;
+    font-weight: 1900;;
+}
+
 }

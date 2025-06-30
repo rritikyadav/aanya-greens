@@ -1,15 +1,14 @@
 .nav{
+    height:19vh;
+    width:100% ;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height:19vh;
-    box-sizing: border-box;
-    /* padding:2rem; */
-    gap:5rem;
+    gap:4vw;
 }
 .navleft,.navright{
     display:flex;
-    gap:5rem;
+    gap:5vw;
 }
 .nav a{
     color: rgb(175, 148, 100);
@@ -18,13 +17,28 @@
     font-weight: bold;
 }
 .logo img{
-    width:7vw;
-    height:12vh;
+    width:5vw;
+    /* height:12vh; */
     scale: 1.6;
+    aspect-ratio: 1/1  ;
 }
-/* .logo{
-    width: 7vw;
-    height: 12vh;
-    scale: 1.6;
-    overflow: hidden;
-} */
+
+.mobile-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10svh;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.mobile-logo img{
+    width:15svw;
+    aspect-ratio: 1/1;
+}
+.bookhere{
+    color: white;
+    border: none;
+    font-size: 0.5rem;
+    cursor: pointer;
+}
+
