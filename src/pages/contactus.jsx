@@ -12,24 +12,24 @@ function Contactus() {
             <ScrollToTop />
             <Navbar />
 
-            <div className="imagesection"><img src="./src/assets/main.jpg" alt="" /></div>
+            <div className="contactus-main-imagesection"><img src="./src/assets/main.jpg" alt="" /></div>
 
-            <div className="contactinfo">
+            <div className="contact-info">
 
                 <div className="contactcard">
-                    <h1>Rahul Yadav</h1>
+                    <h1>Rahul Yadav :</h1>
                     <p>9999785857</p>
                     <p>rahul@email.com</p>
                     <p>instagram</p>
                 </div>
                 <div className="contactcard">
-                    <h1>Lalit Yadav</h1>
+                    <h1>Lalit Yadav :</h1>
                     <p>9898989899</p>
                     <p>lalit@email.com</p>
                     <p>instagram</p>
                 </div>
-                <div className="contactcard">
-                    <h1>socials</h1>
+                <div className="contactcard contactcard3">
+                    <h1>socials :</h1>
                     <p></p>
                     <p>lalit@email.com</p>
                     <p>instagram</p>
@@ -43,14 +43,14 @@ function Contactus() {
                 </div>
 
                 <div className="postcards">
-                    <div className="postcard"></div>
-                    <div className="postcard"></div>
-                    <div className="postcard"></div>
-                    <div className="postcard"></div>
+                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
                 </div>
             </div>
 
-            <Form />
+            {/* <Form /> */}
 
             <Footer />
 

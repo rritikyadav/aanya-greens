@@ -4,17 +4,18 @@
     scrollbar-width: none;
 }
 
-.imagesection{
+.contactus-main-imagesection{
     height:60vh;
+    width:100%;
 }
 
-.imagesection img{
+.contactus-main-imagesection img{
     width:100%;
     height:100%;
     border-radius: 2rem;
 }
 
-.contactinfo{
+.contact-info{
     background-color:rgb(18,18,18);
     /* background-color: white; */
     height:50vh;
@@ -23,14 +24,15 @@
     top:60vh;
     left:14vw;
     border-radius: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap:3vw;
 }
 
 .contactcard{
     height:35vh;
     width:20vw;
-    /* background-color: rgb(18,18,18); */
+    background-color: rgb(18,18,18);
     border-radius: 2rem;
     margin:auto;
 }
@@ -73,4 +75,99 @@
     height:80vh;
     background-color: yellow;
     border-radius: 2rem;
+}
+.postcard img{
+    width:100%;
+    height:100%;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+.contactus-main-imagesection{
+    height:50svh;
+    width:100%;
+}
+
+.contactus-main-imagesection img{
+    width:100%;
+    height:100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.contact-info{
+    /* background-color:rgb(18,18,18); */
+    /* background-color: white; */
+    height:45svh;
+    width:95%;
+    position:absolute;
+    top:52svh;
+    left:2.5svw;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+    gap:0.2svh;
+}
+.contactcard3{
+    grid-column: 1/3;
+    justify-self: center;
+}
+
+.contactcard{
+    height:20svh;
+    width:100%;
+    background-color: rgb(18,18,18);
+    border-radius: 2rem;
+    margin:auto;
+}
+.contactcard h1{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.contactcard p{
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+    text-decoration: none;
+}  
+
+.instagram{
+    margin:37svh auto 15svh auto;
+    width:95%;
+    display:flex;
+    flex-direction: column;
+    gap:5svh;
+    align-items: center;
+}
+.username{
+    margin-top: 1svh;
+    display:flex;
+    gap:0.5rem;
+    align-items: center;
+}
+.username h1{
+    font-size:1.3rem;
+}
+.username img{
+    width:8svw;
+    aspect-ratio: 1/1  ;
+}
+.postcards{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:1svw;
+    width:100%;
+}
+.postcard{
+    width:100%;
+    height:40svh;
+    border-radius: 0.5rem;
+}
+.postcard img{
+    width:100%;
+    height:100%;
+    border-radius: 0.5rem;
 }

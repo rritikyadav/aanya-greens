@@ -11,8 +11,8 @@ function AboutUs() {
             <ScrollToTop />
             <Navbar />
 
-            <div className="about">
-                <div className="ourvision">
+            <div className="ourvision-ourmission">
+                <div className="our-vision">
                     <h1>Our Vision</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -20,8 +20,9 @@ function AboutUs() {
                         sunt voluptatum debitis!
                     </p>
                 </div>
-                <div className="middleline"></div>
-                <div className="ourmission">
+                <div className="ourvision-ourmission-middleline"></div>
+
+                <div className="our-mission">
                     <h1>Our Mission</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -30,19 +31,19 @@ function AboutUs() {
                     </p>
                 </div>
             </div>
-            <div className="outerwhitebox">
-                <div className="whitebox">
-                    <div className="propertyinfo">
+            <div className="outer-white-box">
+                <div className="white-box">
+                    <div className="property-info">
                         <h2>Property Information</h2>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
                             tempora numquam consequuntur tenetur saepe magnam?
                         </p>
                     </div>
-                    <div className="separation"></div>
-                    <div className="propertyamenities">
+                    <div className="aboutus-separationline"></div>
+                    <div className="property-amenities">
                         <h3 className="h3">Property Amenities</h3>
-                        <div className="amenitiesbox">
+                        <div className="amenities-box">
                             <Amenities image={"./src/assets/svgs/ac.svg"} text={"AC"} />
                             <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
                             <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
@@ -59,15 +60,15 @@ function AboutUs() {
                             <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
                         </div>
                     </div>
-                    <div className="separation"></div>
-                    <div className="checkinout">
+                    <div className="aboutus-separationline"></div>
+                    <div className="check-in-out">
                         <h3 className="h3">Check-In and Check-out policies</h3>
                         <ul>
                             <li>Check-in : 4:00 PM</li>
                             <li>Check-out : 10:00 AM</li>
                         </ul>
                     </div>
-                    <div className="separation"></div>
+                    <div className="aboutus-separationline"></div>
                     <div className="cancellation">
                         <h3 className="h3">Cancellation Policies</h3>
                         <ul>

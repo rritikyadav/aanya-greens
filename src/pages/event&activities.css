@@ -1,45 +1,112 @@
-.eventheading{
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 15vh;
+.eventheading {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 15vh;
 }
-.eventbox{
-    margin:10vh auto 20vh auto;
-    display: flex;
-    gap:4vw;
-    width:80vw;
-    height:60vh;
+.eventmiddleline {
+  width: 80%;
+  height: 0.2vh;
+  background-color: rgb(218, 211, 211);
+  margin: 2vh auto;
+  border-radius: 2rem;
+}
+.eventbox {
+  margin: 10vh auto 20vh auto;
+  display: flex;
+  gap: 4vw;
+  width: 80vw;
+  height: 60vh;
 }
 
-.eventboxinfo{
-    width:38vw;
+.eventboxinfo {
+  width: 38vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  justify-content: center;
+  /* align-items: center; */
+}
+.eventboxinfo h1 {
+  font-size: 4rem;
+  font-family: "EduCursive", cursive;
+}
+.eventboxinfo p {
+  color: rgb(182, 168, 148);
+}
+
+.eventboximg {
+  width: 38vw;
+  display: flex;
+  gap: 1vw;
+  height: 60vh;
+}
+
+.eventboximg img {
+  width: 18.5vw;
+  height: 50vh;
+}
+.eventboximg img:last-child {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .eventheading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10svh;
+  }
+  .eventmiddleline {
+    width: 80%;
+    height: 0.2svh;
+    background-color: rgb(218, 211, 211);
+    margin: 4svh auto 10svh auto;
+    border-radius: 2rem;
+  }
+  .eventbox {
+    margin: 2svh auto 0svh auto;
     display: flex;
     flex-direction: column;
-    gap:3vh;
     justify-content: center;
-    /* align-items: center; */
-}
-.eventboxinfo h1{
-    font-size: 4rem;
-    font-family: 'EduCursive', cursive;
-}
-.eventboxinfo p{
-    color:rgb(182, 168, 148);
-    
-}
+    gap: 4svw;
+    width: 95%;
+    height: 80svh;
+  }
+  .eventbox2,
+  .eventbox4 {
+    flex-direction: column-reverse;
+  }
 
-.eventboximg{
-    width:38vw;
-    display:flex;
-    gap:1vw;
-    height:60vh;
-}
+  .eventboxinfo {
+    width: 100%;
+    height: 25svh;
+    display: flex;
+    flex-direction: column;
+    gap: 1svh;
+    justify-content: center;
+  }
+  .eventboxinfo h1 {
+    font-size: 2.5rem;
+    font-family: "EduCursive", cursive;
+  }
+  .eventboxinfo p {
+    color: rgb(182, 168, 148);
+    font-size: 0.8rem;
+  }
 
-.eventboximg img{
-   width:18.5vw;
-   height:50vh;
-}
-.eventboximg img:last-child{
+  .eventboximg {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3svh;
+    height: 50.3svh;
+  }
+
+  .eventboximg img {
+    width: 90%;
+    height: 25svh;
+    border-radius: 0.5rem;
+  }
+  .eventboximg img:last-child {
     align-self: flex-end;
+  }
 }
-

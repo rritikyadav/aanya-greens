@@ -57,9 +57,9 @@
     font-weight: bolder;
 }
 .activitiesbox{
-    width:100%;
+    width:95%;
     height:90svh;
-    margin:5svh auto 10svh auto;
+    margin:0svh auto 5svh auto;
     display: flex;
     flex-direction: column;
     gap:1.5svw;

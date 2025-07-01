@@ -76,16 +76,16 @@ function App() {
         </div>
       </div>
 
-      <div className="mainaccomodationheading">
+      <div className="mainpageaccomodationheading">
         <h1>Accomodations</h1>
       </div>
 
-      <div className="mainaccomodation">
+      <div className="mainpageaccomodation">
         {AccomodationBoxes.map((box, i) => (
           <Link
             to={box.link}
             key={box.id}
-            className={`Accomodationbox ${focusedIndex === i
+            className={`mainpageAccomodationbox ${focusedIndex === i
               ? "focused"
               : focusedIndex !== null
                 ? "shrunk"
@@ -95,7 +95,7 @@ function App() {
             onMouseLeave={() => setFocusedIndex(null)}
           >
             <img src={box.image} alt={box.text} />
-            <div className="overlay">
+            <div className="mainpageaccomodationtext">
               <h3>{box.text}</h3>
             </div>
           </Link>
