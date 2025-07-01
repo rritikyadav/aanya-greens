@@ -30,21 +30,28 @@
   justify-content: space-between;
   align-items: center;
   height: 10svh;
+  width:100%;
   box-sizing: border-box;
 }
 .mobile-logo img {
-  width: 15svw;
+  width: 13svw;
   aspect-ratio: 1/1;
+  position: absolute;
+  left:50%;
+  top:0;
+  transform: translateX(-50%);
 }
 .menu-icon {
-  margin-left: 4svw;
+  margin-right: 4svw;
+  box-sizing: border-box;
 }
 .bookhere {
-  color: white;
+  color: rgb(175, 148, 100);
   border: none;
   font-size: 0.5rem;
   cursor: pointer;
-  margin-right: 4svw;
+  margin-left: 4svw;
+  box-sizing: border-box;
 }
 .navlinks {
   position: absolute;

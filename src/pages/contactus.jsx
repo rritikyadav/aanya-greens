@@ -50,7 +50,7 @@ function Contactus() {
                 </div>
             </div>
 
-            {/* <Form /> */}
+            <Form />
 
             <Footer />
 

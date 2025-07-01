@@ -102,8 +102,6 @@ function App() {
         ))}
       </div>
 
-      {/* <Form /> */}
-
       <Wedding />
 
       <div className="mainpageeventheading">Events</div>
@@ -128,6 +126,7 @@ function App() {
       </div>
 
        <Activities/> 
+       <Form/>
       <Footer />
     </>
   );
