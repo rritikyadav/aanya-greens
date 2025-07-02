@@ -38,7 +38,7 @@ function Contactus() {
 
             <div className="instagram">
                 <div className="username">
-                    <img src="./src/assets/logo.png" alt="" />
+                    <img src="./assets/svgs/instagram.png" alt="" />
                     <h1>ananyagreens</h1>
                 </div>
 

@@ -15,15 +15,15 @@ function Activities() {
                 </div>
                 <div className="activities activity2">
                     <img src="./src/assets/main.jpg" alt="" />
-                   <h1>Trekking</h1>
+                   <h1>Bon-Fire</h1>
                 </div>
                 <div className="activities activity3">
                     <img src="./src/assets/main.jpg" alt="" />
-                    <h1>Trekking</h1>
+                    <h1>Pool Volleyball</h1>
                 </div>
                 <div className="activities activity4">
                     <img src="./src/assets/main.jpg" alt="" />
-                    <h1>Trekking</h1>
+                    <h1>Kids Activities</h1>
                 </div>
             </div>
         </>

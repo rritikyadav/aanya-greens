@@ -42,7 +42,7 @@
     box-sizing: border-box;
     font-family: 'EduCursive', cursive;
     font-size:2rem;
-    font-weight: 1900;;
+    font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
@@ -89,8 +89,8 @@
     padding: 0rem;
     box-sizing: border-box;
     font-family: 'EduCursive', cursive;
-    font-size:1.5rem;
-    font-weight: 1900;;
+    font-size:1.7rem;
+    font-weight: bolder;
 }
 
 }

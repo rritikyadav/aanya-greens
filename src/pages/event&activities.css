@@ -69,7 +69,8 @@
     justify-content: center;
     gap: 4svw;
     width: 95%;
-    height: 80svh;
+    height: 95svh;
+    /* background-color: white; */
   }
   .eventbox2,
   .eventbox4 {
@@ -78,11 +79,12 @@
 
   .eventboxinfo {
     width: 100%;
-    height: 25svh;
+    height: 40svh;
     display: flex;
     flex-direction: column;
-    gap: 1svh;
+    gap: 2svh;
     justify-content: center;
+    /* background-color: red; */
   }
   .eventboxinfo h1 {
     font-size: 2.5rem;
@@ -99,6 +101,7 @@
     flex-direction: column;
     gap: 0.3svh;
     height: 50.3svh;
+    /* background-color: yellow; */
   }
 
   .eventboximg img {

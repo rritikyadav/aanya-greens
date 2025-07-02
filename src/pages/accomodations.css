@@ -19,7 +19,8 @@
 
 .accomodation-box p{
     color:rgb(158, 146, 146);
-
+    align-self: flex-start;
+    margin-left: 3vw;
 }
 .accomodation-line{
     height:0.1vh;
@@ -67,7 +68,7 @@
 }
 
 .svg img{
-    filter:invert();
+    /* filter:invert(); */
 }
 
 .svg-explain{
@@ -160,7 +161,7 @@
 }
 
 .svg img{
-    filter:invert();
+    /* filter:invert(); */
     scale:0.7;
 }
 

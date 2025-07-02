@@ -18,25 +18,25 @@ const AccomodationBoxes = [
   {
     id: 2,
     image: "./src/assets/main.jpg",
-    text: "Mud Room",
+    text: "Luxury Suites",
     link: "/Accomodations",
   },
   {
     id: 3,
     image: "./src/assets/main.jpg",
-    text: "Mud Room",
+    text: "Tent Suites",
     link: "/Accomodations",
   },
   {
     id: 4,
     image: "./src/assets/main.jpg",
-    text: "Mud Room",
+    text: "Glass Room",
     link: "/Accomodations",
   },
   {
     id: 5,
     image: "./src/assets/main.jpg",
-    text: "Mud Room",
+    text: "Open-Air Poolside",
     link: "/Accomodations",
   },
   // {id:6,image:"./src/assets/main.jpg",text:"Mud Room"},
@@ -86,10 +86,10 @@ function App() {
             to={box.link}
             key={box.id}
             className={`mainpageAccomodationbox ${focusedIndex === i
-              ? "focused"
-              : focusedIndex !== null
-                ? "shrunk"
-                : ""
+                ? "focused"
+                : focusedIndex !== null
+                  ? "shrunk"
+                  : ""
               }`}
             onMouseEnter={() => setFocusedIndex(i)}
             onMouseLeave={() => setFocusedIndex(null)}
@@ -107,11 +107,19 @@ function App() {
       <div className="mainpageeventheading">Events</div>
       <div className="mainpageeventinfo">
         <div className="eventpara">
-         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas,
-          doloribus veritatis! Ad quasi facilis itaque soluta ex nam, placeat
-          non illum nemo sed perspiciatis, adipisci cupiditate ducimus molestiae
-          esse accusamus?</p>
-          <Link to="/event&activities" className="eventlink">View More</Link>
+          <p>
+            <b>Where Every Occasion Becomes a Grand Celebration —</b>
+            <br />
+            <br />
+            From <b>elegant weddings</b> , <b>corporate retreats</b> , and{" "}
+            <b>milestone birthdays</b> to <b>poolside soirées</b> ,{" "}
+            <b>bonfire evenings</b> , and enchanting <b>live music nights</b> .
+            we curate moments that matter. <br/><br/><b>Host your dream event in a setting of
+            timeless luxury and unmatched hospitality .</b>
+          </p>
+          <Link to="/event&activities" className="eventlink">
+            View More
+          </Link>
         </div>
         <div className="eventimages">
           <div className="eventimagesbox1">
@@ -125,8 +133,8 @@ function App() {
         </div>
       </div>
 
-       <Activities/> 
-       <Form/>
+      <Activities />
+      <Form />
       <Footer />
     </>
   );

@@ -19,39 +19,42 @@
 }
 .logo img {
   width: 5vw;
-  /* height:12vh; */
   scale: 1.6;
   aspect-ratio: 1/1;
 }
 
 .mobile-nav {
-  position: relative;
+  position: sticky;
+  top:0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10svh;
-  width:100%;
+  width: 100%;
   box-sizing: border-box;
 }
 .mobile-logo img {
-  width: 13svw;
+  width: 15svw;
   aspect-ratio: 1/1;
-  position: absolute;
-  left:50%;
-  top:0;
-  transform: translateX(-50%);
+  margin-left: 8svw;
+  align-self: center;
+  border-radius: 0.5rem;
+  /* position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%); */
 }
 .menu-icon {
   margin-right: 4svw;
-  box-sizing: border-box;
 }
-.bookhere {
-  color: rgb(175, 148, 100);
-  border: none;
-  font-size: 0.5rem;
-  cursor: pointer;
-  margin-left: 4svw;
+.menu-icon img {
+  width: 12svw;
+  aspect-ratio: 1/1;
+  padding: 0.5rem;
   box-sizing: border-box;
+  border-radius: 0.5rem;
+  background-color: white;
 }
 .navlinks {
   position: absolute;
@@ -72,29 +75,29 @@
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
-    margin-top: 4svh;
+  margin-top: 4svh;
 }
 .hide {
   height: 0svh !important;
   /* opacity: 0; */
-  transition: height 0.5s ease-in-out;
+  transition: height 0.2s ease-in-out;
   overflow: hidden;
 }
 .show {
   height: 90svh;
   /* opacity: 1; */
-  transition: height 0.5s ease-in-out;
+  transition: height 0.3s ease-in-out;
   overflow: hidden;
 }
 
 .navcontactnumber {
   display: flex;
   align-items: center;
-  gap: 5svw;
-  color: rgb(175, 148, 100);
-  font-weight:bold;
-  font-size: 1rem;
+  gap: 3svw;
   margin-top: 30svh;
- 
 }
-
+.navcontactnumber p a{
+    color: rgb(175, 148, 100);
+  /* font-weight: bold; */
+  font-size: 1rem;
+}

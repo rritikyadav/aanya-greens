@@ -16,34 +16,34 @@ function Footer() {
 
             <div className="quicklinks">
               <h3>Quick Links : </h3>
-              <Link to="/">Home</Link>
-              <Link to="/Accomodations">Accomodations</Link>
-              <Link to="/event&activities">Events  &  Activities</Link>
-              <Link to="/Gallery">Gallery</Link>
-              <Link to="/contactus">Contact us</Link>
-              <Link to="/aboutus">About us</Link>
+              <Link to="/">&gt; &nbsp; Home</Link>
+              <Link to="/Accomodations">&gt; &nbsp; Accomodations</Link>
+              <Link to="/event&activities">&gt; &nbsp; Events  &  Activities</Link>
+              <Link to="/Gallery">&gt; &nbsp; Gallery</Link>
+              <Link to="/contactus">&gt; &nbsp; Contact us</Link>
+              <Link to="/aboutus">&gt; &nbsp; About us</Link>
             </div>
             <div className="footercontact">
               <h3>Contact Info : </h3>
-              <Link to="/#">9999785857</Link>
-              <Link to="/#">9999785857</Link>
-              <Link to="/#">abc@gmail.com</Link>
+              <Link to="/#">&gt; &nbsp; 9999785857</Link>
+              <Link to="/#">&gt; &nbsp; 9999785857</Link>
+              <Link to="/#">&gt; &nbsp; abc@gmail.com</Link>
             </div>
           </div>
           <div className="footerlogosection">
             <div className="footerlogo">
-              <img src="./src/assets/blacklogo1.png" alt="" />
+              <img src="./assets/whitelogo.png" alt="" />
             </div>
             <div className="footersocials">
-              <img src="./src/assets/svgs/wifi.svg" alt="" />
-              <img src="./src/assets/svgs/wifi.svg" alt="" />
-              <img src="./src/assets/svgs/wifi.svg" alt="" />
-              <img src="./src/assets/svgs/wifi.svg" alt="" />
+              <img src="./assets/svgs/instagram.png" alt="" />
+              <img src="./assets/svgs/whatsapp.png" alt="" />
+              <img src="./assets/svgs/facebook.png" alt="" />
+              <img src="./assets/svgs/pin.png" alt="" />
             </div>
           </div>
         </div>
         <div className="copyright">
-          <p>copyright ananya greens 2025</p>
+          <p>copyright &copy; 2025 Aanya Greens | All Rights Reserved .</p>
         </div>
       </div>
     </>

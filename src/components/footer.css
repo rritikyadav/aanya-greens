@@ -2,7 +2,8 @@
   width: 100%;
   height: 52vh;
   border-radius: 2rem 2rem 0rem 0rem;
-  background-color: rgb(10, 10, 10);
+  /* background-color: rgb(10, 10, 10); */
+  background-color: rgb(229, 229, 229);
   position: relative;
   margin-top: 15vh;
 }
@@ -58,6 +59,7 @@
 .footerlogo img {
   width: 15vw;
   height: 25vh;
+  border-radius: 1rem;
 }
 .footersocials {
   display: flex;
@@ -65,14 +67,14 @@
   padding:0.5rem 0rem 0rem 1.5rem;
 }
 .footersocials img {
- scale:1.4;
- filter: invert(100%);
+  width:1.8vw;
+ aspect-ratio: 1/1;
 }
 
 .copyright {
   position: absolute;
   bottom: 0;
-  left: 40%;
+  left: 35%;
 }
 .copyright p {
   text-align: center;
@@ -85,9 +87,8 @@
  
 .footer {
   width: 100%;
-  height: 125svh;
+  height: 130svh;
   border-radius: 2rem 2rem 0rem 0rem;
-  background-color: rgb(10, 10, 10);
   position: relative;
   margin-top: 15svh;
 }
@@ -138,34 +139,39 @@
   width: 100%;
   height: 25svh;
 }
+.quicklinks a,.footercontact a {
+  text-decoration: none;
+  font-size: 0.932rem;
+}
+
+.footerlogosection{
+  align-self: center;
+}
 
 .footerlogo img {
   width: 50svw;
   aspect-ratio: 1/1;
   align-self: center;
+  border-radius: 0.5rem;
 }
 .footersocials {
   display: flex;
-  gap: 5.5svw;
+  gap: 5.7svw;
   padding:0.5rem 0rem 0rem 1.5rem;
 }
 .footersocials img {
- scale:1.2;
- filter: invert(100%);
+ width:6.5svw;
+ aspect-ratio: 1/1;
 }
 
 .copyright {
   position: absolute;
-  bottom: 0%;
-  left:3%;
+  bottom: 5%;
+  left:0%;
   width:100%;
 }
 .copyright p {
   text-align: center;
-  padding: 0.3rem;
-}
-.footerlogosection{
-  align-self: center;
-}
-  
+  font-size: 0.8rem;
+} 
 }

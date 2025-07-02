@@ -16,8 +16,8 @@
 }
 
 .contact-info{
-    background-color:rgb(18,18,18);
-    /* background-color: white; */
+    /* background-color:rgb(18,18,18); */
+    background-color: white;
     height:50vh;
     width:70%;
     position:absolute;
@@ -32,7 +32,6 @@
 .contactcard{
     height:35vh;
     width:20vw;
-    background-color: rgb(18,18,18);
     border-radius: 2rem;
     margin:auto;
 }
@@ -50,7 +49,6 @@
 
 .instagram{
     margin-top:37vh;
-    /* background-color: green; */
     display:flex;
     flex-direction: column;
     gap:5vh;
@@ -63,8 +61,8 @@
     align-items: center;
 }
 .username img{
-    height:4vh;
-    width:4vw;
+    width:2vw;
+    aspect-ratio: 1/1;
 }
 .postcards{
     display:flex;
@@ -95,8 +93,6 @@
 }
 
 .contact-info{
-    /* background-color:rgb(18,18,18); */
-    /* background-color: white; */
     height:45svh;
     width:95%;
     position:absolute;
@@ -117,7 +113,6 @@
 .contactcard{
     height:20svh;
     width:100%;
-    background-color: rgb(18,18,18);
     border-radius: 2rem;
     margin:auto;
 }

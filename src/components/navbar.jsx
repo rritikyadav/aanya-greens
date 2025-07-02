@@ -29,7 +29,7 @@ function Navbar() {
           <Link to="/event&activities">Events &<br />Activities</Link>
 
           <div className="logo">
-            <Link to="/"><img src="./dist/assets/blacklogocroppped.png" alt="ritik" /></Link>
+            <Link to="/"><img src="./assets/whitelogo.png" alt="ritik" /></Link>
           </div>
 
           <Link to="/Gallery">Gallery</Link>
@@ -39,11 +39,10 @@ function Navbar() {
       ) : (
         <>
           <div className="mobile-nav">
-            <div className="bookhere">Book Now</div>
             <div className="mobile-logo">
-              <Link to="/"><img src="./dist/assets/blacklogocroppped.png" alt="ritik" /></Link>
+              <Link to="/"><img src="./assets/whitelogo.png" alt="ritik" /></Link>
             </div>
-            <div onClick={toggleNavItems} className="menu-icon">☰</div>
+            <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/hamburger.svg" alt="" /></div>
 
             <div className={`navlinks  ${Shownavitem ? 'show' : 'hide'}`}>
               <Link to="/">Home</Link>
@@ -53,8 +52,8 @@ function Navbar() {
               <Link to="/contactus">Contact us</Link>
               <Link to="/aboutus">About</Link>
               <div className="navcontactnumber">
-                <img src="./src/assets/svgs/wifi.svg" alt="" />
-                <p>9999785857 , 9999785857</p>
+                <img src="./assets/svgs/phone.svg" alt="" />
+               <p><Link to ="#">9999785857</Link> , <Link to="#" >9999785857</Link></p>
               </div>
             </div>
           </div>
