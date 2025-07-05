@@ -2,12 +2,12 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css';
 import { createHashRouter , RouterProvider } from "react-router-dom";
-import App from './App.jsx';
-import Accomodations from './pages/accomodations.jsx';
-import Gallery from './pages/gallery.jsx';
-import Contactus from './pages/contactus.jsx';
-import AboutUs from './pages/aboutus.jsx';
-import EventsActivities from './pages/events&activities.jsx';
+import App from './src/App.jsx';
+import Accomodations from './src/pages/accomodations.jsx';
+import Gallery from './src/pages/gallery.jsx';
+import Contactus from './src/pages/contactus.jsx';
+import AboutUs from './src/pages/aboutus.jsx';
+import EventsActivities from './src/pages/events&activities.jsx';
 
 const router = createHashRouter([
 
