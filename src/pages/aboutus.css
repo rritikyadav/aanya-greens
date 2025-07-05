@@ -52,8 +52,8 @@
   gap: 5vh;
 }
 .white-box p,
-h2,
-li {
+.white-box h2,
+.white-box li {
   color: black;
   font-family: sans-serif;
 }
@@ -212,7 +212,7 @@ li {
   align-items: center;
 }
 .aminitiesbox-value img {
-scale:0.8;
+transform: scale(0.8);
 }
 
 .check-in-out li,
