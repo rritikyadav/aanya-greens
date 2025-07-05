@@ -12,14 +12,10 @@ function Form({ style }) {
         </div>
         <div className="forminput">
           <form method="post">
-            {/* <div className="form-row1"> */}
             <input className="form-name" type="text" name="name" placeholder="Name" required />
-            {/* </div> */}
-            {/* <div className="form-row2"> */}
             <input className="form-phone" type="tel" name="phone" placeholder="Phone" required />
             <input className="form-event" type="text" name="event" placeholder="Type Of Event" required />
             <input className="form-guests" type="number" name="guests" placeholder="No. of Guests" required />
-            {/* </div> */}
             <input className="form-specific-details" type="text" name="specific details" placeholder="Specific Details" />
             <input type="submit" id="booknow" value="Book Now" />
           </form>

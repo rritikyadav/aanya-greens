@@ -122,9 +122,8 @@
   justify-content: center;
   align-items: center;
   gap:4vw;
-  width:90%;
+  width:100%;
   height:50vh;
-  /* background-color: red; */
 }
 .eventpara{
   width:40vw;

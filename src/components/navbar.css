@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-evenly;
   gap: 4vw;
+  /* background-color: rgb(18,18, 18); */
 }
 .nav a {
   color: rgb(175, 148, 100);
@@ -17,7 +18,6 @@
 }
 .logo img {
   width: 9vw;
-  /* scale: 1.6; */
   aspect-ratio: 1/1;
   align-self: center;
 }

@@ -6,12 +6,13 @@
 }
 .weddingimages{
   width:90%;
-  height:60vh;
+  height:70vh;
   display: flex;
   gap:1vw;
   align-items: center;
   justify-content: center;
   margin: auto;
+  /* background-color: rgb(18, 18, 18); */
 }
 .firstdouble, .seconddouble{
   display:flex;
@@ -43,7 +44,7 @@
   font-family: eduCursive, cursive;
 }
 .weddingimages{
-  width:85%;
+  width:90%;
   height:90svh;
   display: flex;
   flex-direction: column;

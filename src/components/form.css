@@ -25,14 +25,22 @@
     "item5 item5 item6 item6";
   gap: 0.5vw;
   margin: auto;
+  /* background-color: #606C5D; */
+  /* border-radius: 0.5rem; */
 }
 
 .forminput input {
-  background-color: black;
-  color: rgb(175, 148, 100);
+  /* background-color: transparent; */
+  background-color: rgb(18,18, 18);
+  /* color: rgb(175, 148, 100); */
   padding: 1rem;
   border-radius: 0.5rem;
   border: none;
+  outline: none;
+  /* border-bottom: 1px solid rgb(175, 148, 100); */
+}
+.forminput ::placeholder{
+  /* color:rgb(175, 148, 100); */
 }
 .form-name {
   grid-area: item1;
