@@ -12,10 +12,14 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
+.logo{
+  align-self: center;
+}
 .logo img {
-  width: 5vw;
-  scale: 1.6;
+  width: 9vw;
+  /* scale: 1.6; */
   aspect-ratio: 1/1;
+  align-self: center;
 }
 
 .mobile-nav {

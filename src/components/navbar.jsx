@@ -26,13 +26,13 @@ function Navbar() {
         <div className="nav">
           <Link to="/">Home</Link>
           <Link to="/Accomodations">Accomodations</Link>
-          <Link to="/event&activities">Events &<br />Activities</Link>
+          <Link to="/Gallery">Gallery</Link>
 
           <div className="logo">
             <Link to="/"><img src="./assets/whitelogo.png" alt="ritik" /></Link>
           </div>
 
-          <Link to="/Gallery">Gallery</Link>
+          <Link to="/event&activities">Events &<br />Activities</Link>
           <Link to="/contactus">Contact us</Link>
           <Link to="/aboutus">About</Link>
         </div>
