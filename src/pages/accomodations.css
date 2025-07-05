@@ -67,10 +67,6 @@
     gap:10vw;
 }
 
-.svg img{
-    /* filter:invert(); */
-}
-
 .svg-explain{
     margin-top:-2vh;
 }
@@ -162,7 +158,7 @@
 
 .svg img{
     /* filter:invert(); */
-    scale:0.7;
+   transform: scale(0.7);
 }
 
 .svg-explain{
