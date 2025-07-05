@@ -44,20 +44,20 @@ function AboutUs() {
                     <div className="property-amenities">
                         <h3 className="h3">Property Amenities</h3>
                         <div className="amenities-box">
-                            <Amenities image={"./src/assets/svgs/ac.svg"} text={"AC"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
-                            <Amenities image={"./src/assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/ac.svg"} text={"AC"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
+                            <Amenities image={"./assets/svgs/wifi.svg"} text={"Free Wifi"} />
                         </div>
                     </div>
                     <div className="aboutus-separationline"></div>

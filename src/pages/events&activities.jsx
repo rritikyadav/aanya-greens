@@ -19,8 +19,8 @@ function EventsActivities() {
 
       <div className="eventbox eventbox1">
         <div className="eventboximg">
-          <img src="./src/assets/main.jpg" alt="" />
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="eventboxinfo">
           <h1>Corporate Events</h1>
@@ -53,8 +53,8 @@ function EventsActivities() {
           </p>
         </div>
         <div className="eventboximg">
-          <img src="./src/assets/main.jpg" alt="" />
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
       </div>
 
@@ -62,8 +62,8 @@ function EventsActivities() {
 
       <div className="eventbox eventbox3">
         <div className="eventboximg">
-          <img src="./src/assets/main.jpg" alt="" />
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="eventboxinfo">
           <h1>Birthday Parties</h1>
@@ -89,8 +89,8 @@ function EventsActivities() {
           </p>
         </div>
         <div className="eventboximg">
-          <img src="./src/assets/main.jpg" alt="" />
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
       </div>
 

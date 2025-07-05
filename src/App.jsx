@@ -11,31 +11,31 @@ import Wedding from "./rarecomponents/wedding.jsx";
 const AccomodationBoxes = [
   {
     id: 1,
-    image: "./src/assets/main.jpg",
+    image: "./assets/main.jpg",
     text: "Mud Room",
     link: "/Accomodations",
   },
   {
     id: 2,
-    image: "./src/assets/main.jpg",
+    image: "./assets/main.jpg",
     text: "Luxury Suites",
     link: "/Accomodations",
   },
   {
     id: 3,
-    image: "./src/assets/main.jpg",
+    image: "./assets/main.jpg",
     text: "Tent Suites",
     link: "/Accomodations",
   },
   {
     id: 4,
-    image: "./src/assets/main.jpg",
+    image: "./assets/main.jpg",
     text: "Glass Room",
     link: "/Accomodations",
   },
   {
     id: 5,
-    image: "./src/assets/main.jpg",
+    image: "./assets/main.jpg",
     text: "Open-Air Poolside",
     link: "/Accomodations",
   },
@@ -52,27 +52,27 @@ function App() {
 
       <div className="mainimg">
         {" "}
-        <img src="./src/assets/main.jpg" alt="ritik" />
+        <img src="./assets/main.jpg" alt="ritik" />
       </div>
 
       <div className="mainpagegallerysection">
         <div className="mainpagegalleryimg">
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="mainpagegalleryimg">
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="mainpagegalleryimg">
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="mainpagegalleryimg">
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="mainpagegalleryimg">
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
         <div className="mainpagegalleryimg">
-          <img src="./src/assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
       </div>
 
@@ -123,12 +123,12 @@ function App() {
         </div>
         <div className="eventimages">
           <div className="eventimagesbox1">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="eventimagesbox2">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
       </div>

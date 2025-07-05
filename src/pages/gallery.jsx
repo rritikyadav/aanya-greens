@@ -10,38 +10,38 @@ function Gallery (){
     <ScrollToTop/>
         <Navbar/>
             <div className="galleryimages">
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
-                <img src="./src/assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
+                <img src="./assets/main.jpg" alt="" />
 
 
             </div>

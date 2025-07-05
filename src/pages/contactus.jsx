@@ -12,7 +12,7 @@ function Contactus() {
             <ScrollToTop />
             <Navbar />
 
-            <div className="contactus-main-imagesection"><img src="./src/assets/main.jpg" alt="" /></div>
+            <div className="contactus-main-imagesection"><img src="./assets/main.jpg" alt="" /></div>
 
             <div className="contact-info">
 
@@ -43,10 +43,10 @@ function Contactus() {
                 </div>
 
                 <div className="postcards">
-                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
-                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
-                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
-                    <div className="postcard"><img src="./src/assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./assets/main.jpg" alt="" /></div>
+                    <div className="postcard"><img src="./assets/main.jpg" alt="" /></div>
                 </div>
             </div>
 

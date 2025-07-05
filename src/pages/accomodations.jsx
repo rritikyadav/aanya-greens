@@ -27,30 +27,30 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-mainimg">
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
           <div className="svg">
-            <img src="./src/assets/svgs/wifi.svg" alt="" />
+            <img src="./assets/svgs/wifi.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/roomservice.svg" alt="" />
+            <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/bathtub.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/customersupport.svg" alt="" />
+            <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
@@ -77,30 +77,30 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
           <div className="svg">
-            <img src="./src/assets/svgs/wifi.svg" alt="" />
+            <img src="./assets/svgs/wifi.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/roomservice.svg" alt="" />
+            <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/bathtub.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/customersupport.svg" alt="" />
+            <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
@@ -125,30 +125,30 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-mainimg">
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
           <div className="svg">
-            <img src="./src/assets/svgs/wifi.svg" alt="" />
+            <img src="./assets/svgs/wifi.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/roomservice.svg" alt="" />
+            <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/bathtub.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/customersupport.svg" alt="" />
+            <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
@@ -175,30 +175,30 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
           <div className="svg">
-            <img src="./src/assets/svgs/wifi.svg" alt="" />
+            <img src="./assets/svgs/wifi.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/roomservice.svg" alt="" />
+            <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/bathtub.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/customersupport.svg" alt="" />
+            <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
@@ -225,30 +225,30 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
           <div className="svg">
-            <img src="./src/assets/svgs/wifi.svg" alt="" />
+            <img src="./assets/svgs/wifi.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/roomservice.svg" alt="" />
+            <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/bathtub.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./src/assets/svgs/customersupport.svg" alt="" />
+            <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">

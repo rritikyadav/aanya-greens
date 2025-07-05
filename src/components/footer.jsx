@@ -10,7 +10,7 @@ function Footer() {
         <div className="footerinfo">
           <div className="howtogethere">
             <h3 style={{ color: "rgb(175,148,100" }}>How to get here?</h3>
-            <img src="./src/assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="quicklinks-footercontact">
 
