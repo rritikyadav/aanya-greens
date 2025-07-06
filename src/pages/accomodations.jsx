@@ -44,17 +44,17 @@ function Accomodations() {
             <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/bathroom.svg" alt="" />
           </div>
           <div className="svg">
             <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
-          <p>Wifi | RoomService | BathTub | Ac | customersupport</p>
+          <p>Wifi | RoomService | Ac | Attached Washrooms | customersupport</p>
         </div>
         <div className="accomodation-svgline"></div>
       </div>
@@ -94,7 +94,7 @@ function Accomodations() {
             <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/tv.svg" alt="" />
           </div>
           <div className="svg">
             <img src="./assets/svgs/ac.svg" alt="" />
@@ -104,10 +104,11 @@ function Accomodations() {
           </div>
         </div>
         <div className="svg-explain">
-          <p>Wifi | RoomService | BathTub | Ac | customersupport</p>
+          <p>Wifi | Tv | RoomService | Ac | customersupport</p>
         </div>
         <div className="accomodation-svgline"></div>
       </div>
+
 
       <div className="accomodation-box">
         <h1>Tent Suites</h1>
@@ -142,17 +143,17 @@ function Accomodations() {
             <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/ac.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/bathroom.svg" alt="" />
           </div>
           <div className="svg">
             <img src="./assets/svgs/customersupport.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
-          <p>Wifi | RoomService | BathTub | Ac | customersupport</p>
+          <p>Wifi | RoomService | Ac | Attached Washrooms | customersupport</p>
         </div>
         <div className="accomodation-svgline"></div>
       </div>
@@ -192,7 +193,7 @@ function Accomodations() {
             <img src="./assets/svgs/roomservice.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/speaker.svg" alt="" />
           </div>
           <div className="svg">
             <img src="./assets/svgs/ac.svg" alt="" />
@@ -202,13 +203,13 @@ function Accomodations() {
           </div>
         </div>
         <div className="svg-explain">
-          <p>Wifi | RoomService | BathTub | Ac | customersupport</p>
+          <p>Wifi | RoomService | Live Music | Ac | customersupport</p>
         </div>
         <div className="accomodation-svgline"></div>
       </div>
 
       <div className="accomodation-box">
-        <h1>Open-Air Poolside</h1>
+        <h1>Open-Air Pool</h1>
         <p>
           <b>
             Relax, Refresh, and Rejuvenate by the Pool — Relax, Refresh, and
@@ -239,20 +240,20 @@ function Accomodations() {
             <img src="./assets/svgs/wifi.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/roomservice.svg" alt="" />
+            <img src="./assets/svgs/openshower.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/bathtub.svg" alt="" />
+            <img src="./assets/svgs/swimtube.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/ac.svg" alt="" />
+            <img src="./assets/svgs/speaker.svg" alt="" />
           </div>
           <div className="svg">
-            <img src="./assets/svgs/customersupport.svg" alt="" />
+            <img src="./assets/svgs/opensitting.svg" alt="" />
           </div>
         </div>
         <div className="svg-explain">
-          <p>Wifi | RoomService | BathTub | Ac | customersupport</p>
+          <p>Wifi | Open Shower | Swim Tube | Live Music | open-Air Sitting</p>
         </div>
         <div className="accomodation-svgline"></div>
       </div>

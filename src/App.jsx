@@ -36,7 +36,7 @@ const AccomodationBoxes = [
   {
     id: 5,
     image: "./assets/main.jpg",
-    text: "Open-Air Poolside",
+    text: "Open-Air Pool",
     link: "/Accomodations",
   },
   // {id:6,image:"./src/assets/main.jpg",text:"Mud Room"},
