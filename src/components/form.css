@@ -39,9 +39,9 @@
   outline: none;
   /* border-bottom: 1px solid rgb(175, 148, 100); */
 }
-.forminput ::placeholder{
-  /* color:rgb(175, 148, 100); */
-}
+/* .forminput ::placeholder{
+  color:rgb(175, 148, 100);
+} */
 .form-name {
   grid-area: item1;
 }
