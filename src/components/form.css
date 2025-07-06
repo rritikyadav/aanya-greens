@@ -6,6 +6,13 @@
   align-items: center;
   gap: 5vh;
   margin-top: 15vh;
+  /* background-color: rgb(175, 148, 100); */
+  background-color: rgb(3, 45, 39);
+  border-radius: 0.5rem;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 .formheading {
   display: flex;
@@ -13,6 +20,10 @@
   align-items: center;
   gap: 1vh;
   font-family: EduCursive, cursive;
+}
+.formheading h1,
+.formheading p {
+  color: rgb(175, 148, 100);
 }
 .forminput {
   width: 85%;
@@ -25,23 +36,19 @@
     "item5 item5 item6 item6";
   gap: 0.5vw;
   margin: auto;
-  /* background-color: #606C5D; */
-  /* border-radius: 0.5rem; */
 }
-
 .forminput input {
-  /* background-color: transparent; */
-  background-color: rgb(18,18, 18);
-  /* color: rgb(175, 148, 100); */
+  background-color: transparent;
+  color: rgb(175, 148, 100);
   padding: 1rem;
   border-radius: 0.5rem;
   border: none;
   outline: none;
-  /* border-bottom: 1px solid rgb(175, 148, 100); */
+  border-bottom: 1px solid rgb(175, 148, 100);
 }
-/* .forminput ::placeholder{
-  color:rgb(175, 148, 100);
-} */
+.forminput ::placeholder {
+  color: rgb(175, 148, 100);
+}
 .form-name {
   grid-area: item1;
 }
@@ -61,7 +68,7 @@
 }
 #booknow {
   background-color: rgb(175, 148, 100);
-  color: black;
+  color: white;
   font-weight: bold;
   width: 15vw !important;
   height: 6vh;
@@ -80,6 +87,11 @@
     gap: 3svh;
     margin-top: 5svh;
     margin-bottom: -5svh;
+    border-radius: 0.5rem;
+    width: 99%;
+    margin: auto;
+    padding: 1rem 0rem;
+    box-sizing: border-box;
   }
   .formheading {
     display: flex;
@@ -89,11 +101,11 @@
     font-family: EduCursive, cursive;
   }
   .formheading h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
   .formheading p {
     font-size: 0.7rem;
-    margin-left:2svw;
+    margin-left: 2svw;
   }
   .forminput {
     width: 95%;
@@ -111,25 +123,24 @@
   }
 
   .forminput input {
-    background-color: black;
-    color: rgb(175, 148, 100);
     padding: 1rem;
     box-sizing: border-box;
     border-radius: 0.5rem;
     border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(175, 148, 100);
+    margin-bottom:1svh;
   }
   .form-specific-details {
     height: 12svh;
     grid-area: item5;
   }
   #booknow {
-    background-color: rgb(175, 148, 100);
-    color: black;
     font-weight: bold;
     width: 50svw !important;
     height: 7svh;
     cursor: pointer;
-    margin:0.5svh auto;
+    margin: 2svh auto 0svh auto;
     grid-area: item6;
   }
 }

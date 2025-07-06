@@ -20,6 +20,7 @@ function Navbar() {
     return () => mediaQuery.removeListener(handleResize);
   }, []);
 
+ 
   return (
     <>
       {isDesktop ? (
@@ -53,7 +54,7 @@ function Navbar() {
               <Link to="/aboutus">About</Link>
               <div className="navcontactnumber">
                 <img src="./assets/svgs/phone.svg" alt="" />
-               <p><Link to ="#">9999785857</Link> , <Link to="#" >9999785857</Link></p>
+                <p><Link to="#">9999785857</Link> , <Link to="#" >9999785857</Link></p>
               </div>
             </div>
           </div>

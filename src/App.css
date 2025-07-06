@@ -20,42 +20,56 @@
 
 .mainpagegallerysection {
   width: 92%;
-  /* height:125vh; */
-  height: 82vh;
   padding: 2.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
-  /* background-color: rgb(18, 18, 18); */
   background-color: white;
   position: absolute;
   top: 105vh;
   right: 3.5vw;
   border-radius: 2rem;
+}
+.mainpagegallerytext {
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.mainpagegallerytext h1 {
+  font-family: "EduCursive", cursive;
+  font-size: 3.5rem;
+  font-weight: 5000;
+  color: rgb(175, 148, 100);
+}
+
+.mainpage-gallery-imagesection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1vw;
   justify-items: center;
   align-items: center;
-  /* background-color: yellow; */
 }
 .mainpagegalleryimg img {
   width: 27vw;
   height: 35vh;
-  border-radius:1rem;
+  border-radius: 1rem;
 }
 
 .mainpageaccomodationheading {
-  margin: 80vh 0vh 5vh 0vh;
+  margin: 90vh 0vh 5vh 0vh;
   text-align: center;
   font-size: 1.7rem;
 }
-.mainpageaccomodationheading h1{
-   font-family: 'EduCursive', cursive;
-    font-size:5rem;
-    font-weight: 5000;
+.mainpageaccomodationheading h1 {
+  font-family: "EduCursive", cursive;
+  font-size: 5rem;
+  font-weight: 5000;
+}
+.mainpageaccomodationheading p {
+  font-size: 1.2rem;
+  color: rgb(175, 148, 100);
+  width: 80%;
+  margin: auto;
 }
 
 .mainpageaccomodation {
-  height: 60vh;
   width: 90%;
   margin: auto;
   display: flex;
@@ -72,7 +86,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* display: block; */
   border-radius: 0.5rem;
   cursor: pointer;
 }
@@ -88,12 +101,11 @@
   box-sizing: border-box;
 }
 
-
 .mainpageaccomodationtext h3 {
   color: white;
-    font-family: 'EduCursive', cursive;
-    font-size:2rem;
-    font-weight: 1900;
+  font-family: "EduCursive", cursive;
+  font-size: 2rem;
+  font-weight: 1900;
 }
 
 .mainpageAccomodationbox.focused {
@@ -103,182 +115,201 @@
 
 .mainpageAccomodationbox.shrunk {
   flex: 0.8;
-  /* filter: brightness(0.7); */
 }
 
-
-
-
-
-.mainpageeventheading{
+.mainpageeventheading {
   text-align: center;
   font-size: 5rem;
-  margin:10vh 0 5vh 0;
+  margin: 10vh 0 5vh 0;
   font-family: eduCursive, cursive;
 }
-.mainpageeventinfo{
-  margin:auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:4vw;
-  width:100%;
-  height:50vh;
-}
-.eventpara{
-  width:40vw;
-  height:40vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:15vh;
-  color:rgb(218,211,211);
-}
-.eventimages{
-  width:46vw;
-  height:45vh;
-  display: flex;
-  flex-direction: column;
-  gap:0.3vw;
-  /* background-color: yellow; */
-}
-.eventimagesbox1 , .eventimagesbox2{
-  display:flex;
-  gap:0.3vw;
-}
-.eventimagesbox2{
-  margin-left: 6vw;
-}
-.eventimagesbox1 img, .eventimagesbox2 img{
-  width:20vw;
-  height:22vh;
-  border-radius:2rem;
-}
-
-
-@media screen and (max-width: 768px) {
-.mainimg{
-  width: 100%;
-  height: 70svh;
-}
-.mainpagegallerysection {
-  width: 98%;
-  height: 71svh;
-  padding:1.5rem 0.5rem;
-  box-sizing: border-box;
-  position: absolute;
-  top: 75svh;
-  right: 1svw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.1svw;
-  justify-items: center;
-  align-items: center;
-}
-.mainpagegalleryimg img {
-  width: 45svw;
-  height: 20svh;
-  border-radius:1rem;
-}
-
-
-.mainpageaccomodationheading {
-  margin: 68svh 0vh 5vh 0vh;
-  text-align: center;
-}
-.mainpageaccomodationheading h1{
-   font-family: 'EduCursive', cursive;
-    font-size:3.5rem;
-    font-weight: 5000;
-}
-
-.mainpageaccomodation {
-  height: 116svh;
-  width: 90;
+.mainpageeventinfo {
   margin: auto;
   display: flex;
-  flex-direction: column;
-  gap: 1.5svw;
-  overflow: hidden;
-  padding:0.5rem;
-  box-sizing: border-box ;
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  width: 98%;
 }
-.mainpageAccomodationbox {
-  position: relative;
-  height: 22svh;
-}
-.mainpageAccomodationbox img {
-  width: 100%;
-  height: 22svh;
-  cursor: pointer;
-  border-radius: 0;
-}
-
-.mainpageaccomodationtext {
-  position: absolute;
-  bottom: 0.1svh;
-  color: white;
-  width: 100%;
-  text-align: center;
-  padding: 0.1px;
-  box-sizing: border-box;
-}
-.mainpageaccomodationtext h3 {
-    color: white;
-    font-family: 'EduCursive', cursive;
-    font-size:1.5rem;
-    font-weight: bolder;
-}
-
-
-.mainpageeventheading{
-  text-align: center;
-  font-size: 3rem;
-  margin:6svh 0 0svh 0;
-  font-family: eduCursive, cursive;
-}
-.mainpageeventinfo{
-  margin:auto;
+.eventpara {
+  width: 40vw;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap:8svw;
-  width:95%;
-  height:103svh;
-  /* background-color: red; */
+  gap: 15vh;
+  color: rgb(218, 211, 211);
 }
-.eventpara{
-  width:100%;
-  height:48svh;
+.eventimages {
+  width: 46vw;
+  height: 45vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:2svh;
-  /* background-color: black; */
-}
-.eventimages{
-  width:100%;
-  height:46svh;
-  display: flex;
-  flex-direction: column;
-  gap:1vw;
+  gap: 0.3vw;
   /* background-color: yellow; */
 }
-.eventimagesbox1 , .eventimagesbox2{
-  display:flex;
-  gap:1svw;
+.eventimagesbox1,
+.eventimagesbox2 {
+  display: flex;
+  gap: 0.3vw;
 }
-.eventimagesbox2{
-  margin-left: 8svw;
+.eventimagesbox2 {
+  margin-left: 6vw;
 }
-.eventimagesbox1 img, .eventimagesbox2 img{
-  width:43svw;
-  height:22svh;
-  border-radius:1rem;
+.eventimagesbox1 img,
+.eventimagesbox2 img {
+  width: 20vw;
+  height: 22vh;
+  border-radius: 2rem;
 }
 
-  
+@media screen and (max-width: 768px) {
+  .mainimg {
+    width: 100%;
+    height: 70svh;
+  }
+
+  .mainpagegallerysection {
+    width: 98%;
+    /* height: 71svh; */
+    padding: 1.5rem 0.1rem;
+    box-sizing: border-box;
+    position: absolute;
+    top: 75svh;
+    right: 1svw;
+  }
+  .mainpagegallerytext {
+    text-align: center;
+    margin-bottom: 2svh;
+  }
+  .mainpagegallerytext h1 {
+    font-family: "EduCursive", cursive;
+    font-size: 2.7rem;
+    font-weight: 5000;
+    color: rgb(175, 148, 100);
+  }
+  .mainpage-gallery-imagesection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0svw;
+    justify-items: center;
+    align-items: center;
+  }
+  .mainpagegalleryimg img {
+    width: 98.5%;
+    height: 20svh;
+    border-radius: 1rem;
+  }
+
+  .mainpageaccomodationheading {
+    margin: 85svh 0vh 1svh 0vh;
+    text-align: center;
+  }
+  .mainpageaccomodationheading h1 {
+    font-family: "EduCursive", cursive;
+    font-size: 3.5rem;
+    font-weight: 5000;
+  }
+  .mainpageaccomodationheading p {
+  font-size: 0.7rem;
+  color: rgb(175, 148, 100);
+  width: 99%;
+  margin: 0svh auto 1svh auto;
+  }
+
+  .mainpageaccomodation {
+    height: 116svh;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5svw;
+    overflow: hidden;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  .mainpageAccomodationbox {
+    position: relative;
+    height: 22svh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  }
+  .mainpageAccomodationbox img {
+    width: 100%;
+    height: 22svh;
+    cursor: pointer;
+    border-radius: 0;
+  }
+
+  .mainpageaccomodationtext {
+    position: absolute;
+    bottom: 0.1svh;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0.1px;
+    box-sizing: border-box;
+  }
+  .mainpageaccomodationtext h3 {
+    color: white;
+    font-family: "EduCursive", cursive;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  .mainpageeventheading {
+    text-align: center;
+    font-size: 3rem;
+    margin: 6svh 0 -5svh 0;
+    font-family: eduCursive, cursive;
+  }
+  .mainpageeventinfo {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0svw;
+    width: 98%;
+    height: 82svh;
+    /* background-color: red; */
+  }
+  .eventpara {
+    width: 100%;
+    height: 30svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3svh;
+    /* background-color: black; */
+  }
+  .eventpara p {
+    font-size: 0.6rem;
+    width: 100%;
+    text-align: center;
+  }
+  .eventimages {
+    width: 100%;
+    height: 45svh;
+    display: flex;
+    flex-direction: column;
+    gap: 1svw;
+    /* background-color: yellow; */
+  }
+  .eventimagesbox1,
+  .eventimagesbox2 {
+    display: flex;
+    gap: 0.5svw;
+  }
+  .eventimagesbox2 {
+    margin-left: 0svw;
+    align-self: flex-end;
+  }
+  .eventimagesbox1 img,
+  .eventimagesbox2 img {
+    width: 49.5%;
+    height: 22svh;
+    border-radius: 1rem;
+  }
 }

@@ -56,6 +56,10 @@ function App() {
       </div>
 
       <div className="mainpagegallerysection">
+      <div className="mainpagegallerytext">
+        <h1>In The Lapse Of Aravali Hills</h1>
+      </div>
+      <div className="mainpage-gallery-imagesection">
         <div className="mainpagegalleryimg">
           <img src="./assets/main.jpg" alt="" />
         </div>
@@ -75,9 +79,12 @@ function App() {
           <img src="./assets/main.jpg" alt="" />
         </div>
       </div>
+      </div>
 
       <div className="mainpageaccomodationheading">
         <h1>Accomodations</h1>
+        <p>Experience serene comfort in every form — from cozy mud rooms to elegant glass suites.
+Choose from luxury suites, tent stays, or unwind by your private pool amidst nature.</p>
       </div>
 
       <div className="mainpageaccomodation">
@@ -104,6 +111,7 @@ function App() {
 
       <Wedding />
 
+          <div className="mainpageeventbox">
       <div className="mainpageeventheading">Events</div>
       <div className="mainpageeventinfo">
         <div className="eventpara">
@@ -131,6 +139,7 @@ function App() {
             <img src="./assets/main.jpg" alt="" />
           </div>
         </div>
+      </div>
       </div>
 
       <Activities />
