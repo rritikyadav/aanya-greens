@@ -130,14 +130,8 @@ Choose from luxury suites, tent stays, or unwind by your private pool amidst nat
           </Link>
         </div>
         <div className="eventimages">
-          <div className="eventimagesbox1">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-          </div>
-          <div className="eventimagesbox2">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-          </div>
+          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/main.jpg" alt="" />
         </div>
       </div>
       </div>
