@@ -1,7 +1,7 @@
 import React from "react";
 import "./accomodations.css";
 import Navbar from "../components/navbar.jsx";
-import Footer from "../components/Footer.jsx";
+import Footer from "../components/footer.jsx";
 import ScrollToTop from "../rarecomponents/scrolltotop.jsx";
 
 function Accomodations() {
@@ -9,6 +9,11 @@ function Accomodations() {
     <>
       <ScrollToTop />
       <Navbar />
+      <div className="accomodationheading">
+        <h1>Accomodations</h1>
+        <p>Experience serene comfort in every form — from cozy mud rooms to elegant glass suites.
+          Choose from luxury suites, tent stays, or unwind by your private pool amidst nature.</p>
+      </div>
 
       <div className="accomodation-box accomodation-box1">
         <h1>Mud Room</h1>
@@ -17,7 +22,7 @@ function Accomodations() {
             Experience the Earth’s Embrace in Our Traditional Mudroom — a true
             retreat for body and soul.
           </b>
-          <br /> &gt;&nbsp; Crafted using ancient Indian techniques with natural
+          <br /><br/> &gt;&nbsp; Crafted using ancient Indian techniques with natural
           mud and cow dung, this serene space offers a cool, toxin-free, and
           grounding atmosphere.
           <br /> &gt;&nbsp; The walls breathe with nature, promoting better
@@ -66,7 +71,7 @@ function Accomodations() {
             Indulge in the Elegance of Our Luxury Suites — A seamless blend of
             privacy and community .
           </b>
-          <br />
+          <br /><br/>
           &gt;&nbsp; Designed for comfort and sophistication, each
           air-conditioned suite features spacious interiors, premium
           furnishings, and serene views .
@@ -117,7 +122,7 @@ function Accomodations() {
             Reconnect with Nature in Comfort and Style — A Unique Glamping
             Experience.
           </b>
-          <br />
+          <br /><br/>
           &gt;&nbsp; Our air-conditioned luxury tents offer the charm of outdoor
           living with the comfort of modern amenities.
           <br /> &gt;&nbsp; Each tent features a spacious layout, private
@@ -165,7 +170,7 @@ function Accomodations() {
             Dine, Dance, and Dream in Our Glass Room — A space crafted for
             intimacy, celebration, and timeless memories.
           </b>
-          <br />
+          <br /><br/>
           &gt;&nbsp; Surrounded by serene views, this air-conditioned glass
           haven features a private minibar, ambient lighting, and live music for
           the perfect evening .
@@ -215,7 +220,7 @@ function Accomodations() {
             Relax, Refresh, and Rejuvenate by the Pool — Relax, Refresh, and
             Rejuvenate by the Pool .
           </b>
-          <br />
+          <br /><br/>
           &gt;&nbsp; Our elegantly designed pool area features comfortable
           seating, tranquil ambiance, and an open-air shower for a refreshing
           rinse under the sky.

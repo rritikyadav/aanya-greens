@@ -32,7 +32,7 @@ function Footer() {
           </div>
           <div className="footerlogosection">
             <div className="footerlogo">
-              <img src="./assets/whitelogo.png" alt="" />
+              <img src="./assets/testlogo.png" alt="" />
             </div>
             <div className="footersocials">
               <img src="./assets/svgs/instagram.png" alt="" />
