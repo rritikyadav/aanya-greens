@@ -9,7 +9,8 @@
 }
 .accomodationheading p {
   font-size: 1.2rem;
-  color: rgb(175, 148, 100);
+  /* color: rgb(175, 148, 100); */
+  color: rgb(3,45,39);
   width: 80%;
   margin: auto;
 }
@@ -34,7 +35,7 @@
 }
 
 .accomodation-box p {
-  color: rgb(158, 146, 146);
+  color: rgb(182, 168, 148);
   align-self: flex-start;
   margin-left: 3vw;
 }
@@ -96,7 +97,7 @@
 
 @media screen and (max-width: 768px) {
   .accomodationheading {
-    margin: 0svh 0vh 0svh 0vh;
+    margin: 5svh 0vh 0svh 0vh;
     text-align: center;
   }
   .accomodationheading h1 {
@@ -106,7 +107,6 @@
   }
   .accomodationheading p {
     font-size: 0.7rem;
-    color: rgb(175, 148, 100);
     width: 99%;
     margin: 0svh auto 1svh auto;
   }
@@ -132,7 +132,6 @@
   }
 
   .accomodation-box p {
-    color: rgb(158, 146, 146);
     font-size: 0.8rem;
     /* background-color: red; */
   }

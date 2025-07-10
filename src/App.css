@@ -24,7 +24,7 @@
   box-sizing: border-box;
   background-color: white;
   position: absolute;
-  top: 105vh;
+  top: 100vh;
   right: 3.5vw;
   border-radius: 2rem;
 }
@@ -53,18 +53,20 @@
 }
 
 .mainpageaccomodationheading {
-  margin: 90vh 0vh 5vh 0vh;
+  margin: 85vh 0vh 5vh 0vh;
   text-align: center;
   font-size: 1.7rem;
 }
 .mainpageaccomodationheading h1 {
   font-family: "EduCursive", cursive;
-  font-size: 5rem;
+  /* color: rgb(3, 45, 39); */
+  font-size: 4rem;
   font-weight: 5000;
 }
 .mainpageaccomodationheading p {
   font-size: 1.2rem;
-  color: rgb(175, 148, 100);
+  /* color: rgb(175, 148, 100); */
+  color: rgb(3, 45, 39);
   width: 80%;
   margin: auto;
 }
@@ -171,13 +173,14 @@
   }
 
   .mainpagegallerysection {
-    width: 98%;
+    width: 99%;
     /* height: 71svh; */
     padding: 1.5rem 0.1rem;
     box-sizing: border-box;
     position: absolute;
     top: 75svh;
-    right: 1svw;
+    right: 0.5svw;
+    border-radius: 1.5rem;
   }
   .mainpagegallerytext {
     text-align: center;
@@ -185,7 +188,7 @@
   }
   .mainpagegallerytext h1 {
     font-family: "EduCursive", cursive;
-    font-size: 2.7rem;
+    font-size: 2rem;
     font-weight: 5000;
     color: rgb(175, 148, 100);
   }
@@ -207,13 +210,11 @@
     text-align: center;
   }
   .mainpageaccomodationheading h1 {
-    font-family: "EduCursive", cursive;
     font-size: 3.5rem;
     font-weight: 5000;
   }
   .mainpageaccomodationheading p {
     font-size: 0.7rem;
-    color: rgb(175, 148, 100);
     width: 99%;
     margin: 0svh auto 1svh auto;
   }
@@ -259,7 +260,7 @@
 
   .mainpageeventbox {
     background-color: rgb(3, 45, 39);
-    width: 99%;
+    width: 99.5%;
     margin: auto;
     border-radius: 0.5rem;
     padding: 0.5rem 0rem;
@@ -275,12 +276,12 @@
   .mainpageeventinfo {
     margin: auto;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8svw;
     width: 98%;
-    height: 82svh;
+    height: 88svh;
   }
   .eventpara {
     width: 100%;
@@ -298,15 +299,15 @@
     text-align: center;
   }
   .eventimages {
-    width: 99%;
-    height: 52svh;
+    width: 100%;
+    height: 54svh;
     display: flex;
     flex-direction: column;
     gap: 1svw;
     /* background-color: yellow; */
   }
   .eventimages img {
-    width: 90%;
+    width: 92%;
     height: 25svh;
     border-radius: 0.5rem;
   }

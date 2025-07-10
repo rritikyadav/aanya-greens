@@ -3,12 +3,15 @@ import "./accomodations.css";
 import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
 import ScrollToTop from "../rarecomponents/scrolltotop.jsx";
+import Fixedsvg from "../components/fixedsvg.jsx";
 
 function Accomodations() {
   return (
     <>
       <ScrollToTop />
       <Navbar />
+      <Fixedsvg/>
+
       <div className="accomodationheading">
         <h1>Accomodations</h1>
         <p>Experience serene comfort in every form — from cozy mud rooms to elegant glass suites.

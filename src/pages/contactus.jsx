@@ -4,6 +4,7 @@ import Navbar from '../components/navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Form from '../components/form.jsx';
 import ScrollToTop from '../rarecomponents/scrolltotop.jsx';
+import Fixedsvg from '../components/fixedsvg.jsx';
 
 function Contactus() {
 
@@ -11,6 +12,7 @@ function Contactus() {
         <>
             <ScrollToTop />
             <Navbar />
+            <Fixedsvg/>
 
             <div className="contactus-main-imagesection"><img src="./assets/main.jpg" alt="" /></div>
 

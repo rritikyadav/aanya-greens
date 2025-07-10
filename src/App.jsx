@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import ScrollToTop from "./rarecomponents/scrolltotop.jsx";
 import Activities from "./rarecomponents/activities.jsx";
 import Wedding from "./rarecomponents/wedding.jsx";
+import Fixedsvg from "./components/fixedsvg.jsx";
 
 const AccomodationBoxes = [
   {
@@ -49,6 +50,7 @@ function App() {
     <>
       <ScrollToTop />
       <Navbar />
+      <Fixedsvg/>
 
       <div className="mainimg">
         {" "}
@@ -57,7 +59,7 @@ function App() {
 
       <div className="mainpagegallerysection">
       <div className="mainpagegallerytext">
-        <h1>In The Lapse Of Aravali Hills</h1>
+        <h1>Aravalli Views. Leopard Trails. One Unique Stay.</h1>
       </div>
       <div className="mainpage-gallery-imagesection">
         <div className="mainpagegalleryimg">

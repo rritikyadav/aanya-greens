@@ -15,13 +15,13 @@
     border-radius: 2rem;
 }
 
-.contact-info{
-    /* background-color:rgb(18,18,18); */
-    background-color: white;
+.contact-info{ 
+    /* background-color: white; */
+    background-color: rgb(3,45,39);
     height:50vh;
     width:70%;
     position:absolute;
-    top:60vh;
+    top:62vh;
     left:14vw;
     border-radius: 2rem;
     display: grid;
@@ -48,7 +48,8 @@
 }   
 
 .instagram{
-    margin-top:37vh;
+    margin-top:44vh;
+    margin-bottom: 15vh;
     display:flex;
     flex-direction: column;
     gap:5vh;
@@ -94,16 +95,18 @@
 
 .contact-info{
     height:45svh;
-    width:95%;
+    width:99.5%;
     position:absolute;
     top:52svh;
-    left:2.5svw;
-    border-radius: 2rem;
+    left:0.2svw;
+    border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
     justify-items: center;
     gap:0.2svh;
+    padding-top:2rem;
+    box-sizing: border-box;
 }
 .contactcard3{
     grid-column: 1/3;
@@ -130,7 +133,7 @@
 }  
 
 .instagram{
-    margin:37svh auto 15svh auto;
+    margin:45svh auto 15svh auto;
     width:95%;
     display:flex;
     flex-direction: column;

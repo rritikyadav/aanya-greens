@@ -1,24 +1,32 @@
 .nav {
-  height: 19vh;
+  height: 15vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 4vw;
-  /* background-color: rgb(18,18, 18); */
+  gap: 0.5vw;
+  position:sticky;
+  top: 0;
+  background-color: white;
+  border-radius: 0rem 0rem 2rem 2rem;
+  z-index:1000;
 }
 .nav a {
   color: rgb(175, 148, 100);
   text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
+}
+.nav a:hover {
+    color:rgb(3, 45, 39);
+    border-bottom: 1px solid rgb(3, 45, 39);
 }
 .logo{
   align-self: center;
+  margin:0vw 10vw 0vw 10vw;
 }
 .logo img {
-  width: 9vw;
-  aspect-ratio: 16/12;
+  width: 12vw;
+  aspect-ratio: 2/1;
   align-self: center;
 }
 
@@ -32,47 +40,45 @@
   height: 10svh;
   width: 100%;
   box-sizing: border-box;
+  background-color:white;
+  border-radius: 0rem 0rem 1.5rem 1.5rem;
 }
 .mobile-logo img {
-  width: 15svw;
-  aspect-ratio: 16/12;
-  margin-left: 8svw;
-  margin-top: 0.5svh;
-  align-self: center;
+  width:31svw;
+  aspect-ratio: 2/1;
   border-radius: 0.5rem;
+  position:absolute;
+  top:0.3svh;
+  left:50%;
+  transform: translateX(-50%);
+  box-sizing: border-box;
 }
 .menu-icon {
   margin-right: 4svw;
 }
 .menu-icon img {
-  width: 12svw;
+  width: 8svw;
   aspect-ratio: 1/1;
-  padding: 0.5rem;
-  box-sizing: border-box;
-  border-radius: 0.5rem;
-  background-color: white;
 }
 .navlinks {
   position: absolute;
-  z-index: 10;
+  z-index: 1000;
   top: 0svh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap:5svh;
   width: 100%;
   background-color: white;
   overflow: hidden;
 }
 .navlinks a {
   color: rgb(175, 148, 100);
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.1rem;
   text-decoration: none;
-  margin-top: 4svh;
 }
 .hide {
   height: 0svh !important;
-  /* opacity: 0; */
   transition: height 0.2s ease-in-out;
   overflow: hidden;
 }
@@ -87,11 +93,10 @@
   display: flex;
   align-items: center;
   gap: 3svw;
-  margin-top: 30svh;
+  margin-top: 15svh;
 }
 .navcontactnumber p a {
   color: rgb(175, 148, 100);
-  /* font-weight: bold; */
   font-size: 1rem;
 }
 
@@ -100,5 +105,5 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin: 1svh 0svh 3svh 0svh;
+  margin: 1svh 0svh 6svh 0svh;
 }

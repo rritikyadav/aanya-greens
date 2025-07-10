@@ -2,9 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
   gap: 2vw;
   height: 30vh;
+  width:98%;
+  margin:15vh auto;
+  background-color: rgb(3,45, 39);
+  border-radius: 0.5rem;
 }
 
 .our-vision,
@@ -35,7 +38,7 @@
   width: 75%;
   height: 122vh;
   border-radius: 1rem;
-  margin: 5vh auto;
+  margin: 10vh auto;
   padding: 2.5rem;
   box-sizing: border-box;
 }
@@ -104,11 +107,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3svh auto 7svh auto;
+  margin: 8svh auto 4svh auto;
   gap: 2svw;
-  height: 40svh;
-  width: 97%;
-  /* background-color: red; */
+  height: 51svh;
+  width:99.5%;
+  background-color: rgb(3,45, 39);
+  border-radius: 0.5rem;
 }
 
 .our-vision,
@@ -119,9 +123,8 @@
   justify-content: center;
   align-items: center;
   padding-left: 0rem;
-  width: 100%;
-  height: 18svh;
-  /* background-color: blue; */
+  width: 98%;
+  height: 22svh;
 }
 .our-mission h1,
 .our-vision h1 {
@@ -146,15 +149,17 @@
   width: 98%;
   height: 122svh;
   border-radius: 1rem;
-  margin: -5svh auto;
-  padding: 0.8rem;
+  margin: 5svh auto 3svh auto;
+  padding: 0rem;
   box-sizing: border-box;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .white-box {
-  width: 98%;
-  height: 98%;
-  margin:auto;
+  width: 95%;
+  height: 97%;
   border-radius: 1rem;
   background-color: white;
   box-sizing: border-box;
@@ -199,7 +204,7 @@ li {
 .amenities-box {
   margin-top: 3.5svh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 2.5svh;
   align-content: center;
   justify-items: left;

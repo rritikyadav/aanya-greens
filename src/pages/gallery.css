@@ -2,8 +2,16 @@
     color:rgb(175,148,100)
 }
 
+.galleryheading{
+    margin-top:10vh;
+    margin-bottom: 4vh;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: Educursive, cursive;
+}
 .galleryimages{
-    margin: 15vh 2vw 15vh 2vw;
+    margin: 0vh 2vw 15vh 2vw;
    display:grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    justify-items: center;
@@ -17,8 +25,14 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .galleryheading{
+    margin-top:5svh;
+    margin-bottom: 3svh;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
 .galleryimages{
-    margin: 5svh 2svw 10svh 2svw;
+    margin: 0svh 2svw 10svh 2svw;
    display:grid;
    grid-template-columns: 1fr 1fr 1fr;
    justify-items: center;

@@ -22,19 +22,19 @@ function Navbar() {
 
 
   useEffect(() => {
-  if (Shownavitem) {
-    document.body.style.overflow = 'hidden'; // Disable scroll
-  } else {
-    document.body.style.overflow = 'auto';   // Enable scroll
-  }
+    if (Shownavitem) {
+      document.body.style.overflow = 'hidden'; // Disable scroll
+    } else {
+      document.body.style.overflow = 'auto';   // Enable scroll
+    }
 
-  // Cleanup when component unmounts
-  return () => {
-    document.body.style.overflow = 'auto';
-  };
-}, [Shownavitem]);
+    // Cleanup when component unmounts
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [Shownavitem]);
 
- 
+
   return (
     <>
       {isDesktop ? (
@@ -44,41 +44,45 @@ function Navbar() {
           <Link to="/Gallery">Gallery</Link>
 
           <div className="logo">
-            <Link to="/"><img src="./assets/testlogo.png" alt="ritik" /></Link>
+            <Link to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></Link>
           </div>
 
           <Link to="/event&activities">Events &<br />Activities</Link>
-          <Link to="/contactus">Contact us</Link>
+          <Link to="/contactus">Contact</Link>
           <Link to="/aboutus">About</Link>
         </div>
       ) : (
         <>
           <div className="mobile-nav">
             <div className="mobile-logo">
-              <Link to="/"><img src="./assets/testlogo.png" alt="ritik" /></Link>
+              <Link to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></Link>
             </div>
             <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/hamburger.svg" alt="" /></div>
 
 
 
             <div className={`navlinks  ${Shownavitem ? 'show' : 'hide'}`}>
+
               <div className="navlinks-logo-icon">
-               <div className="mobile-logo">
-              <Link to="/"><img src="./assets/testlogo.png" alt="ritik" /></Link> </div>
-            <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
+                <div className="mobile-logo"><Link to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></Link> </div>
+                <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
               </div>
 
               <Link onClick={toggleNavItems} to="/">Home</Link>
               <Link onClick={toggleNavItems} to="/Accomodations">Accomodations</Link>
-              <Link onClick={toggleNavItems} to="/event&activities">Events & Activities</Link>
               <Link onClick={toggleNavItems} to="/Gallery">Gallery</Link>
-              <Link onClick={toggleNavItems} to="/contactus">Contact us</Link>
+              <Link onClick={toggleNavItems} to="/event&activities">Events & Activities</Link>
+              <Link onClick={toggleNavItems} to="/contactus">Contact</Link>
               <Link onClick={toggleNavItems} to="/aboutus">About</Link>
+
+
               <div className="navcontactnumber">
                 <img src="./assets/svgs/phone.svg" alt="" />
                 <p><Link to="#">9999785857</Link> , <Link to="#" >9999785857</Link></p>
               </div>
+
             </div>
+            
           </div>
         </>
       )

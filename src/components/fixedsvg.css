@@ -1,0 +1,51 @@
+.fixed-svg {
+  width: 1.7vw;
+  aspect-ratio: 1/1;
+}
+.fixed-svg-div {
+  background-color: rgb(3, 45, 39);
+  border-radius: 50%;
+  padding: 0.3rem;
+  position: fixed;
+  bottom: 2vh;
+  left: 2vw;
+  z-index: 1000;
+  animation: blink 3s infinite;
+  aspect-ratio: 1/1;
+  width: 2.5vw;
+  height: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fixed-svg-div {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    top: 1.5svh;
+    bottom: auto;
+    left: 4svw;
+    animation: none;
+    aspect-ratio: 1/1;
+    width: 12vw;
+    height: 12vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .fixed-svg {
+    width: 7svw;
+    aspect-ratio: 1/1;
+  }
+}
