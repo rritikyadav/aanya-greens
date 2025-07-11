@@ -4,37 +4,57 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 0.5vw;
-  position:sticky;
+  /* gap: 0.5vw; */
+  position: sticky;
   top: 0;
-  background-color: white;
   border-radius: 0rem 0rem 2rem 2rem;
-  z-index:1000;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
 }
 .nav a {
   color: rgb(175, 148, 100);
   text-decoration: none;
   font-size: 1rem;
+  font-weight: 100;
+  border-bottom: 1px solid transparent;
+  transition: color 0.4s ease-in-out, border-bottom-color 0.3s ease-in-out;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 500;
 }
-.nav a:hover {
-    color:rgb(3, 45, 39);
-    border-bottom: 1px solid rgb(3, 45, 39);
-}
-.nav a.active{
+.nav a:hover,
+.nav a.active {
   color: rgb(3, 45, 39);
   border-bottom: 1px solid rgb(3, 45, 39);
 }
-.logo{
+/* .navbtn{
+  color: rgb(175, 148, 100) !important;
+  background-color: rgb(3, 45, 39) !important;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: playfair;
+  font-weight: 100;
+  padding: 0.5rem 1rem;
+  border:1px solid rgb(175, 148, 100) !important;
+  border-radius: 2rem 0rem 2rem 0rem;
+} */
+.logo {
   align-self: center;
-  margin:0vw 10vw 0vw 10vw;
+  margin: 0vw 20vw 0vw 20vw;
 }
-.logo a:hover , .logo a.active {
+.logo a:hover,
+.logo a.active {
   border: none !important;
 }
 .logo img {
   width: 12vw;
   aspect-ratio: 2/1;
   align-self: center;
+  position: absolute;
+  top: 1vh;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .mobile-nav {
@@ -47,16 +67,17 @@
   height: 10svh;
   width: 100%;
   box-sizing: border-box;
-  background-color:white;
   border-radius: 0rem 0rem 1.5rem 1.5rem;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
 }
 .mobile-logo img {
-  width:31svw;
+  width: 31svw;
   aspect-ratio: 2/1;
   border-radius: 0.5rem;
-  position:absolute;
-  top:0.3svh;
-  left:50%;
+  position: absolute;
+  top: 0.3svh;
+  left: 50%;
   transform: translateX(-50%);
   box-sizing: border-box;
 }
@@ -74,7 +95,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:5svh;
+  gap: 5svh;
   width: 100%;
   background-color: white;
   overflow: hidden;
@@ -83,8 +104,11 @@
   color: rgb(175, 148, 100);
   font-size: 1.1rem;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 200;
 }
-.navlinks a.active{
+.navlinks a.active {
   color: rgb(3, 45, 39);
   border-bottom: 1px solid rgb(3, 45, 39);
 }
@@ -111,7 +135,7 @@
   font-size: 1rem;
 }
 
-.navlinks-logo-icon{
+.navlinks-logo-icon {
   display: flex;
   align-items: center;
   justify-content: space-between;

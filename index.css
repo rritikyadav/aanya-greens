@@ -12,7 +12,10 @@
   font-family: 'playfair';
   src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
 }
-
+@font-face {
+  font-family: 'parisienne';
+  src: url('/fonts/Parisienne-Regular.ttf') format('truetype');
+}
 
 * {
   margin: 0;
@@ -31,11 +34,13 @@ body{
   color:rgb(3,45,39);
   font-size: 3rem;
   font-family: playfair;
+  letter-spacing: 0.02em;
 }
 .whiteheading{
   color: 	rgb(250, 235, 215);
   font-size: 3rem;
   font-family: playfair;
+  letter-spacing: 0.02em;
 }
 
 @media screen and (max-width: 768px) {

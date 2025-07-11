@@ -3,13 +3,15 @@
   margin-top: 15vh;
 }
 .activitiesheading h1 {
-  font-family: eduCursive, cursive;
+  font-family: parisienne;
   font-size: 3rem;
   font-weight: 5000;
+  margin-bottom: 1vh;
+  letter-spacing: 0.05em;
+  word-spacing: 0.08em;
 }
 .activitiesheading p {
   font-size: 1.2rem;
-  /* color: rgb(175, 148, 100); */
   color: rgb(3, 45, 39);
   width: 80%;
   margin: auto;
@@ -17,7 +19,7 @@
 .activitiesbox {
   width: 90%;
   height: 78vh;
-  margin: 10vh auto 10vh auto;
+  margin: 5vh auto 10vh auto;
   display: flex;
   gap: 3vw;
   /* background-color: yellow; */
@@ -49,7 +51,7 @@
   color: white;
   padding: 1rem;
   box-sizing: border-box;
-  font-family: "EduCursive", cursive;
+  font-family: "parisienne";
   font-size: 2rem;
   font-weight: bolder;
 }
@@ -57,13 +59,15 @@
 @media screen and (max-width: 768px) {
   .activitiesheading {
     text-align: center;
-    margin-top: 6svh;
+    margin-top: 8svh;
     /* background-color: black; */
   }
   .activitiesheading h1 {
-    font-family: eduCursive, cursive;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bolder;
+    margin-bottom: 2svh;
+    letter-spacing: 0.01em;
+    word-spacing: 0em;
   }
   .activitiesheading p {
     font-size: 0.7rem;
@@ -103,7 +107,6 @@
     color: white;
     padding: 0rem;
     box-sizing: border-box;
-    font-family: "EduCursive", cursive;
     font-size: 1.7rem;
     font-weight: bolder;
   }

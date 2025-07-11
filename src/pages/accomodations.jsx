@@ -21,7 +21,7 @@ function Accomodations() {
       <div className="accomodation-box accomodation-box1">
         <h1>Mud Room</h1>
         <p>
-          <b>
+          <b style={{color: "rgb(3, 45, 39)"}}>
             Experience the Earth’s Embrace in Our Traditional Mudroom — a true
             retreat for body and soul.
           </b>
@@ -70,7 +70,7 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Luxury Suites</h1>
         <p>
-          <b>
+          <b style={{color: "rgb(3, 45, 39)"}}>
             Indulge in the Elegance of Our Luxury Suites — A seamless blend of
             privacy and community .
           </b>
@@ -121,7 +121,7 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Tent Suites</h1>
         <p>
-          <b>
+          <b style={{color: "rgb(3, 45, 39)"}}>
             Reconnect with Nature in Comfort and Style — A Unique Glamping
             Experience.
           </b>
@@ -169,7 +169,7 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Glass Room</h1>
         <p>
-          <b>
+          <b style={{color: "rgb(3, 45, 39)"}}>
             Dine, Dance, and Dream in Our Glass Room — A space crafted for
             intimacy, celebration, and timeless memories.
           </b>
@@ -219,7 +219,7 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Open-Air Pool</h1>
         <p>
-          <b>
+          <b style={{color: "rgb(3, 45, 39)"}}>
             Relax, Refresh, and Rejuvenate by the Pool — Relax, Refresh, and
             Rejuvenate by the Pool .
           </b>

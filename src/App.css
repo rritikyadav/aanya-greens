@@ -25,10 +25,12 @@
   margin-bottom: 5vh;
 }
 .mainpagegallerytext h1 {
-  font-family:playfair;
+  font-family: "parisienne";
   font-size: 3rem;
-  font-weight: 100;
-  color: rgb(175, 148, 100);
+  font-weight: 5000;
+  /* color: rgb(175, 148, 100); */
+  color:rgb(3, 45, 39);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .mainpage-gallery-imagesection {
@@ -50,10 +52,12 @@
   font-size: 1.7rem;
 }
 .mainpageaccomodationheading h1 {
-  font-family: EduCursive, cursive;
+  font-family: "parisienne";
   margin-bottom: 1vh;
   font-size: 3rem;
   font-weight: 5000;
+  letter-spacing: 0.03em;
+  word-spacing: 0.05em;
 }
 .mainpageaccomodationheading p {
   font-size: 1.2rem;
@@ -96,7 +100,7 @@
 
 .mainpageaccomodationtext h3 {
   color: white;
-  font-family: "EduCursive", cursive;
+  font-family: "parisienne" !important;
   font-size: 2rem;
   font-weight: 1900;
 }
@@ -142,8 +146,8 @@
   gap: 15vh;
   color: rgb(218, 211, 211);
 }
-.eventlink{
-  color:rgb(250, 235, 215);
+.eventlink {
+  color: rgb(250, 235, 215);
   text-decoration: none;
   border-bottom: rgb(250, 235, 215) 1px solid;
 }
@@ -181,9 +185,11 @@
   .mainpagegallerytext {
     text-align: center;
     margin-bottom: 2svh;
+    margin-top:1svh;
   }
   .mainpagegallerytext h1 {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
   .mainpage-gallery-imagesection {
     display: grid;
@@ -203,13 +209,15 @@
     text-align: center;
   }
   .mainpageaccomodationheading h1 {
-    font-size: 2rem;
-    margin-bottom: 1svh;
+    font-size: 1.8rem;
+    margin-bottom: 2svh;
+    letter-spacing: 0.01em;
+    word-spacing: 0em;
   }
   .mainpageaccomodationheading p {
     font-size: 0.7rem;
     width: 99%;
-    margin: 0svh auto 1svh auto;
+    margin: 0svh auto 3svh auto;
   }
 
   .mainpageaccomodation {

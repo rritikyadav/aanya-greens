@@ -59,7 +59,7 @@ function App() {
 
       <div className="mainpagegallerysection">
         <div className="mainpagegallerytext">
-          <h1>Leopard Trails. <span className="greenheading">Aravalli Views. </span>One Unique Stay.</h1>
+          <h1>Leopard Trails. Aravalli Views. One Unique Stay.</h1>
         </div>
         <div className="mainpage-gallery-imagesection">
           <div className="mainpagegalleryimg">

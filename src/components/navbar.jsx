@@ -41,6 +41,7 @@ function Navbar() {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/Accomodations">Accomodations</NavLink>
           <NavLink to="/event&activities">Events</NavLink>
+          {/* <NavLink className="navbtn" to="#">9999585757</NavLink> */}
 
           <div className="logo">
             <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>

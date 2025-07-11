@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 768px) {
   .fixed-svg-div {
-    background-color: white;
+    /* background-color: white; */
     border-radius: 0.5rem;
     box-sizing: border-box;
     top: 1.5svh;
@@ -42,7 +42,9 @@
     aspect-ratio: 1/1;
     width: 12vw;
     height: 12vw;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
   }
   .fixed-svg {
     width: 7svw;

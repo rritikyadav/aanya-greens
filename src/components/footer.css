@@ -50,6 +50,7 @@
 }
 .quicklinks a,.footercontact a {
   text-decoration: none;
+  transition: color 0.4s ease-in-out;
 }
 .quicklinks a:hover , .quicklinks a.active{
     color:rgb(250, 235, 215);
