@@ -13,7 +13,7 @@ function Accomodations() {
       <Fixedsvg/>
 
       <div className="accomodationheading">
-        <h1>Accomodations</h1>
+        <h1>Where You'll Be <span className="greenheading"> Staying</span>  </h1>
         <p>Experience serene comfort in every form — from cozy mud rooms to elegant glass suites.
           Choose from luxury suites, tent stays, or unwind by your private pool amidst nature.</p>
       </div>

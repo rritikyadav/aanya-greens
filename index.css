@@ -8,6 +8,10 @@
   font-family: 'kalam';
   src: url('fonts/Kalam-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'playfair';
+  src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+}
 
 
 * {
@@ -21,4 +25,25 @@
 body{
   background-color: white !important;
   overflow-x: hidden !important;
+}
+
+.greenheading{
+  color:rgb(3,45,39);
+  font-size: 3rem;
+  font-family: playfair;
+}
+.whiteheading{
+  color: 	rgb(250, 235, 215);
+  font-size: 3rem;
+  font-family: playfair;
+}
+
+@media screen and (max-width: 768px) {
+ .greenheading {
+    font-size: 2.2rem;
+  }
+  .whiteheading {
+    font-size: 2.2rem;
+  }
+  
 }

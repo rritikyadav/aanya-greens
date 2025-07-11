@@ -69,8 +69,8 @@ function Navbar() {
 
               <NavLink onClick={toggleNavItems} to="/">Home</NavLink>
               <NavLink onClick={toggleNavItems} to="/Accomodations">Accomodations</NavLink>
-              <NavLink onClick={toggleNavItems} to="/Gallery">E-Gallery</NavLink>
               <NavLink onClick={toggleNavItems} to="/event&activities">Events</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Gallery">E-Gallery</NavLink>
               <NavLink onClick={toggleNavItems} to="/contactus">Contact</NavLink>
               <NavLink onClick={toggleNavItems} to="/aboutus">About</NavLink>
 

@@ -20,6 +20,8 @@
   align-items: center;
   justify-content: center;
   gap:1.5vw;
+  color:rgb(3,45,39);
+
 }
 .weddingheading p {
   font-family: kalam;

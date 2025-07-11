@@ -12,7 +12,7 @@ function Gallery (){
         <Navbar/>
         <Fixedsvg/>
 
-        <div className="galleryheading">A Glimpse into the Heart of Aanya Greens</div>
+        <div className="galleryheading">A Glimpse into the Heart of <span className='greenheading'>Aanya Greens</span></div>
 
             <div className="galleryimages">
                 <img src="./assets/main.jpg" alt="" />

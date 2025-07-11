@@ -1,10 +1,10 @@
 .galleryheading{
     margin-top:10vh;
     margin-bottom: 4vh;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
-    font-family: Educursive, cursive;
+    font-family: playfair;
 }
 .galleryimages{
     margin: 0vh 2vw 15vh 2vw;
@@ -24,7 +24,7 @@
     .galleryheading{
     margin-top:5svh;
     margin-bottom: 3svh;
-    font-size: 2.2rem;
+    font-size: 1.9rem;
     font-weight: 600;
 }
 .galleryimages{

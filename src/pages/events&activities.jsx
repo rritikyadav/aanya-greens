@@ -18,7 +18,7 @@ function EventsActivities() {
       <Wedding />
 
       <div className="eventheading">
-        <h1>Events</h1>
+        <h1> Tailored  <span className="greenheading"> Events </span>  For You  </h1>
       </div>
 
       <div className="eventbox eventbox1">

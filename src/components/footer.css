@@ -52,7 +52,7 @@
   text-decoration: none;
 }
 .quicklinks a:hover , .quicklinks a.active{
-    color:rgb(211, 208, 208);
+    color:rgb(250, 235, 215);
 }
 .footercontact {
   display: flex;
@@ -97,14 +97,14 @@
   border-radius: 1.5rem 1.5rem 0rem 0rem;
   position: relative;
   margin-top: 15svh;
-  padding-top: 5svh;
+  padding-top: 3svh;
 }
 
 .footerinfo {
   display: flex;
   flex-direction: column;
   gap: 10svw;
-  padding: 2rem;
+  padding: 2rem 1.5rem;
   box-sizing: border-box;
   justify-content: space-between;
 }
@@ -113,7 +113,7 @@
 .howtogethere {
   display: flex;
   flex-direction: row;
-  gap: 3svh;
+  gap: 4svh;
   width: 100%;
   height: 18svh;
 }
@@ -126,7 +126,7 @@
 }
 .quicklinks-footercontact{
   display: flex;
-  gap: 7svw;
+  gap: 10svw;
   width: 100%;
   height: 40svh;
   margin-top: 3svh;

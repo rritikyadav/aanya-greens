@@ -25,9 +25,9 @@
   margin-bottom: 5vh;
 }
 .mainpagegallerytext h1 {
-  font-family: "EduCursive", cursive;
-  font-size: 3.5rem;
-  font-weight: 5000;
+  font-family:playfair;
+  font-size: 3rem;
+  font-weight: 100;
   color: rgb(175, 148, 100);
 }
 
@@ -45,19 +45,18 @@
 }
 
 .mainpageaccomodationheading {
-  margin: 85vh 0vh 5vh 0vh;
+  margin: 90vh 0vh 5vh 0vh;
   text-align: center;
   font-size: 1.7rem;
 }
 .mainpageaccomodationheading h1 {
-  font-family: "EduCursive", cursive;
-  /* color: rgb(3, 45, 39); */
-  font-size: 4rem;
+  font-family: EduCursive, cursive;
+  margin-bottom: 1vh;
+  font-size: 3rem;
   font-weight: 5000;
 }
 .mainpageaccomodationheading p {
   font-size: 1.2rem;
-  /* color: rgb(175, 148, 100); */
   color: rgb(3, 45, 39);
   width: 80%;
   margin: auto;
@@ -121,9 +120,9 @@
 }
 .mainpageeventheading {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 2vh 0 5vh 0;
-  font-family: eduCursive, cursive;
+  font-family: playfair;
 }
 .mainpageeventinfo {
   margin: auto;
@@ -142,6 +141,11 @@
   align-items: center;
   gap: 15vh;
   color: rgb(218, 211, 211);
+}
+.eventlink{
+  color:rgb(250, 235, 215);
+  text-decoration: none;
+  border-bottom: rgb(250, 235, 215) 1px solid;
 }
 .eventimages {
   width: 46vw;
@@ -167,7 +171,7 @@
   .mainpagegallerysection {
     width: 99%;
     /* height: 71svh; */
-    padding: 1.5rem 0.1rem;
+    padding: 0.5rem 0.1rem;
     box-sizing: border-box;
     position: absolute;
     top: 75svh;
@@ -179,10 +183,7 @@
     margin-bottom: 2svh;
   }
   .mainpagegallerytext h1 {
-    font-family: "EduCursive", cursive;
-    font-size: 2rem;
-    font-weight: 5000;
-    color: rgb(175, 148, 100);
+    font-size: 1.8rem;
   }
   .mainpage-gallery-imagesection {
     display: grid;
@@ -202,8 +203,8 @@
     text-align: center;
   }
   .mainpageaccomodationheading h1 {
-    font-size: 3.5rem;
-    font-weight: 5000;
+    font-size: 2rem;
+    margin-bottom: 1svh;
   }
   .mainpageaccomodationheading p {
     font-size: 0.7rem;
@@ -261,9 +262,8 @@
 
   .mainpageeventheading {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1.8rem;
     margin: 2svh 0 3svh 0;
-    font-family: eduCursive, cursive;
   }
   .mainpageeventinfo {
     margin: auto;

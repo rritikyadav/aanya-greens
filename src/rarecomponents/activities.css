@@ -4,7 +4,8 @@
 }
 .activitiesheading h1 {
   font-family: eduCursive, cursive;
-  font-size: 5rem;
+  font-size: 3rem;
+  font-weight: 5000;
 }
 .activitiesheading p {
   font-size: 1.2rem;
@@ -61,7 +62,7 @@
   }
   .activitiesheading h1 {
     font-family: eduCursive, cursive;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bolder;
   }
   .activitiesheading p {

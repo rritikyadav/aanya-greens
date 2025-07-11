@@ -50,7 +50,7 @@ function App() {
     <>
       <ScrollToTop />
       <Navbar />
-      <Fixedsvg/>
+      <Fixedsvg />
 
       <div className="mainimg">
         {" "}
@@ -58,35 +58,35 @@ function App() {
       </div>
 
       <div className="mainpagegallerysection">
-      <div className="mainpagegallerytext">
-        <h1>Aravalli Views. Leopard Trails. One Unique Stay.</h1>
-      </div>
-      <div className="mainpage-gallery-imagesection">
-        <div className="mainpagegalleryimg">
-          <img src="./assets/main.jpg" alt="" />
+        <div className="mainpagegallerytext">
+          <h1>Leopard Trails. <span className="greenheading">Aravalli Views. </span>One Unique Stay.</h1>
         </div>
-        <div className="mainpagegalleryimg">
-          <img src="./assets/main.jpg" alt="" />
+        <div className="mainpage-gallery-imagesection">
+          <div className="mainpagegalleryimg">
+            <img src="./assets/main.jpg" alt="" />
+          </div>
+          <div className="mainpagegalleryimg">
+            <img src="./assets/main.jpg" alt="" />
+          </div>
+          <div className="mainpagegalleryimg">
+            <img src="./assets/main.jpg" alt="" />
+          </div>
+          <div className="mainpagegalleryimg">
+            <img src="./assets/main.jpg" alt="" />
+          </div>
+          <div className="mainpagegalleryimg">
+            <img src="./assets/main.jpg" alt="" />
+          </div>
+          <div className="mainpagegalleryimg">
+            <img src="./assets/main.jpg" alt="" />
+          </div>
         </div>
-        <div className="mainpagegalleryimg">
-          <img src="./assets/main.jpg" alt="" />
-        </div>
-        <div className="mainpagegalleryimg">
-          <img src="./assets/main.jpg" alt="" />
-        </div>
-        <div className="mainpagegalleryimg">
-          <img src="./assets/main.jpg" alt="" />
-        </div>
-        <div className="mainpagegalleryimg">
-          <img src="./assets/main.jpg" alt="" />
-        </div>
-      </div>
       </div>
 
       <div className="mainpageaccomodationheading">
-        <h1>Accomodations</h1>
+        <h1> Where You'll Be <span className="greenheading"> Staying</span>  </h1>
         <p>Experience serene comfort in every form — from cozy mud rooms to elegant glass suites.
-Choose from luxury suites, tent stays, or unwind by your private pool amidst nature.</p>
+          Choose from luxury suites, tent stays, or unwind by your private pool amidst nature.</p>
       </div>
 
       <div className="mainpageaccomodation">
@@ -94,8 +94,8 @@ Choose from luxury suites, tent stays, or unwind by your private pool amidst nat
           <Link
             to={box.link}
             key={box.id}
-            className={`mainpageAccomodationbox ${focusedIndex === i ? "focused" : focusedIndex !== null ? "shrunk" : "" }`}
-            
+            className={`mainpageAccomodationbox ${focusedIndex === i ? "focused" : focusedIndex !== null ? "shrunk" : ""}`}
+
             onMouseEnter={() => setFocusedIndex(i)}
             onMouseLeave={() => setFocusedIndex(null)}
           >
@@ -109,29 +109,29 @@ Choose from luxury suites, tent stays, or unwind by your private pool amidst nat
 
       <Wedding />
 
-          <div className="mainpageeventbox">
-      <div className="mainpageeventheading">Events</div>
-      <div className="mainpageeventinfo">
-        <div className="eventpara">
-          <p>
-            <b>Where Every Occasion Becomes a Grand Celebration —</b>
-            <br />
-            <br />
-            From <b>elegant weddings</b> , <b>corporate retreats</b> , and{" "}
-            <b>milestone birthdays</b> to <b>poolside soirées</b> ,{" "}
-            <b>bonfire evenings</b> , and enchanting <b>live music nights</b> .
-            we curate moments that matter. <br/><br/><b>Host your dream event in a setting of
-            timeless luxury and unmatched hospitality .</b>
-          </p>
-          <Link to="/event&activities" className="eventlink">
-            View More
-          </Link>
+      <div className="mainpageeventbox">
+        <div className="mainpageeventheading"> Tailored  <span className="whiteheading"> Events </span>  For You  </div>
+        <div className="mainpageeventinfo">
+          <div className="eventpara">
+            <p>
+              <b>Where Every Occasion Becomes a Grand Celebration —</b>
+              <br />
+              <br />
+              From <b>elegant weddings</b> , <b>corporate retreats</b> , and{" "}
+              <b>milestone birthdays</b> to <b>poolside soirées</b> ,{" "}
+              <b>bonfire evenings</b> , and enchanting <b>live music nights</b> .
+              we curate moments that matter. <br /><br /><b>Host your dream event in a setting of
+                timeless luxury and unmatched hospitality .</b>
+            </p>
+            <Link to="/event&activities" className="eventlink">
+              View More
+            </Link>
+          </div>
+          <div className="eventimages">
+            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/main.jpg" alt="" />
+          </div>
         </div>
-        <div className="eventimages">
-          <img src="./assets/main.jpg" alt="" />
-          <img src="./assets/main.jpg" alt="" />
-        </div>
-      </div>
       </div>
 
       <Activities />

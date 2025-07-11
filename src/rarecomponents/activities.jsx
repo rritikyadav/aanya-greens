@@ -5,7 +5,7 @@ function Activities() {
   return (
     <>
       <div className="activitiesheading">
-        <h1>Activities</h1>
+        <h1> Endless Fun <span className="greenheading"> Activities</span></h1>
         <p>
           From thrilling treks to cozy bonfires, every moment is made to be
           memorable. Enjoy pool games, cricket, badminton, volleyball, and
