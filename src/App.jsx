@@ -94,12 +94,8 @@ Choose from luxury suites, tent stays, or unwind by your private pool amidst nat
           <Link
             to={box.link}
             key={box.id}
-            className={`mainpageAccomodationbox ${focusedIndex === i
-                ? "focused"
-                : focusedIndex !== null
-                  ? "shrunk"
-                  : ""
-              }`}
+            className={`mainpageAccomodationbox ${focusedIndex === i ? "focused" : focusedIndex !== null ? "shrunk" : "" }`}
+            
             onMouseEnter={() => setFocusedIndex(i)}
             onMouseLeave={() => setFocusedIndex(null)}
           >

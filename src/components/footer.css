@@ -51,7 +51,9 @@
 .quicklinks a,.footercontact a {
   text-decoration: none;
 }
-
+.quicklinks a:hover , .quicklinks a.active{
+    color:rgb(211, 208, 208);
+}
 .footercontact {
   display: flex;
   flex-direction: column;
@@ -61,7 +63,7 @@
 }
 
 .footerlogo img {
-  margin-top: 5vh;
+  margin-top: 8vh;
   width: 15vw;
   aspect-ratio: 2/1;
 }
@@ -132,14 +134,14 @@
 .quicklinks {
   display: flex;
   flex-direction: column;
-  gap: 2svh;
+  gap: 3svh;
   width: 100%;
   height: 25svh;
 }
 .footercontact {
   display: flex;
   flex-direction: column;
-  gap: 2svh;
+  gap: 3svh;
   width: 100%;
   height: 25svh;
 }
@@ -157,7 +159,7 @@
   aspect-ratio: 2/1;
   align-self: center;
   border-radius: 0.5rem;
-  margin-top: 0vh;
+  margin-top: 5svh;
 }
 .footersocials {
   display: flex;

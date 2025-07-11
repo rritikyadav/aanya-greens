@@ -6,7 +6,7 @@ function Wedding() {
 
         <>
             <div className="weddingbox">
-                <div className="weddingheading"> Weddings By Aanya Greens</div>
+                <div className="weddingheading"> <p>विवाह</p> By Aanya Greens</div>
                 <div className="weddingimages">
                     <img className="verticalweddingimg" src="./assets/main.jpg" alt="" />
                     <img className="horizontalweddingimg" src="./assets/main.jpg" alt="" />

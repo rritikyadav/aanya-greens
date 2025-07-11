@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import { Link } from 'react-router-dom';
+import {NavLink , Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -16,12 +16,12 @@ function Footer() {
 
             <div className="quicklinks">
               <h3>Quick Links : </h3>
-              <Link to="/">&gt; &nbsp; Home</Link>
-              <Link to="/Accomodations">&gt; &nbsp; Accomodations</Link>
-              <Link to="/event&activities">&gt; &nbsp; Events  &  Activities</Link>
-              <Link to="/Gallery">&gt; &nbsp; Gallery</Link>
-              <Link to="/contactus">&gt; &nbsp; Contact us</Link>
-              <Link to="/aboutus">&gt; &nbsp; About us</Link>
+              <NavLink to="/">&gt; &nbsp; Home</NavLink>
+              <NavLink to="/Accomodations">&gt; &nbsp; Accomodations</NavLink>
+              <NavLink to="/event&activities">&gt; &nbsp; Events</NavLink>
+              <NavLink to="/Gallery">&gt; &nbsp; Gallery</NavLink>
+              <NavLink to="/contactus">&gt; &nbsp; Contact us</NavLink>
+              <NavLink to="/aboutus">&gt; &nbsp; About us</NavLink>
             </div>
             <div className="footercontact">
               <h3>Contact Info : </h3>

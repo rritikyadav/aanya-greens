@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import './navbar.css';
-import { Link } from "react-router-dom";
+import { NavLink , Link } from "react-router-dom";
 
 
 
@@ -23,12 +23,11 @@ function Navbar() {
 
   useEffect(() => {
     if (Shownavitem) {
-      document.body.style.overflow = 'hidden'; // Disable scroll
+      document.body.style.overflow = 'hidden'; 
     } else {
-      document.body.style.overflow = 'auto';   // Enable scroll
+      document.body.style.overflow = 'auto';  
     }
 
-    // Cleanup when component unmounts
     return () => {
       document.body.style.overflow = 'auto';
     };
@@ -39,23 +38,23 @@ function Navbar() {
     <>
       {isDesktop ? (
         <div className="nav">
-          <Link to="/">Home</Link>
-          <Link to="/Accomodations">Accomodations</Link>
-          <Link to="/Gallery">Gallery</Link>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/Accomodations">Accomodations</NavLink>
+          <NavLink to="/event&activities">Events</NavLink>
 
           <div className="logo">
-            <Link to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></Link>
+            <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>
           </div>
 
-          <Link to="/event&activities">Events &<br />Activities</Link>
-          <Link to="/contactus">Contact</Link>
-          <Link to="/aboutus">About</Link>
+          <NavLink to="/Gallery">E-Gallery</NavLink>
+          <NavLink to="/contactus">Contact</NavLink>
+          <NavLink to="/aboutus">About</NavLink>
         </div>
       ) : (
         <>
           <div className="mobile-nav">
             <div className="mobile-logo">
-              <Link to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></Link>
+              <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>
             </div>
             <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/hamburger.svg" alt="" /></div>
 
@@ -64,16 +63,16 @@ function Navbar() {
             <div className={`navlinks  ${Shownavitem ? 'show' : 'hide'}`}>
 
               <div className="navlinks-logo-icon">
-                <div className="mobile-logo"><Link to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></Link> </div>
+                <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink> </div>
                 <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
               </div>
 
-              <Link onClick={toggleNavItems} to="/">Home</Link>
-              <Link onClick={toggleNavItems} to="/Accomodations">Accomodations</Link>
-              <Link onClick={toggleNavItems} to="/Gallery">Gallery</Link>
-              <Link onClick={toggleNavItems} to="/event&activities">Events & Activities</Link>
-              <Link onClick={toggleNavItems} to="/contactus">Contact</Link>
-              <Link onClick={toggleNavItems} to="/aboutus">About</Link>
+              <NavLink onClick={toggleNavItems} to="/">Home</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Accomodations">Accomodations</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Gallery">E-Gallery</NavLink>
+              <NavLink onClick={toggleNavItems} to="/event&activities">Events</NavLink>
+              <NavLink onClick={toggleNavItems} to="/contactus">Contact</NavLink>
+              <NavLink onClick={toggleNavItems} to="/aboutus">About</NavLink>
 
 
               <div className="navcontactnumber">

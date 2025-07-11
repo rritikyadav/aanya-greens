@@ -4,12 +4,21 @@
   font-weight: bold;
   font-style: normal;
 }
-*{
-  margin: 0;padding: 0;
+@font-face {
+  font-family: 'kalam';
+  src: url('fonts/Kalam-Regular.ttf') format('truetype');
 }
-body {
-  background-color: rgb(18, 18, 18) !important;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cinzel, serif;
+  scrollbar-width: none;
+  color: rgb(175, 148, 100);
 }
+
 body{
   background-color: white !important;
+  overflow-x: hidden !important;
 }
