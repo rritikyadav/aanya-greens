@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   padding-left: 2.5rem;
+  box-sizing: border-box;
   width: 48vw;
   height: 30vh;
 }
@@ -122,7 +123,8 @@
   gap: 2svh;
   justify-content: center;
   align-items: center;
-  padding-left: 1.5rem;
+  padding-left: 0.8rem;
+  box-sizing: border-box;
   width: 98%;
   height: 22svh;
 }
