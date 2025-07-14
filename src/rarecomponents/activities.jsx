@@ -29,6 +29,10 @@ function Activities() {
           <img src="./assets/main.jpg" alt="" />
           <h1>Kids Activities</h1>
         </div>
+        <div className="activities activity5">
+          <img src="./assets/main.jpg" alt="" />
+          <h1>Outdoor Sports</h1>
+        </div>
       </div>
     </>
   );
