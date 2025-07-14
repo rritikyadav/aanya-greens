@@ -17,9 +17,9 @@ function Footer() {
             <div className="quicklinks">
               <h3>Quick Links : </h3>
               <NavLink to="/">&gt; &nbsp; Home</NavLink>
-              <NavLink to="/Accomodations">&gt; &nbsp; Accomodations</NavLink>
+              <NavLink to="/Accomodations">&gt; &nbsp; Accommodations</NavLink>
               <NavLink to="/event&activities">&gt; &nbsp; Events</NavLink>
-              <NavLink to="/Gallery">&gt; &nbsp; Gallery</NavLink>
+              <NavLink to="/Gallery">&gt; &nbsp; E-Gallery</NavLink>
               <NavLink to="/contactus">&gt; &nbsp; Contact us</NavLink>
               <NavLink to="/aboutus">&gt; &nbsp; About us</NavLink>
             </div>

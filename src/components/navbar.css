@@ -22,23 +22,13 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   font-weight: 500;
+  font-family:playfair;
 }
 .nav a:hover,
 .nav a.active {
   color: rgb(3, 45, 39);
   border-bottom: 1px solid rgb(3, 45, 39);
 }
-/* .navbtn{
-  color: rgb(175, 148, 100) !important;
-  background-color: rgb(3, 45, 39) !important;
-  text-decoration: none;
-  font-size: 1rem;
-  font-family: playfair;
-  font-weight: 100;
-  padding: 0.5rem 1rem;
-  border:1px solid rgb(175, 148, 100) !important;
-  border-radius: 2rem 0rem 2rem 0rem;
-} */
 .logo {
   align-self: center;
   margin: 0vw 20vw 0vw 20vw;
@@ -107,6 +97,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-weight: 200;
+  font-family:playfair;
 }
 .navlinks a.active {
   color: rgb(3, 45, 39);

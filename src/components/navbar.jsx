@@ -38,18 +38,18 @@ function Navbar() {
     <>
       {isDesktop ? (
         <div className="nav">
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/Accomodations">Accomodations</NavLink>
-          <NavLink to="/event&activities">Events</NavLink>
+          <NavLink to="/">HOME</NavLink>
+          <NavLink to="/Accomodations">ACCOMMODATIONS</NavLink>
+          <NavLink to="/event&activities">EVENTS</NavLink>
           {/* <NavLink className="navbtn" to="#">9999585757</NavLink> */}
 
           <div className="logo">
             <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>
           </div>
 
-          <NavLink to="/Gallery">E-Gallery</NavLink>
-          <NavLink to="/contactus">Contact</NavLink>
-          <NavLink to="/aboutus">About</NavLink>
+          <NavLink to="/Gallery">E-GALLERY</NavLink>
+          <NavLink to="/contactus">CONTACT</NavLink>
+          <NavLink to="/aboutus">ABOUT</NavLink>
         </div>
       ) : (
         <>
@@ -68,12 +68,12 @@ function Navbar() {
                 <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
               </div>
 
-              <NavLink onClick={toggleNavItems} to="/">Home</NavLink>
-              <NavLink onClick={toggleNavItems} to="/Accomodations">Accomodations</NavLink>
-              <NavLink onClick={toggleNavItems} to="/event&activities">Events</NavLink>
-              <NavLink onClick={toggleNavItems} to="/Gallery">E-Gallery</NavLink>
-              <NavLink onClick={toggleNavItems} to="/contactus">Contact</NavLink>
-              <NavLink onClick={toggleNavItems} to="/aboutus">About</NavLink>
+              <NavLink onClick={toggleNavItems} to="/">HOME</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Accomodations">ACCOMMODATIONS</NavLink>
+              <NavLink onClick={toggleNavItems} to="/event&activities">EVENTS</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Gallery">E-GALLERY</NavLink>
+              <NavLink onClick={toggleNavItems} to="/contactus">CONTACT</NavLink>
+              <NavLink onClick={toggleNavItems} to="/aboutus">ABOUT</NavLink>
 
 
               <div className="navcontactnumber">
