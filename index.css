@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'EduCursive';
-  src: url('./fonts/PinyonScript-Regular.ttf') format('truetype');
+  src: url('fonts/PinyonScript-Regular.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'kalam';
-  src: url('./fonts/Kalam-Regular.ttf') format('truetype');
+  src: url('fonts/Kalam-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'playfair';
-  src: url('./fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+  src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
 }
 @font-face {
   font-family: 'parisienne';
-  src: url('./fonts/Parisienne-Regular.ttf') format('truetype');
+  src: url('fonts/Parisienne-Regular.ttf') format('truetype');
 }
 
 * {
