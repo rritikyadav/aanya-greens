@@ -12,6 +12,10 @@
   font-family: 'parisienne';
   src: url('/fonts/Parisienne-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'gloock';
+  src: url('/fonts/Gloock-Regular.ttf') format('truetype');
+}
 
 * {
   margin: 0;

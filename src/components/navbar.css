@@ -15,14 +15,13 @@
 .nav a {
   color: rgb(175, 148, 100);
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 100;
+  font-size: 0.9rem;
   border-bottom: 1px solid transparent;
   transition: color 0.4s ease-in-out, border-bottom-color 0.3s ease-in-out;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-weight: 500;
-  font-family:playfair;
+  font-weight: 700;
+  font-family:gloock;
 }
 .nav a:hover,
 .nav a.active {
@@ -96,7 +95,7 @@
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: bold;
   font-family:playfair;
 }
 .navlinks a.active {
