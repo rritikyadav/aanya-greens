@@ -53,8 +53,7 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        {" "}
-        <img src="./assets/main.jpg" alt="ritik" />
+       <video src="./assets/mainvideo.mp4" autoPlay mated loop controls></video>
       </div>
 
       <div className="mainpagegallerysection">
