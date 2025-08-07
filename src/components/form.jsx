@@ -12,8 +12,7 @@ function Form() {
 
   const handleChange = (e) => {
     setformData({
-      ...FormData,
-      [e.target.name] : e.target.value
+      ...FormData,[e.target.name] : e.target.value
     });
 
   };

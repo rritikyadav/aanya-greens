@@ -23,6 +23,7 @@ function Footer() {
               <NavLink to="/contactus">&gt; &nbsp; Contact us</NavLink>
               <NavLink to="/aboutus">&gt; &nbsp; About us</NavLink>
             </div>
+
             <div className="footercontact">
               <h3>Contact Info : </h3>
               <Link to="/#">&gt; &nbsp; 9999785857</Link>
@@ -43,7 +44,7 @@ function Footer() {
           </div>
         </div>
         <div className="copyright">
-          <p>copyright &copy; 2025 Aanya Greens | All Rights Reserved .</p>
+          <p>copyright &copy; 2025 Aanya Greens Farmhouses And Resorts | All Rights Reserved .</p>
         </div>
       </div>
     </>

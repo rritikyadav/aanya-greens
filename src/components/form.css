@@ -4,9 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5vh;
-  margin-top: 15vh;
-  /* background-color: rgb(175, 148, 100); */
+  gap: 3vw;
   background-color: rgb(3, 45, 39);
   border-radius: 0.5rem;
   width: 90%;
@@ -36,11 +34,12 @@
     "item5 item5 item6 item6";
   gap: 0.5vw;
   margin: auto;
+  align-content: center;
 }
 .forminput input {
   background-color: transparent;
   color: rgb(175, 148, 100);
-  padding: 1rem;
+  padding: 1rem 1rem 0.4rem 1rem;
   border-radius: 0.5rem;
   border: none;
   outline: none;
@@ -63,7 +62,7 @@
 }
 
 .form-specific-details {
-  height: 8vh;
+  height: 4vw;
   grid-area: item5;
 }
 #booknow {
@@ -71,10 +70,11 @@
   color: white;
   font-weight: bold;
   width: 15vw !important;
-  height: 6vh;
+  height: 3vw;
   cursor: pointer;
-  margin: auto;
   grid-area: item6;
+  align-self: self-end;
+  justify-self: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -122,14 +122,14 @@
   }
 
   .forminput input {
-    width:99%;
+    width: 99%;
     padding: 1rem;
     box-sizing: border-box;
     border-radius: 0.5rem;
     border: none;
     outline: none;
     border-bottom: 1px solid rgb(175, 148, 100);
-    margin-bottom:1svh;
+    margin-bottom: 1svh;
   }
   .form-specific-details {
     height: 12svh;
@@ -142,5 +142,36 @@
     cursor: pointer;
     margin: 2svh auto 0svh auto;
     grid-area: item6;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .formstart {
+    width: 98%;
+    margin: auto;
+    padding: 1rem 1rem 2rem 1rem;
+    box-sizing: border-box;
+  }
+  .formheading {
+    gap: 0.5vw;
+  }
+  .forminput {
+    width: 100%;
+  }
+  .forminput form {
+    grid-template-areas:
+      "item1 item2 item3"
+      "item4 item5 item5"
+      "item6 item6 item6";
+    gap: 1.5vw;
+  }
+  .form-specific-details {
+    height: 4vw;
+  }
+  #booknow {
+    width: 30vw !important;
+    height: 4vw;
+    margin-top: 2vw;
+    padding-bottom:1.7rem;
   }
 }

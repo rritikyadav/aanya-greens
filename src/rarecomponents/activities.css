@@ -1,12 +1,11 @@
 .activitiesheading {
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 7vw;
 }
 .activitiesheading h1 {
   font-family: parisienne;
   font-size: 3rem;
   font-weight: 5000;
-  margin-bottom: 1vh;
   letter-spacing: 0.05em;
   word-spacing: 0.08em;
 }
@@ -18,8 +17,8 @@
 }
 .activitiesbox {
   width: 95%;
-  height: 78vh;
-  margin: 5vh auto 10vh auto;
+  height: 40vw;
+  margin: 3vw auto 7vw auto;
   display: flex;
   gap: 1vw;
   justify-content: center;
@@ -27,8 +26,7 @@
 
 .activities {
   width: 19%;
-  height: 70vh;
- border-radius: 2rem;
+  height: 35vw;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -43,7 +41,7 @@
 }
 .activities h1 {
   position: absolute;
-  bottom: 0.5vh;
+  bottom: 0vw;
   width: 100%;
   text-align: center;
   color: white;
@@ -112,5 +110,30 @@
     box-sizing: border-box;
     font-size: 1.7rem;
     font-weight: bolder;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .activitiesheading {
+    margin-top: 10vw;
+  }
+  .activitiesheading p {
+    font-size: 1rem;
+    width: 95%;
+  }
+  .activitiesbox {
+    width: 99%;
+    height: 50vw;
+    gap: 0.5vw;
+    margin: 5vw auto 10vw auto;
+  }
+
+  .activities {
+    width: 19.5%;
+    height: 45vw;
+  }
+  .activities h1 {
+    padding: 0.5rem;
+    font-size: 1.5rem;
   }
 }

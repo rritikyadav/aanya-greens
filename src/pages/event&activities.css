@@ -10,11 +10,11 @@
   width: 80%;
   height: 0.2vh;
   background-color: rgb(218, 211, 211);
-  margin: 2vh auto;
+  margin: 2vh auto 10vh auto;
   border-radius: 2rem;
 }
 .eventbox {
-  margin: 10vh auto 20vh auto;
+  margin: 5vh auto 10vh auto;
   display: flex;
   gap: 4vw;
   width: 80vw;
@@ -63,7 +63,7 @@
     font-size: 1.8rem;
   }
   .eventmiddleline {
-    width: 80%;
+    width: 90%;
     height: 0.2svh;
     background-color: rgb(218, 211, 211);
     margin: 4svh auto 10svh auto;
@@ -101,11 +101,12 @@
   }
 
   .eventboximg {
-    width: 100%;
+    width: 98%;
     display: flex;
     flex-direction: column;
     gap: 0.3svh;
     height: 51svh;
+    margin: auto;
     /* background-color: yellow; */
   }
 
@@ -116,5 +117,44 @@
   }
   .eventboximg img:last-child {
     align-self: flex-end;
+  }
+}
+
+@media screen and (min-width:500px) and (max-width:768px){
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .eventheading {
+    margin-top: 10vh;
+  }
+  .eventbox {
+    margin: 5vh auto 10vh auto;
+    gap: 5%;
+    width: 90%;
+  }
+  .eventmiddleline {
+    width: 90%;
+    height: 0.2vh;
+    background-color: rgb(218, 211, 211);
+    margin: 2vh auto 10vh auto;
+    border-radius: 2rem;
+  }
+
+  .eventboxinfo {
+    width: 50%;
+  }
+  .eventboxinfo h1 {
+    font-size: 3rem;
+  }
+  .eventboximg {
+    width: 45%;
+    display: flex;
+    gap: 1%;
+    height: 60vh;
+  }
+  .eventboximg img {
+    width: 49.5%;
+    height: 50vh;
   }
 }

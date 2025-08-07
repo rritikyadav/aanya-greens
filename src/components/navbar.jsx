@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import './navbar.css';
-import { NavLink , Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 
 
@@ -23,9 +23,9 @@ function Navbar() {
 
   useEffect(() => {
     if (Shownavitem) {
-      document.body.style.overflow = 'hidden'; 
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = 'auto';  
+      document.body.style.overflow = 'auto';
     }
 
     return () => {
@@ -38,18 +38,21 @@ function Navbar() {
     <>
       {isDesktop ? (
         <div className="nav">
-          <NavLink to="/">HOME</NavLink>
-          <NavLink to="/Accomodations">ACCOMMODATIONS</NavLink>
-          <NavLink to="/event&activities">EVENTS</NavLink>
-          {/* <NavLink className="navbtn" to="#">9999585757</NavLink> */}
+          <div className="Navleft">
+            <NavLink to="/">HOME</NavLink>
+            <NavLink to="/Accomodations">ACCOMMODATIONS</NavLink>
+            <NavLink to="/event&activities">EVENTS</NavLink>
+          </div>
 
           <div className="logo">
             <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>
           </div>
 
-          <NavLink to="/Gallery">E-GALLERY</NavLink>
-          <NavLink to="/contactus">CONTACT</NavLink>
-          <NavLink to="/aboutus">ABOUT</NavLink>
+          <div className="Navright">
+            <NavLink to="/Gallery">E-GALLERY</NavLink>
+            <NavLink to="/contactus">CONTACT</NavLink>
+            <NavLink to="/aboutus">ABOUT</NavLink>
+          </div>
         </div>
       ) : (
         <>
@@ -82,7 +85,7 @@ function Navbar() {
               </div>
 
             </div>
-            
+
           </div>
         </>
       )
