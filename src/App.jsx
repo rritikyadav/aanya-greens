@@ -12,31 +12,31 @@ import Fixedsvg from "./components/fixedsvg.jsx";
 const AccomodationBoxes = [
   {
     id: 1,
-    image: "./assets/main.jpg",
+    image: "./assets/mudroom.jpeg",
     text: "Mud Room",
     link: "/Accomodations",
   },
   {
     id: 2,
-    image: "./assets/main.jpg",
+    image: "./assets/common.jpeg",
     text: "Luxury Suites",
     link: "/Accomodations",
   },
   {
     id: 3,
-    image: "./assets/main.jpg",
+    image: "./assets/tent.jpeg",
     text: "Tent Suites",
     link: "/Accomodations",
   },
   {
     id: 4,
-    image: "./assets/main.jpg",
+    image: "./assets/glassroom.jpeg",
     text: "Glass Room",
     link: "/Accomodations",
   },
   {
     id: 5,
-    image: "./assets/main.jpg",
+    image: "./assets/pool.jpeg",
     text: "Open-Air Pool",
     link: "/Accomodations",
   },
@@ -53,7 +53,7 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-       <video src="./assets/mainvideo.mp4" autoPlay mated loop controls></video>
+       <video src="./assets/mainvideo.mp4" autoPlay muted loop></video>
       </div>
 
       <div className="mainpagegallerysection">
@@ -62,22 +62,22 @@ function App() {
         </div>
         <div className="mainpage-gallery-imagesection">
           <div className="mainpagegalleryimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/tent.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/pool.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/common.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/room.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/nightpool.jpeg" alt="" />
           </div>
         </div>
       </div>

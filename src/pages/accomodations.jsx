@@ -35,7 +35,7 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-mainimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
             <img src="./assets/main.jpg" alt="" />
@@ -85,13 +85,13 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/room.jpeg" alt="" />
+            <img src="./assets/bathroom.jpeg" alt="" />
+            <img src="./assets/bathroom.jpeg" alt="" />
+            <img src="./assets/room.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/common.jpeg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -134,7 +134,7 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-mainimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/tent.jpeg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
             <img src="./assets/main.jpg" alt="" />
@@ -190,7 +190,7 @@ function Accomodations() {
             <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/glassroom.jpeg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -240,7 +240,7 @@ function Accomodations() {
             <img src="./assets/main.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/pool.jpeg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">

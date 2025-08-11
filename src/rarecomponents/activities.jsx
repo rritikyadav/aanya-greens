@@ -14,7 +14,7 @@ function Activities() {
       </div>
       <div className="activitiesbox">
         <div className="activities activity1">
-          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/trekking.jpeg" alt="" />
           <h1>Trekking</h1>
         </div>
         <div className="activities activity2">

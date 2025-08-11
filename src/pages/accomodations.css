@@ -51,16 +51,15 @@
   border-radius: 2rem;
   display: flex;
   gap: 1vw;
-  /* background-color: white; */
 }
 .accomodationbox-mainimg {
   width: 39.5vw;
-  /* background-color: yellow; */
 }
 .accomodationbox-mainimg img {
   width: 39.5vw;
   height: 50vh;
   border-radius: 2rem;
+  object-fit: cover;
 }
 
 .accomodationbox-sideimg {
@@ -74,6 +73,7 @@
   width: 19.5vw;
   height: 24vh;
   border-radius: 2rem;
+  object-fit: cover;
 }
 
 .accomodationbox-svgs {

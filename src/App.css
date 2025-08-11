@@ -1,13 +1,15 @@
 .mainimg {
   width: 100%;
-  height: 99vh;
-  border-radius: 2rem;
+  height: 90vh;
+  border-radius: 2rem 2rem 0rem 0rem;
+  overflow: hidden;
 }
 
 .mainimg video {
   width: 100%;
   height: 100%;
   border-radius: 2rem 2rem 0 0;
+  object-fit: cover;
 }
 
 .mainpagegallerysection {
@@ -47,15 +49,17 @@
   width: 100%;
   height: 38vh;
   border-radius: 1rem;
+  overflow: hidden;
 }
 .mainpagegalleryimg img {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
+  object-fit:cover;
 }
 
 .mainpageaccomodationheading {
-  margin: 92vh 0vh 5vh 0vh;
+  margin: 100vh 0vh 5vh 0vh;
   text-align: center;
   font-size: 1.7rem;
 }
