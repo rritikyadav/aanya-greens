@@ -68,7 +68,7 @@ function App() {
             <img src="./assets/pool.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/mudroom.jpeg" alt="" />
+            <img style={{objectPosition:"top"}} src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
             <img src="./assets/common.jpeg" alt="" />
