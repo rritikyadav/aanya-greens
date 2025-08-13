@@ -62,7 +62,7 @@ function App() {
         </div>
         <div className="mainpage-gallery-imagesection">
           <div className="mainpagegalleryimg">
-            <img src="./assets/tent.jpeg" alt="" />
+            <img src="./assets/bhole.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
             <img src="./assets/pool.jpeg" alt="" />
@@ -74,10 +74,10 @@ function App() {
             <img src="./assets/common.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/room.jpeg" alt="" />
+            <img src="./assets/mainimg2.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/nightpool.jpeg" alt="" />
+            <img src="./assets/mainimg1.jpeg" alt="" />
           </div>
         </div>
       </div>

@@ -35,7 +35,7 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-mainimg">
-            <img src="./assets/mudroom.jpeg" alt="" />
+            <img style={{objectPosition: "top"}}  src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
             <img src="./assets/main.jpg" alt="" />
@@ -85,10 +85,10 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./assets/room.jpeg" alt="" />
-            <img src="./assets/bathroom.jpeg" alt="" />
-            <img src="./assets/bathroom.jpeg" alt="" />
-            <img src="./assets/room.jpeg" alt="" />
+            <img src="./assets/room1.jpeg" alt="" />
+            <img style={{objectPosition: "right"}}  src="./assets/bathroom1.jpeg" alt="" />
+            <img style={{objectPosition: "right"}}  src="./assets/bathroom2.jpeg" alt="" />
+            <img src="./assets/room2.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
             <img src="./assets/common.jpeg" alt="" />

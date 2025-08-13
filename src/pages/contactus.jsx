@@ -14,7 +14,7 @@ function Contactus() {
             <Navbar />
             <Fixedsvg/>
 
-            <div className="contactus-main-imagesection"><img src="./assets/main.jpg" alt="" /></div>
+            <div className="contactus-main-imagesection"><img src="./assets/contactimg.png" alt="" /></div>
 
             <div className="contact-info">
 

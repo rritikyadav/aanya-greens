@@ -59,7 +59,7 @@ function AboutUs() {
                             />
                             <Amenities
                                 image={"./assets/svgs/amenitiesac.svg"}
-                                text={"Air Condetioning"}
+                                text={"Air Condentioning"}
                             />
                             <Amenities
                                 image={"./assets/svgs/first-aidkit.svg"}
@@ -75,8 +75,8 @@ function AboutUs() {
                     <div className="check-in-out">
                         <h3 className="h3">Check-In and Check-out policies</h3>
                         <ul>
-                            <li>Check-in : 4:00 PM</li>
-                            <li>Check-out : 10:00 AM</li>
+                            <li>Check-in : 2:00 PM</li>
+                            <li>Check-out : 11:00 AM</li>
                         </ul>
                     </div>
                     <div className="aboutus-separationline"></div>
