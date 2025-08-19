@@ -1,7 +1,7 @@
 import React from "react";
 import "./accomodations.css";
 import Navbar from "../components/navbar.jsx";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/Footer.jsx";
 import ScrollToTop from "../rarecomponents/scrolltotop.jsx";
 import Fixedsvg from "../components/fixedsvg.jsx";
 
@@ -38,10 +38,10 @@ function Accomodations() {
             <img style={{objectPosition: "top"}}  src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/mudroom4.jpeg" alt="" />
+            <img src="./assets/mudroom3.jpeg" alt="" />
+            <img src="./assets/mudroom2.jpeg" alt="" />
+            <img src="./assets/mudroom1.jpeg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -137,10 +137,10 @@ function Accomodations() {
             <img src="./assets/tent.jpeg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/tent1.jpeg" alt="" />
+            <img src="./assets/tent2.jpeg" alt="" />
+            <img src="./assets/tent3.jpeg" alt="" />
+            <img src="./assets/tent4.jpeg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -184,13 +184,13 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/glassroom.jpeg" alt="" />
+            <img src="./assets/glassroom2.jpeg" alt="" />
+            <img style={{objectPosition:"bottom"}} src="./assets/glassroom4.jpeg" alt="" />
+            <img style={{objectPosition:"bottom"}} src="./assets/glassroom3.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./assets/glassroom.jpeg" alt="" />
+            <img src="./assets/glassroom1.jpeg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -234,10 +234,10 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/pool1.jpeg" alt="" />
+            <img src="./assets/pool2.jpeg" alt="" />
+            <img style={{objectPosition:"bottom"}} src="./assets/pool3.jpeg" alt="" />
+            <img src="./assets/pool4.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
             <img src="./assets/pool.jpeg" alt="" />

@@ -30,7 +30,7 @@ const AccomodationBoxes = [
   },
   {
     id: 4,
-    image: "./assets/glassroom.jpeg",
+    image: "./assets/glassroom1.jpeg",
     text: "Glass Room",
     link: "/Accomodations",
   },
@@ -127,7 +127,7 @@ function App() {
             </Link>
           </div>
           <div className="eventimages">
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/birthday1.jpeg" alt="" />
             <img src="./assets/main.jpg" alt="" />
           </div>
         </div>

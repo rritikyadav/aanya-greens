@@ -42,6 +42,7 @@
   display: flex;
   gap: 1vw;
   height: 60vh;
+  object-fit: cover;
 }
 
 .eventboximg img {

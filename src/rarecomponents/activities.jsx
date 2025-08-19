@@ -18,19 +18,19 @@ function Activities() {
           <h1>Trekking</h1>
         </div>
         <div className="activities activity2">
-          <img src="./assets/main.jpg" alt="" />
-          <h1>Bon-Fire</h1>
+          <img src="./assets/bonfire.jpeg" alt="" />
+          <h1>Bon-Fire Place</h1>
         </div>
         <div className="activities activity3">
-          <img src="./assets/main.jpg" alt="" />
-          <h1>Pool Volleyball</h1>
+          <img src="./assets/poolparty2.jpeg" alt="" />
+          <h1>Pool Games</h1>
         </div>
         <div className="activities activity4">
-          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/kidsactivity.jpeg" alt="" />
           <h1>Kids Activities</h1>
         </div>
         <div className="activities activity5">
-          <img src="./assets/main.jpg" alt="" />
+          <img src="./assets/outdoorsports.jpeg" alt="" />
           <h1>Outdoor Sports</h1>
         </div>
       </div>
