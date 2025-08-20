@@ -41,7 +41,7 @@ function Navbar() {
           <div className="Navleft">
             <NavLink to="/">HOME</NavLink>
             <NavLink to="/Accomodations">ACCOMMODATIONS</NavLink>
-            <NavLink to="/event&activities">EVENTS</NavLink>
+            <NavLink to="/Events">EVENTS</NavLink>
           </div>
 
           <div className="logo">
@@ -49,39 +49,38 @@ function Navbar() {
           </div>
 
           <div className="Navright">
-            <NavLink to="/Gallery">E-GALLERY</NavLink>
-            <NavLink to="/contactus">CONTACT</NavLink>
-            <NavLink to="/aboutus">ABOUT</NavLink>
+            <NavLink to="/E-Gallery">E-GALLERY</NavLink>
+            <NavLink to="/Contact">CONTACT</NavLink>
+            <NavLink to="/About">ABOUT</NavLink>
           </div>
         </div>
       ) : (
         <>
           <div className="mobile-nav">
-            <div className="mobile-logo">
-              <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>
-            </div>
+           <div className="mobile-fixed-svg"><Link to="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></Link></div>
+            <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink></div>
             <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/hamburger.svg" alt="" /></div>
-
 
 
             <div className={`navlinks  ${Shownavitem ? 'show' : 'hide'}`}>
 
               <div className="navlinks-logo-icon">
+                <div className="mobile-fixed-svg"><Link to="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></Link></div>
                 <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink> </div>
                 <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
               </div>
 
               <NavLink onClick={toggleNavItems} to="/">HOME</NavLink>
               <NavLink onClick={toggleNavItems} to="/Accomodations">ACCOMMODATIONS</NavLink>
-              <NavLink onClick={toggleNavItems} to="/event&activities">EVENTS</NavLink>
-              <NavLink onClick={toggleNavItems} to="/Gallery">E-GALLERY</NavLink>
-              <NavLink onClick={toggleNavItems} to="/contactus">CONTACT</NavLink>
-              <NavLink onClick={toggleNavItems} to="/aboutus">ABOUT</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Events">EVENTS</NavLink>
+              <NavLink onClick={toggleNavItems} to="/E-Gallery">E-GALLERY</NavLink>
+              <NavLink onClick={toggleNavItems} to="/Contact">CONTACT</NavLink>
+              <NavLink onClick={toggleNavItems} to="/About">ABOUT</NavLink>
 
 
               <div className="navcontactnumber">
-                <img src="./assets/svgs/phone.svg" alt="" />
-                <p><Link to="#">9999785857</Link> , <Link to="#" >9999785857</Link></p>
+                <img src="./assets/svgs/phone-call.png" alt="" />
+                <p><Link to="tel:+917838381836">Call Us : 7838381836</Link></p>
               </div>
 
             </div>

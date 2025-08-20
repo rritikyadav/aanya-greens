@@ -6,13 +6,13 @@ import Footer from "./components/Footer.jsx";
 import { Link } from "react-router-dom";
 import ScrollToTop from "./rarecomponents/scrolltotop.jsx";
 import Activities from "./rarecomponents/activities.jsx";
-import Wedding from "./rarecomponents/wedding.jsx";
+// import Wedding from "./rarecomponents/wedding.jsx";
 import Fixedsvg from "./components/fixedsvg.jsx";
 
 const AccomodationBoxes = [
   {
     id: 1,
-    image: "./assets/mudroom.jpeg",
+    image: "./assets/mobile-mudroom.jpeg",
     text: "Mud Room",
     link: "/Accomodations",
   },
@@ -62,16 +62,16 @@ function App() {
         </div>
         <div className="mainpage-gallery-imagesection">
           <div className="mainpagegalleryimg">
-            <img src="./assets/bhole.jpeg" alt="" />
-          </div>
-          <div className="mainpagegalleryimg">
             <img src="./assets/pool.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img style={{ objectPosition: "top" }} src="./assets/mudroom.jpeg" alt="" />
+            <img src="./assets/pool1.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
-            <img src="./assets/common.jpeg" alt="" />
+            <img src="./assets/bhole.jpeg" alt="" />
+          </div>
+          <div className="mainpagegalleryimg">
+            <img src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
             <img src="./assets/mainimg2.jpeg" alt="" />
@@ -106,7 +106,7 @@ function App() {
         ))}
       </div>
 
-      <Wedding />
+      {/* <Wedding /> */}
 
       <div className="mainpageeventbox">
         <div className="mainpageeventheading"> Tailored  <span className="whiteheading"> Events </span>  For You  </div>
@@ -122,13 +122,13 @@ function App() {
               we curate moments that matter. <br /><br /><b>Host your dream event in a setting of
                 timeless luxury and unmatched hospitality .</b>
             </p>
-            <Link to="/event&activities" className="eventlink">
+            <Link to="/Events" className="eventlink">
               View More
             </Link>
           </div>
           <div className="eventimages">
             <img src="./assets/birthday1.jpeg" alt="" />
-            <img src="./assets/main.jpg" alt="" />
+            <img src="./assets/corporate1.jpeg" alt="" />
           </div>
         </div>
       </div>

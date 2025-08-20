@@ -15,13 +15,13 @@ const router = createHashRouter([
   
   {path: '/Accomodations', element: <Accomodations/>},
 
-  {path:'/event&activities', element:<EventsActivities/>},
+  {path:'/Events', element:<EventsActivities/>},
   
-  {path: '/contactus', element: <Contactus />},
+  {path: '/Contact', element: <Contactus />},
   
-  {path: '/gallery', element: <Gallery/>},
+  {path: '/E-Gallery', element: <Gallery/>},
 
-  {path: '/aboutus', element: <AboutUs/>}
+  {path: '/About', element: <AboutUs/>}
 
 ]);
 

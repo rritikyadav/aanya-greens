@@ -100,7 +100,7 @@
   cursor: pointer;
 }
 .mainpageAccomodationbox:nth-child(1) img{
-  object-position: top left;
+  object-position: bottom;
 }
 
 .mainpageaccomodationtext {
@@ -131,6 +131,7 @@
 }
 
 .mainpageeventbox {
+  margin-top:10vh !important;
   background-color: rgb(3, 45, 39);
   width: 98%;
   margin: auto;
@@ -261,6 +262,9 @@
     cursor: pointer;
     border-radius: 0;
   }
+  .mainpageAccomodationbox:nth-child(1) img{
+  object-fit: cover !important;
+}
 
   .mainpageaccomodationtext {
     position: absolute;
@@ -336,7 +340,7 @@
   }
 }
 
-@media screen and (min-width: 550px) and (max-width: 768px) {
+@media screen and (min-width: 551px) and (max-width: 768px) {
   .mainimg {
     height: 80vw;
   }
@@ -431,7 +435,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1080px) {
+@media screen and (min-width: 769px) and (max-width: 1080px) {
   .mainimg {
     height: 95vh;
   }

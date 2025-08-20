@@ -1,176 +1,305 @@
-
-.contactus-main-imagesection{
-    height:60vh;
-    width:100%;
+.contactus-main-imagesection {
+  height: 60vh;
+  width: 100%;
 }
 
-.contactus-main-imagesection img{
-    width:100%;
-    height:100%;
-    border-radius: 2rem;
-    object-fit: cover;
-    object-position: bottom;
+.contactus-main-imagesection img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+  object-position: top left;
 }
 
-.contact-info{ 
-    /* background-color: white; */
-    background-color: rgb(3,45,39);
-    height:50vh;
-    width:70%;
-    position:absolute;
-    top:62vh;
-    left:14vw;
-    border-radius: 2rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:3vw;
+.contact-info {
+  background-color: rgb(3, 45, 39);
+  height: 50vh;
+  width: 70%;
+  position: absolute;
+  top: 70vh;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1vw;
 }
 
-.contactcard{
-    height:35vh;
-    width:20vw;
-    border-radius: 2rem;
-    margin:auto;
+.contactcard {
+  height: 35vh;
+  width: 100%;
+  border-radius: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
 }
-.contactcard h1{
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+.contactcard h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 }
-.contactcard p{
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 2rem;
-}  
-.contactcard :link{
-     text-decoration: none;
-} 
-
-.instagram{
-    margin-top:44vh;
-    margin-bottom: 15vh;
-    display:flex;
-    flex-direction: column;
-    gap:5vh;
-    align-items: center;
+.contactcarddiv p {
+  font-size: 1rem;
 }
-.username{
-    margin-top: 4vh;
-    display:flex;
-    gap:0.5rem;
-    align-items: center;
+.contactcard :link {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(175, 145, 100);
 }
-.username img{
-    width:2vw;
-    aspect-ratio: 1/1;
+.contactcarddiv img {
+  width: 1.5vw;
+  aspect-ratio: 1/1;
 }
-.username :link{
-    text-decoration: none;
-    font-size:2rem;
-}
-.postcards{
-    display:flex;
-    gap:2vw;
-}
-.postcard{
-    width:22vw;
-    height:80vh;
-    background-color: yellow;
-    border-radius: 2rem;
-}
-.postcard img{
-    width:100%;
-    height:100%;
-    border-radius: 1rem;
+.contactcarddiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  align-self: flex-start;
+  margin-left: 2rem;
 }
 
-@media screen and (max-width: 768px) {
-.contactus-main-imagesection{
-    height:50svh;
-    width:100%;
+.instagram {
+  margin-top: 44vh;
+  margin-bottom: 15vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  align-items: center;
+}
+.username {
+  margin-top: 4vh;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.username img {
+  width: 2vw;
+  aspect-ratio: 1/1;
+}
+.username :link {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.postcards {
+  display: flex;
+  gap: 2vw;
+}
+.postcard {
+  width: 22vw;
+  height: 80vh;
+  border-radius: 2rem;
+}
+.postcard img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
 }
 
-.contactus-main-imagesection img{
-    width:100%;
-    height:100%;
+@media screen and (max-width: 550px) {
+  .contactus-main-imagesection {
+    height: 50svh;
+    width: 100%;
+  }
+
+  .contactus-main-imagesection img {
+    width: 100%;
+    height: 100%;
     border-radius: 2rem 2rem 0 0;
-}
+  }
 
-.contact-info{
-    height:45svh;
-    width:99.5%;
-    position:absolute;
-    top:52svh;
-    left:0.2svw;
+  .contact-info {
+    height: 80svh;
+    width: 100%;
+    top: 52svh;
     border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    justify-items: center;
-    gap:0.2svh;
-    padding-top:2rem;
+    grid-template-columns: 1fr;
+    gap: 4svh;
+    padding: 2rem 0rem !important;
     box-sizing: border-box;
-}
-.contactcard3{
-    grid-column: 1/3;
-    justify-self: center;
-}
-
-.contactcard{
-    height:20svh;
-    width:100%;
+  }
+  .contactcard {
+    height: fit-content;
+    width: 100%;
     border-radius: 2rem;
-    margin:auto;
-}
-.contactcard h1{
-    text-align: center;
+    margin: auto;
+    gap: 4svh;
+  }
+  .contactcard h1 {
     font-size: 1.1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-.contactcard p{
-    text-align: center;
+    margin-bottom: 0rem;
+  }
+  .contactcard p {
     font-size: 0.8rem;
-    margin-top: 0.4rem;
-    text-decoration: none;
-}  
+  }
+  .contactcarddiv img {
+    width: 5svw;
+    aspect-ratio: 1/1;
+  }
+  .contactcarddiv {
+    gap: 2svw;
+    margin-left: 8svw;
+  }
 
-.instagram{
-    margin:45svh auto 15svh auto;
-    width:95%;
-    display:flex;
+  .instagram {
+    margin: 82svh auto 15svh auto;
+    width: 95%;
+    display: flex;
     flex-direction: column;
-    gap:5svh;
+    gap: 5svh;
     align-items: center;
-}
-.username{
+  }
+  .username {
     margin-top: 1svh;
-    display:flex;
-    gap:0.5rem;
+    display: flex;
+    gap: 0.5rem;
     align-items: center;
-}
-.username :link{
-    font-size:1.3rem;
-}
-.username img{
-    width:8svw;
-    aspect-ratio: 1/1  ;
-}
-.postcards{
-    display:grid;
+  }
+  .username :link {
+    font-size: 1.3rem;
+  }
+  .username img {
+    width: 8svw;
+    aspect-ratio: 1/1;
+  }
+  .postcards {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:1svw;
-    width:100%;
-}
-.postcard{
-    width:100%;
-    height:40svh;
+    gap: 1svw;
+    width: 100%;
+  }
+  .postcard {
+    width: 100%;
+    height: 40svh;
     border-radius: 0.5rem;
-}
-.postcard img{
-    width:100%;
-    height:100%;
+  }
+  .postcard img {
+    width: 100%;
+    height: 100%;
     border-radius: 0.5rem;
+  }
 }
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .contactus-main-imagesection {
+    height: 70svh;
+    width: 100%;
+  }
+  .contactus-main-imagesection img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .contact-info {
+    height: 90svh;
+    width: 95%;
+    top: 75svh;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5svh;
+    padding: 2rem 0rem !important;
+    box-sizing: border-box;
+  }
+  .contactcard {
+    height: fit-content;
+    width: 100%;
+    border-radius: 2rem;
+    margin: auto;
+    gap: 4svh;
+  }
+  .contactcard h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0rem;
+  }
+  .contactcard p {
+    font-size: 0.8rem;
+  }
+  .contactcarddiv img {
+    width: 3svw;
+    aspect-ratio: 1/1;
+  }
+  .contactcarddiv {
+    gap: 2svw;
+    margin-left: 8svw;
+  }
+
+  .instagram {
+    margin: 90svh auto 15svh auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 5svh;
+    align-items: center;
+  }
+  .username {
+    margin-top: 1svh;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .username :link {
+    font-size: 1.5rem;
+  }
+  .username img {
+    width: 5svw;
+    aspect-ratio: 1/1;
+  }
+  .postcards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1svw;
+    width: 100%;
+  }
+  .postcard {
+    width: 100%;
+    height: 50svh;
+    border-radius: 0.5rem;
+  }
+  .postcard img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .contact-info {
+    height: 50vh;
+    width: 97%;
+    border-radius: 2rem;
+    gap: 1vw;
+    padding-left:1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+  }
+
+  .contactcard {
+    height: 35vh;
+    gap: 4vh;
+  }
+  .contactcard h1 {
+    font-size: 1.8rem;
+  }
+  .contactcarddiv p {
+    font-size: 0.9rem;
+  }
+  .contactcarddiv img {
+    width: 2vw;
+    aspect-ratio: 1/1;
+  }
+  .contactcarddiv {
+    gap: 0.8vw;
+  }
+  .postcard img{
+    object-position: left;
+  }
+
 }

@@ -77,11 +77,19 @@
   box-sizing: border-box;
 }
 .menu-icon {
-  margin-right: 4svw;
+  margin-right: 5svw;
 }
 .menu-icon img {
   width: 8svw;
   aspect-ratio: 1/1;
+}
+
+.mobile-fixed-svg img {
+  width: 8svw;
+  aspect-ratio: 1/1;
+}
+.mobile-fixed-svg {
+  margin-left: 5svw;
 }
 .navlinks {
   position: absolute;
@@ -114,8 +122,8 @@
   overflow: hidden;
 }
 .show {
-  height: 1165%;
-  /* opacity: 1; */
+  /* height: 1165%; */
+  height:100svh;
   transition: height 0.3s ease-in-out;
   overflow: hidden;
 }
@@ -126,9 +134,13 @@
   gap: 3svw;
   margin-top: 15svh;
 }
-.navcontactnumber p a {
-  color: rgb(175, 148, 100);
+.navcontactnumber p :link {
   font-size: 1rem;
+  border-bottom: 1px solid rgb(175, 148, 100);
+}
+.navcontactnumber img{
+  width:5vw;
+  aspect-ratio: 1/1;
 }
 
 .navlinks-logo-icon {

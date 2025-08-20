@@ -4,7 +4,7 @@ import ScrollToTop from "../rarecomponents/scrolltotop.jsx";
 import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
 import Activities from "../rarecomponents/activities.jsx";
-import Wedding from "../rarecomponents/wedding.jsx";
+// import Wedding from "../rarecomponents/wedding.jsx";
 import Fixedsvg from "../components/fixedsvg.jsx";
 
 function EventsActivities() {
@@ -15,7 +15,7 @@ function EventsActivities() {
       <Fixedsvg/>
 
       
-      <Wedding />
+      {/* <Wedding /> */}
 
       <div className="eventheading">
         <h1> Tailored  <span className="greenheading"> Events </span>  For You  </h1>

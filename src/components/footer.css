@@ -15,7 +15,7 @@
   padding: 3rem;
   box-sizing: border-box;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
   padding-top: 5vw;
 }
 
@@ -30,6 +30,9 @@
   width: 100%;
   aspect-ratio: 2.7/2;
   object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
 .quicklinks-footercontact {
@@ -47,6 +50,9 @@
   gap: 1vw;
   width: fit-content;
 }
+.footercontact {
+  gap: 2vw !important;
+}
 .quicklinks a,
 .footercontact a {
   text-decoration: none;
@@ -55,6 +61,15 @@
 .quicklinks a:hover,
 .quicklinks a.active {
   color: rgb(250, 235, 215);
+}
+.footercontact-divs {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.footercontact-divs img {
+  width: 1.5vw;
+  aspect-ratio: 1/1;
 }
 
 .footerlogosection {
@@ -71,7 +86,7 @@
   padding: 0.5rem 0rem 0rem 0.5rem;
 }
 .footersocials img {
-  width: 14%;
+  width: 2vw;
   aspect-ratio: 1/1;
 }
 
@@ -83,13 +98,14 @@
   padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 550px) {
   .footer {
     width: 100%;
-    height: 210svw;
+    height: fit-content;
     border-radius: 1.5rem 1.5rem 0rem 0rem;
     margin-top: 20svw;
     padding-top: 4svw;
+    padding-bottom: 15svw;
   }
 
   .footerinfo {
@@ -104,20 +120,24 @@
   .howtogethere {
     display: flex;
     flex-direction: row;
-    gap: 6svw;
+    justify-content: center;
+    gap: 4svw;
     width: 100%;
-    height: fit-content;
   }
   .howtogethere h3 {
     font-size: 1rem;
+    white-space: nowrap;
+    flex: 1;
   }
+
   .howtogethere img {
-    width: 45%;
+    width: 40svw;
     aspect-ratio: 3/2;
   }
   .quicklinks-footercontact {
     display: flex;
-    gap: 2%;
+    flex-direction: column;
+    gap: 7svh;
     width: 100%;
     height: fit-content;
     margin-top: 6svw;
@@ -127,17 +147,32 @@
     display: flex;
     flex-direction: column;
     gap: 5svw;
-    width: 49%;
+    width: 100%;
+  }
+  .footercontact{
+    gap:6svw !important;
   }
   .quicklinks a,
   .footercontact a {
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .quicklinks h3,
   .footercontact h3 {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .quicklinks a{
+    margin-left: 4svw;
+  }
+  .footercontact-divs {
+    gap: 3svw;
+    margin-left: 4svw;
+  }
+  .footercontact-divs img {
+    width: 5vw;
+    aspect-ratio: 1/1;
   }
 
   .footerlogosection {
@@ -152,11 +187,11 @@
   }
   .footersocials {
     display: flex;
-    gap: 9svw;
-    padding: 0rem 0rem 0rem 1rem;
+    gap: 10svw;
+    padding: 0rem 0rem 0rem 0.2rem;
   }
   .footersocials img {
-    width: 11.5%;
+    width: 7svw;
     aspect-ratio: 1/1;
   }
 
@@ -170,7 +205,116 @@
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 1100px) {
+@media screen and (min-width: 551px) and (max-width: 768px){
+  .footer {
+    width: 100%;
+    height: fit-content;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+    margin-top: 20svw;
+    padding-top: 4svw;
+    padding-bottom: 15svw;
+  }
+
+  .footerinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5svw;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+  .howtogethere {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 4svw;
+    width: 100%;
+  }
+  .howtogethere h3 {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    flex: 1;
+  }
+
+  .howtogethere img {
+    width: 40svw;
+    aspect-ratio: 3/2;
+  }
+
+  .quicklinks-footercontact {
+    display: flex;
+    flex-direction: column;
+    gap: 7svh;
+    width: 100%;
+    height: fit-content;
+    margin-top: 4svw;
+  }
+  .quicklinks,
+  .footercontact {
+    display: flex;
+    flex-direction: column;
+    gap: 4svw;
+    width: 100%;
+  }
+  .footercontact{
+    gap:4svw !important;
+  }
+  .quicklinks a,
+  .footercontact a {
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .quicklinks h3,
+  .footercontact h3 {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .quicklinks a{
+    margin-left: 4svw;
+  }
+  .footercontact-divs {
+    gap: 3svw;
+    margin-left: 4svw;
+  }
+  .footercontact-divs img {
+    width: 3.5vw;
+    aspect-ratio: 1/1;
+  }
+
+  .footerlogosection {
+    align-self: center;
+    margin-top: 8svw;
+    width: 50%;
+  }
+
+  .footerlogo img {
+    width: 100%;
+    aspect-ratio: 2/1;
+  }
+  .footersocials {
+    display: flex;
+    gap: 10svw;
+    padding: 0rem 0rem 0rem 1rem;
+  }
+  .footersocials img {
+    width: 3.8svw;
+    aspect-ratio: 1/1;
+  }
+
+  .copyright {
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+  }
+  .copyright p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1100px) {
   .footer {
     height: 52vw;
     margin-top: 10vw;
@@ -227,11 +371,11 @@
   }
   .footersocials {
     display: flex;
-    gap: 2vw;
+    gap: 2.5vw;
     padding: 0.5rem 0rem 0rem 0.5rem;
   }
   .footersocials img {
-    width: 16%;
+    width: 2.5vw;
     aspect-ratio: 1/1;
   }
 
@@ -244,4 +388,3 @@
     padding-bottom: 0.5rem;
   }
 }
-

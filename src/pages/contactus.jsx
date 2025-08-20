@@ -13,7 +13,7 @@ function Contactus() {
         <>
             <ScrollToTop />
             <Navbar />
-            <Fixedsvg/>
+            <Fixedsvg />
 
             <div className="contactus-main-imagesection"><img src="./assets/contactimg.png" alt="" /></div>
 
@@ -21,36 +21,55 @@ function Contactus() {
 
                 <div className="contactcard">
                     <h1>Rahul Yadav :</h1>
-                    <p><Link to="tel:+917838381836">Call Us</Link></p>
-                    <p><Link to="https://wa.me/7838381836" target="_blank" rel="noopener noreferrer">Chat On Whatsapp</Link></p>
-                    <p>Help@aanyagreens.in</p>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/phone-call.png" alt="" />
+                        <p><Link to="tel:+917838381836">Call Us : 7838381836</Link></p>
+                    </div>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/whatsapp.png" alt="" />
+                        <p><Link to="https://wa.me/7838381836" target="_blank" rel="noopener noreferrer">Chat On : 7838381836</Link></p>
+                    </div>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/gmail.png" alt="" />
+                        <p>Help@aanyagreens.in</p>
+                    </div>
                 </div>
                 <div className="contactcard">
                     <h1>Locate Us :</h1>
-                    <p>vill-Teekli, Badshahpur, Sector-68, Haryana, 122101</p>
-                    <p><Link to="https://shorter.me/LuaRi" target="_blank" rel="noopener noreferrer">View On Google Maps</Link></p>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/home-address.png" alt="" />
+                        <p>Vill-Teekli, Badshahpur, Sector-68, Haryana, 122101</p>
+                    </div>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/pin.png" alt="" />
+                        <p><Link to="https://shorter.me/LuaRi" target="_blank" rel="noopener noreferrer">View On Google Maps</Link></p>
+                    </div>
                 </div>
                 <div className="contactcard contactcard3">
                     <h1>socials :</h1>
-                    <p></p>
-                     <p><Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer">aanya_greens_farm
-                </Link></p>
-                    <p>Facebook</p>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/instagram.png" alt="" />
+                        <p><Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer">aanya_greens_farm</Link></p>
+                    </div>
+                    <div className='contactcarddiv'>
+                        <img src="./assets/svgs/facebook.png" alt="" />
+                        <p>Facebook</p>
+                    </div>
                 </div>
             </div>
 
             <div className="instagram">
                 <div className="username">
                     <img src="./assets/svgs/instagram.png" alt="" />
-                   <Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer">aanya_greens_farm
-                </Link>
+                    <Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer">aanya_greens_farm
+                    </Link>
                 </div>
 
                 <div className="postcards">
-                    <div className="postcard"><img src="./assets/instagram3.jpeg" alt="" /></div>
-                    <div className="postcard"><img src="./assets/instagram1.jpeg" alt="" /></div>
-                    <div className="postcard"><img src="./assets/instagram2.jpeg" alt="" /></div>
-                    <div className="postcard"><img src="./assets/instagram4.jpeg" alt="" /></div>
+                    <div className="postcard"><Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer"><img src="./assets/instagram3.jpeg" alt="" /></Link></div>
+                    <div className="postcard"><Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer"><img src="./assets/instagram1.jpeg" alt="" /></Link></div>
+                    <div className="postcard"><Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer"><img src="./assets/instagram2.jpeg" alt="" /></Link></div>
+                    <div className="postcard"><Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer"><img src="./assets/instagram4.jpeg" alt="" /></Link></div>
                 </div>
             </div>
 
