@@ -12,7 +12,11 @@ function Gallery (){
         <Navbar/>
         <Fixedsvg/>
 
+        <div className='gallery-main-line'></div>
+
         <div className="galleryheading">A Glimpse into the Heart of <span className='greenheading'>Aanya Greens</span></div>
+
+        <div className='gallery-heading-line'></div>
 
             <div className="galleryimages">
                 <img src="./assets/bhole.jpeg" alt="" />

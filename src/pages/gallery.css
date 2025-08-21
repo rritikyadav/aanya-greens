@@ -1,10 +1,24 @@
+.gallery-main-line {
+  height: 0.1vh;
+  width: 100%;
+  opacity: 50%;
+  border-radius: 50%;
+  background-color: rgb(158, 146, 146);
+}
 .galleryheading {
   margin-top: 10vh;
-  margin-bottom: 4vh;
   font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
   font-family: playfair;
+}
+.gallery-heading-line {
+  height: 0.1vh;
+  width: 30%;
+  opacity: 50%;
+  border-radius: 50%;
+  margin: 1vh auto 8vh auto;
+  background-color: rgb(158, 146, 146);
 }
 .galleryimages {
   margin: 0vh 2vw 15vh 2vw;
@@ -24,9 +38,15 @@
 @media screen and (max-width: 768px) {
   .galleryheading {
     margin-top: 5svh;
-    margin-bottom: 3svh;
     font-size: 1.9rem;
     font-weight: 600;
+  }
+  .gallery-heading-line {
+    height: 0.1vh;
+    width: 50%;
+    opacity: 50%;
+    border-radius: 50%;
+    margin: 0.5svh auto 5svh auto;
   }
   .galleryimages {
     margin: 0svh 0.5svw 10svh 0.5svw;

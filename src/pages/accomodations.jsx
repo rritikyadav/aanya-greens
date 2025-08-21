@@ -10,22 +10,25 @@ function Accomodations() {
     <>
       <ScrollToTop />
       <Navbar />
-      <Fixedsvg/>
+      <Fixedsvg />
+
+      <div className="accomodation-main-line"></div>
 
       <div className="accomodationheading">
         <h1>Where You'll Be <span className="greenheading"> Staying</span>  </h1>
         <p>Experience serene comfort in every form — from cozy mud rooms to elegant glass suites.
           Choose from luxury suites, tent stays, or unwind by your private pool amidst nature.</p>
       </div>
+      <div className="accomodation-heading-line"></div>
 
       <div className="accomodation-box accomodation-box1">
         <h1>Mud Room</h1>
         <p>
-          <b style={{color: "rgb(3, 45, 39)"}}>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
             Experience the Earth’s Embrace in Our Traditional Mudroom — a true
             retreat for body and soul.
           </b>
-          <br /><br/> &gt;&nbsp; Crafted using ancient Indian techniques with natural
+          <br /><br /> &gt;&nbsp; Crafted using ancient Indian techniques with natural
           mud and cow dung, this serene space offers a cool, toxin-free, and
           grounding atmosphere.
           <br /> &gt;&nbsp; The walls breathe with nature, promoting better
@@ -35,7 +38,7 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-mainimg">
-            <img style={{objectPosition: "top"}}  src="./assets/mudroom.jpeg" alt="" />
+            <img style={{ objectPosition: "top" }} src="./assets/mudroom.jpeg" alt="" />
           </div>
           <div className="accomodationbox-sideimg">
             <img src="./assets/mudroom4.jpeg" alt="" />
@@ -70,11 +73,11 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Luxury Suites</h1>
         <p>
-          <b style={{color: "rgb(3, 45, 39)"}}>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
             Indulge in the Elegance of Our Luxury Suites — A seamless blend of
             privacy and community .
           </b>
-          <br /><br/>
+          <br /><br />
           &gt;&nbsp; Designed for comfort and sophistication, each
           air-conditioned suite features spacious interiors, premium
           furnishings, and serene views .
@@ -86,8 +89,8 @@ function Accomodations() {
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
             <img src="./assets/room1.jpeg" alt="" />
-            <img style={{objectPosition: "right"}}  src="./assets/bathroom1.jpeg" alt="" />
-            <img style={{objectPosition: "right"}}  src="./assets/bathroom2.jpeg" alt="" />
+            <img style={{ objectPosition: "right" }} src="./assets/bathroom1.jpeg" alt="" />
+            <img style={{ objectPosition: "right" }} src="./assets/bathroom2.jpeg" alt="" />
             <img src="./assets/room2.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
@@ -121,11 +124,11 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Tent Suites</h1>
         <p>
-          <b style={{color: "rgb(3, 45, 39)"}}>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
             Reconnect with Nature in Comfort and Style — A Unique Glamping
             Experience.
           </b>
-          <br /><br/>
+          <br /><br />
           &gt;&nbsp; Our air-conditioned luxury tents offer the charm of outdoor
           living with the comfort of modern amenities.
           <br /> &gt;&nbsp; Each tent features a spacious layout, private
@@ -169,11 +172,11 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Glass Room</h1>
         <p>
-          <b style={{color: "rgb(3, 45, 39)"}}>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
             Dine, Dance, and Dream in Our Glass Room — A space crafted for
             intimacy, celebration, and timeless memories.
           </b>
-          <br /><br/>
+          <br /><br />
           &gt;&nbsp; Surrounded by serene views, this air-conditioned glass
           haven features a private minibar, ambient lighting, and live music for
           the perfect evening .
@@ -186,8 +189,8 @@ function Accomodations() {
           <div className="accomodationbox-sideimg">
             <img src="./assets/glassroom.jpeg" alt="" />
             <img src="./assets/glassroom2.jpeg" alt="" />
-            <img style={{objectPosition:"bottom"}} src="./assets/glassroom4.jpeg" alt="" />
-            <img style={{objectPosition:"bottom"}} src="./assets/glassroom3.jpeg" alt="" />
+            <img style={{ objectPosition: "bottom" }} src="./assets/glassroom4.jpeg" alt="" />
+            <img style={{ objectPosition: "bottom" }} src="./assets/glassroom3.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
             <img src="./assets/glassroom1.jpeg" alt="" />
@@ -219,11 +222,11 @@ function Accomodations() {
       <div className="accomodation-box">
         <h1>Open-Air Pool</h1>
         <p>
-          <b style={{color: "rgb(3, 45, 39)"}}>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
             Relax, Refresh, and Rejuvenate by the Pool — Relax, Refresh, and
             Rejuvenate by the Pool .
           </b>
-          <br /><br/>
+          <br /><br />
           &gt;&nbsp; Our elegantly designed pool area features comfortable
           seating, tranquil ambiance, and an open-air shower for a refreshing
           rinse under the sky.
@@ -236,7 +239,7 @@ function Accomodations() {
           <div className="accomodationbox-sideimg">
             <img src="./assets/pool1.jpeg" alt="" />
             <img src="./assets/pool2.jpeg" alt="" />
-            <img style={{objectPosition:"bottom"}} src="./assets/pool3.jpeg" alt="" />
+            <img style={{ objectPosition: "bottom" }} src="./assets/pool3.jpeg" alt="" />
             <img src="./assets/pool4.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">

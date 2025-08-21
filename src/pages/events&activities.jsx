@@ -2,7 +2,7 @@ import React from "react";
 import "./event&activities.css";
 import ScrollToTop from "../rarecomponents/scrolltotop.jsx";
 import Navbar from "../components/navbar.jsx";
-import Footer from "../components/footer.jsx";
+import Footer from "../components/Footer.jsx";
 import Activities from "../rarecomponents/activities.jsx";
 // import Wedding from "../rarecomponents/wedding.jsx";
 import Fixedsvg from "../components/fixedsvg.jsx";
@@ -14,12 +14,12 @@ function EventsActivities() {
       <Navbar />
       <Fixedsvg/>
 
-      
-      {/* <Wedding /> */}
+      <div className="event-main-line"></div>
 
       <div className="eventheading">
         <h1> Tailored  <span className="greenheading"> Events </span>  For You  </h1>
       </div>
+      <div className="event-heading-line"></div>
 
       <div className="eventbox eventbox1">
         <div className="eventboximg">
@@ -67,7 +67,7 @@ function EventsActivities() {
       <div className="eventbox eventbox3">
         <div className="eventboximg">
           <img src="./assets/birthday1.jpeg" alt="" />
-          <img src="./assets/birthday2.jpeg" alt="" />
+          <img style={{objectFit:"fill"}} src="./assets/birthday2.jpeg" alt="" />
         </div>
         <div className="eventboxinfo">
           <h1>Birthday Parties</h1>

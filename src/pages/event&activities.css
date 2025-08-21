@@ -1,6 +1,21 @@
+.event-main-line {
+  height: 0.1vh;
+  width: 100%;
+  opacity: 50%;
+  border-radius: 50%;
+  background-color: rgb(158, 146, 146);
+}
 .eventheading {
   text-align: center;
-  margin-top: 15vh;
+  margin-top: 10vh;
+}
+.event-heading-line {
+  height: 0.1vh;
+  width: 20%;
+  opacity: 50%;
+  margin: 1vh auto 10vh auto;
+  border-radius: 50%;
+  background-color: rgb(158, 146, 146);
 }
 .eventheading h1 {
   font-size: 3rem;
@@ -10,11 +25,12 @@
   width: 80%;
   height: 0.2vh;
   background-color: rgb(218, 211, 211);
-  margin: 2vh auto 10vh auto;
+  margin: 5vh auto 10vh auto;
   border-radius: 2rem;
+  opacity: 50%;
 }
 .eventbox {
-  margin: 5vh auto 10vh auto;
+  margin: auto;
   display: flex;
   gap: 4vw;
   width: 80vw;
@@ -47,6 +63,7 @@
   width: 18.5vw;
   height: 50vh;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 .eventboximg img:last-child {
   align-self: flex-end;
@@ -57,62 +74,55 @@
     text-align: center;
     font-size: 1.5rem;
     margin-top: 10svh;
-    margin-bottom: 7svh;
+  }
+  .event-heading-line {
+    width: 60%;
+    margin: 0.5svh auto 6svh auto;
   }
   .eventheading h1 {
     font-size: 1.8rem;
   }
   .eventmiddleline {
-    width: 90%;
+    width: 95%;
     height: 0.2svh;
     background-color: rgb(218, 211, 211);
-    margin: 4svh auto 10svh auto;
+    margin: 3svh auto 10svh auto;
     border-radius: 2rem;
   }
   .eventbox {
-    margin: 2svh auto 0svh auto;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 4svw;
-    width: 99.5%;
+    align-items: center;
+    gap: 6svw;
+    width: 99%;
+    /* background-color: red; */
   }
   .eventbox2,
   .eventbox4 {
     flex-direction: column-reverse;
   }
-
   .eventboxinfo {
-    width: 100%;
-    height: 40svh;
-    display: flex;
-    flex-direction: column;
+    width: 97%;
     gap: 2svh;
-    justify-content: center;
-    padding: 0rem 0.3rem;
-    box-sizing: border-box;
   }
   .eventboxinfo h1 {
-    font-size: 2.5rem;
-    font-family: "EduCursive", cursive;
+    font-size: 3.5rem;
   }
   .eventboxinfo p {
+    color: rgb(182, 168, 148);
     font-size: 0.8rem;
   }
 
   .eventboximg {
-    width: 98%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3svh;
-    height: 51svh;
-    margin: auto;
+    width: 100%;
+    gap: 0.5svw;
+    height: 52svh;
+    /* background-color: yellow; */
   }
 
   .eventboximg img {
-    width: 90%;
-    height: 25svh;
-    border-radius: 0.5rem;
+    width: 49.75%;
+    height: 40vh;
+    object-fit: cover;
   }
   .eventboximg img:last-child {
     align-self: flex-end;
@@ -123,33 +133,36 @@
   .eventheading {
     margin-top: 10vh;
   }
+  .event-heading-line {
+    width: 40%;
+    margin: 1vh auto 7vh auto;
+  }
   .eventbox {
-    margin: 5vh auto 10vh auto;
-    gap: 5%;
-    width: 90%;
+    gap: 3%;
+    width: 98%;
   }
   .eventmiddleline {
     width: 90%;
     height: 0.2vh;
     background-color: rgb(218, 211, 211);
-    margin: 2vh auto 10vh auto;
+    margin: 5vh auto 10vh auto;
     border-radius: 2rem;
   }
 
   .eventboxinfo {
-    width: 50%;
+    width: 47%;
   }
   .eventboxinfo h1 {
     font-size: 3rem;
   }
   .eventboximg {
-    width: 45%;
+    width: 50%;
     display: flex;
     gap: 1%;
-    height: 60vh;
+    height: 55vh;
   }
   .eventboximg img {
     width: 49.5%;
-    height: 50vh;
+    height: 46vh;
   }
 }

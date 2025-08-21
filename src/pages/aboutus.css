@@ -1,3 +1,96 @@
+.about-main-line {
+  height: 0.1vh;
+  width: 100%;
+  opacity: 50%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(158, 146, 146);
+}
+
+.outer-white-box {
+  background-color: whitesmoke;
+  width: 75%;
+  border-radius: 1rem;
+  margin:6vh auto;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-box {
+  width: 98%;
+  border-radius: 1rem;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.white-box p,
+.white-box h2,
+.white-box li,
+.h3 {
+  color: black;
+  font-family: sans-serif;
+}
+.property-info p {
+  margin-top: 2vh;
+}
+.aboutus-separationline {
+  height: 0.1vh;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: rgb(218, 211, 211);
+  margin: 0vh auto;
+}
+.amenities-box {
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-content: center;
+  justify-items: left;
+  margin-bottom: 2vh;
+}
+.aminitiesbox-value {
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-contact-divs {
+  display: flex;
+  gap: 0.4vw;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+.address-contact img {
+  width: 1.2vw;
+  aspect-ratio: 1/1;
+}
+.address-contact-divs a {
+  color: LinkText !important;
+  text-decoration: none;
+  border-bottom: 1px solid LinkText;
+}
+
+.check-in-out li,
+.cancellation li {
+  margin-top: 1vh;
+  margin-left: 2vw;
+}
+.check-in-out h3,
+.cancellation h3,
+.address-contact h3,
+.aboutus h3 {
+  margin-bottom: 3vh;
+}
+
 .ourvision-ourmission {
   display: flex;
   justify-content: center;
@@ -34,147 +127,17 @@
   background-color: rgb(158, 146, 146);
 }
 
-.outer-white-box {
-  background-color: whitesmoke;
-  width: 75%;
-  height: 122vh;
-  border-radius: 1rem;
-  margin: 10vh auto;
-  padding: 2.5rem;
-  box-sizing: border-box;
-}
-
-.white-box {
-  width: 70vw;
-  height: 112vh;
-  border-radius: 1rem;
-  background-color: white;
-  box-sizing: border-box;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 5vh;
-}
-.white-box p,
-.white-box h2,
-.white-box li {
-  color: black;
-  font-family: sans-serif;
-}
-.h3 {
-  color: black;
-  font-family: sans-serif;
-}
-.property-info p {
-  margin-top: 2vh;
-}
-.aboutus-separationline {
-  height: 0.1vh;
-  width: 65vw;
-  border-radius: 2rem;
-  background-color: rgb(218, 211, 211);
-  margin: 0vh auto;
-}
-.amenities-box {
-  margin-top: 5vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  align-content: center;
-  justify-items: left;
-  margin-bottom: 2vh;
-}
-.aminitiesbox-value {
-  display: flex;
-  gap: 1vw;
-  justify-content: center;
-  align-items: center;
-}
-
-.check-in-out li,
-.cancellation li {
-  margin-top: 1vh;
-  margin-left: 2vw;
-}
-.check-in-out h3,
-.cancellation h3 {
-  margin-bottom: 3vh;
-}
-
-@media screen and (max-width: 768px) {
-  .ourvision-ourmission {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 8svh auto 4svh auto;
-    gap: 2svw;
-    height: 51svh;
-    width: 99.5%;
-    background-color: rgb(3, 45, 39);
-    border-radius: 0.5rem;
-  }
-
-  .our-vision,
-  .our-mission {
-    display: flex;
-    flex-direction: column;
-    gap: 2svh;
-    justify-content: center;
-    align-items: center;
-    padding-left: 0.8rem;
-    box-sizing: border-box;
-    width: 98%;
-    height: 22svh;
-  }
-  .our-mission h1,
-  .our-vision h1 {
-    font-size: 1.5rem;
-  }
-
-  .our-vision p,
-  .our-mission p {
-    color: rgb(158, 146, 146);
-    font-size: 0.8rem;
-  }
-
-  .ourvision-ourmission-middleline {
-    height: 0.1svh;
-    width: 80%;
-    border-radius: 2rem;
-    background-color: rgb(158, 146, 146);
-  }
-
+@media screen and (max-width: 600px) {
   .outer-white-box {
-    background-color: whitesmoke;
     width: 98%;
-    height: 122svh;
-    border-radius: 1rem;
     margin: 5svh auto 3svh auto;
-    padding: 0rem;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 1rem 0.5rem;
   }
 
   .white-box {
-    width: 95%;
-    height: 97%;
-    border-radius: 1rem;
-    background-color: white;
-    box-sizing: border-box;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    padding: 0.5rem;
     gap: 2svh;
-  }
-
-  .white-box p,
-  h2,
-  li {
-    color: black;
-    font-family: sans-serif;
   }
   .white-box h2 {
     font-size: 1.3rem;
@@ -188,37 +151,40 @@
     font-size: 0.8rem;
   }
 
-  .aboutus-separationline {
-    height: 0.1vh;
-    width: 90%;
-    border-radius: 2rem;
-    background-color: rgb(218, 211, 211);
-    margin: 0vh auto;
-  }
-
   .h3 {
-    color: black;
-    font-family: sans-serif;
     font-size: 1rem;
   }
 
   .amenities-box {
     margin-top: 3.5svh;
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2.5svh;
-    align-content: center;
-    justify-items: left;
     margin-bottom: 2vh;
   }
   .aminitiesbox-value {
-    display: flex;
     gap: 1.5svw;
-    justify-content: center;
-    align-items: center;
   }
+
   .aminitiesbox-value img {
     transform: scale(0.8);
+  }
+  .aboutus p {
+    font-size: 0.8rem;
+    margin-top: -2svh;
+  }
+  .address-contact-divs {
+    gap: 1svw;
+    margin-top: 3svh;
+    margin-left: 2svw;
+  }
+  .address-contact img {
+    width: 5vw;
+    aspect-ratio: 1/1;
+  }
+  .address-contact-divs a {
+    font-size: 0.9rem;
+    border-bottom: none;
+    text-decoration: underline !important;
   }
 
   .check-in-out li,
@@ -229,5 +195,89 @@
   .check-in-out h3,
   .cancellation h3 {
     margin-bottom: 2.5svh;
+  }
+  .ourvision-ourmission {
+    flex-direction: column;
+    margin: 8svh auto 4svh auto;
+    gap: 2svw;
+    height: 51svh;
+    width: 99.5%;
+  }
+
+  .our-vision,
+  .our-mission {
+    gap: 2svh;
+    padding-left: 0.8rem;
+    width: 98%;
+    height: 22svh;
+  }
+  .our-mission h1,
+  .our-vision h1 {
+    font-size: 1.5rem;
+  }
+
+  .our-vision p,
+  .our-mission p {
+    font-size: 0.8rem;
+  }
+
+  .ourvision-ourmission-middleline {
+    width: 80%;
+    height: 0.1svh;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px) {
+  .outer-white-box {
+    width: 96%;
+    margin: 6vh auto;
+    padding: 1rem;
+  }
+
+  .white-box {
+    width: 100%;
+    padding: 1.5rem;
+    gap: 3vh;
+  }
+  .amenities-box {
+    margin-top: 2vh;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 0svh;
+  }
+  .aminitiesbox-value {
+    gap: 1.5vw;
+  }
+  .aboutus p {
+    margin-top: -2vh;
+  }
+
+  .address-contact-divs {
+    gap: 0.4vw;
+    margin-top: 2vh;
+    margin-left: 0vw;
+  }
+  .address-contact img {
+    width: 3vw;
+  }
+  .ourvision-ourmission {
+    flex-direction: column;
+    gap: 4vw;
+    height: fit-content;
+    width: 98%;
+    margin: 10vh auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+
+  .our-vision,
+  .our-mission {
+    gap: 2vh;
+    padding-left: 0rem;
+    width: 100%;
+    height: fit-content;
+  }
+  .ourvision-ourmission-middleline {
+    height: 0.1svh;
+    width: 90%;
   }
 }

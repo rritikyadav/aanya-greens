@@ -1,3 +1,11 @@
+.accomodation-main-line {
+  height: 0.1vh;
+  width: 100%;
+  opacity: 50%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(158, 146, 146);
+}
 .accomodationheading {
   margin: 5vh 0vh 2vh 0vh;
   text-align: center;
@@ -12,6 +20,14 @@
   color: rgb(3, 45, 39);
   width: 80%;
   margin: auto;
+}
+.accomodation-heading-line {
+  height: 0.1vh;
+  width: 30%;
+  opacity: 50%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: rgb(158, 146, 146);
 }
 
 .accomodation-box {
@@ -107,6 +123,10 @@
     font-size: 0.7rem;
     width: 99%;
     margin: 0svh auto 1svh auto;
+  }
+  .accomodation-heading-line {
+    width: 60%;
+    margin: auto;
   }
 
   .accomodation-box {

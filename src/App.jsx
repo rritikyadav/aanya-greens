@@ -127,7 +127,7 @@ function App() {
             </Link>
           </div>
           <div className="eventimages">
-            <img src="./assets/birthday1.jpeg" alt="" />
+            <img src="./assets/birthday2.jpeg" alt="" />
             <img src="./assets/corporate1.jpeg" alt="" />
           </div>
         </div>

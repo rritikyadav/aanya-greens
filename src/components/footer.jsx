@@ -3,6 +3,11 @@ import './footer.css';
 import { NavLink, Link } from 'react-router-dom';
 
 function Footer() {
+
+const handleFooterlogo = () => {
+  window.scrollTo(0,0)
+}
+
   return (
     <>
 
@@ -44,7 +49,7 @@ function Footer() {
           </div>
           <div className="footerlogosection">
             <div className="footerlogo">
-              <img src="./assets/logo3-golden.png" alt="" />
+              <img onClick={handleFooterlogo} src="./assets/logo3-golden.png" alt="" />
             </div>
             <div className="footersocials">
               <Link to="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer"><img src="./assets/svgs/instagram.png" alt="" /></Link>
