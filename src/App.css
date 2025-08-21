@@ -429,7 +429,8 @@
   }
   .eventimages img {
     width: 90%;
-    height: 25vw;
+    height: 35vw;
+    object-fit: cover;
   }
   .eventimages img:nth-child(2) {
     align-self: flex-end;
