@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import "./form.css";
+import axios from "axios";
 
 function Form() {
   const [FormData, setformData] = useState({
     name: "",
     phone: "",
-    event: "",
+    email: "",
     guests: "",
-    specificDetails: "",
+    event: "",
   });
 
   const handleChange = (e) => {
@@ -17,9 +18,10 @@ function Form() {
 
   };
 
-  const handlesubmit = (e) => {
+  const handlesubmit = async(e) => {
     e.preventDefault();
-    console.log(FormData);
+    const a = await axios.post(`https://server-aanya-greens.onrender.com/dashboard`,FormData)
+    console.log(a);
   };
 
   return (
@@ -45,17 +47,19 @@ function Form() {
               className="form-phone"
               type="tel"
               name="phone"
+              minLength={10}
+              maxLength={10}
               value={FormData.phone}
               placeholder="Phone"
               required
             />
             <input
               onChange={handleChange}
-              className="form-event"
-              type="text"
-              name="event"
-              value={FormData.event}
-              placeholder="Type Of Event"
+              className="form-email"
+              type="email"
+              name="email"
+              value={FormData.email}
+              placeholder="E-Mail"
               required
             />
             <input
@@ -69,11 +73,11 @@ function Form() {
             />
             <input
               onChange={handleChange}
-              className="form-specific-details"
+              className="form-event"
               type="text"
-              name="specificDetails"
+              name="event"
               value={FormData.specificDetails}
-              placeholder="Specific Details"
+              placeholder="Type of Event And Other Details"
             />
             <input type="submit" id="booknow" value="Book Now" />
           </form>
