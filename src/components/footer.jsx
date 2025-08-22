@@ -60,7 +60,7 @@ const handleFooterlogo = () => {
           </div>
         </div>
         <div className="copyright">
-          <p>copyright &copy; 2025 Aanya Greens Farmhouses And Resorts | All Rights Reserved .</p>
+          <p>© 2025 Aanya Greens Farmhouses & Resorts . All rights reserved .</p>
         </div>
       </div>
     </>

@@ -31,7 +31,7 @@
 }
 
 .accomodation-box {
-  margin: 7vh 5vw 8vh 5vw;
+  margin: 7vh 3vw 8vh 3vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,36 +59,37 @@
   background-color: rgb(158, 146, 146);
   margin-top: -3vh;
   border-radius: 2rem;
+  opacity: 50%;
 }
 
 .accomodationbox-img {
-  width: 80vw;
-  height: 50vh;
+  width: 95%;
+  height: fit-content;
   border-radius: 2rem;
   display: flex;
-  gap: 1vw;
+  gap: 0.5vw;
 }
 .accomodationbox-mainimg {
-  width: 39.5vw;
+  width: 45%;
 }
 .accomodationbox-mainimg img {
-  width: 39.5vw;
-  height: 50vh;
-  border-radius: 2rem;
+  width: 100%;
+  height: 75vh;
+  border-radius: 1rem;
   object-fit: cover;
 }
 
 .accomodationbox-sideimg {
-  width: 39.5vw;
+  width: 55%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.5vw;
+  gap: 0.2vw;
   /* background-color: blue; */
 }
 .accomodationbox-sideimg img {
-  width: 19.5vw;
-  height: 24vh;
-  border-radius: 2rem;
+  width: 100%;
+  height: 37.4vh;
+  border-radius: 1rem;
   object-fit: cover;
 }
 
@@ -107,9 +108,10 @@
   width: 20vw;
   background-color: rgb(158, 146, 146);
   border-radius: 2rem;
+  opacity: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .accomodationheading {
     margin: 5svh 0vh 0svh 0vh;
     text-align: center;
@@ -138,9 +140,6 @@
     border-radius: 0.7rem;
     padding: 0.5rem 0rem;
   }
-  .accomodation-box1 {
-    margin-top: 4svh;
-  }
 
   .accomodation-box h1 {
     font-size: 1.5rem;
@@ -164,7 +163,6 @@
 
   .accomodationbox-img {
     width: 96%;
-    height: 61svh;
     display: flex;
     flex-direction: column-reverse;
     gap: 0.8svw;
@@ -173,12 +171,11 @@
   }
   .accomodationbox-mainimg {
     width: 100%;
-    height: 30svh;
     /* background-color: yellow; */
   }
   .accomodationbox-mainimg img {
     width: 100%;
-    height: 30svh;
+    height: 50svh;
     border-radius: 1rem;
   }
 
@@ -191,7 +188,7 @@
   }
   .accomodationbox-sideimg img {
     width: 100%;
-    height: 15svh;
+    height: 25vh;
     border-radius: 0.5rem;
   }
 
@@ -223,9 +220,133 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1080px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .accomodationheading {
+    margin: 5svh 0vh 0svh 0vh;
+    text-align: center;
+  }
+  .accomodationheading h1 {
+    font-family: "EduCursive", cursive;
+    font-size: 2rem;
+    font-weight: 5000;
+  }
+  .accomodationheading p {
+    font-size: 0.7rem;
+    width: 99%;
+    margin: 0svh auto 1svh auto;
+  }
+  .accomodation-heading-line {
+    width: 60%;
+    margin: auto;
+  }
+
+  .accomodation-box {
+    margin: 5svh auto 5svh auto;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: 2svh;
+    border-radius: 0.7rem;
+    padding: 0.5rem 0rem;
+  }
+
+  .accomodation-box h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .accomodation-box p {
+    font-size: 0.9rem;
+  }
+  .accomodation-line {
+    height: 0.1svh;
+    width: 80%;
+    background-color: rgb(158, 146, 146);
+    margin-top: -0.5svh;
+    margin-bottom: 1svh;
+    border-radius: 2rem;
+  }
+
+  .accomodationbox-img {
+    width: 96%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.8svw;
+    border-radius: 0rem;
+  }
+  .accomodationbox-mainimg {
+    width: 100%;
+  }
+  .accomodationbox-mainimg img {
+    width: 100%;
+    height: 60svh;
+    border-radius: 1rem;
+  }
+
+  .accomodationbox-sideimg {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5svw;
+  }
+  .accomodationbox-sideimg img {
+    width: 100%;
+    height: 35svh;
+    border-radius: 0.5rem;
+  }
+
+  .accomodationbox-svgs {
+    margin-top: 2svh;
+    display: flex;
+    gap: 10svw;
+  }
+
+  .svg img {
+    transform: scale(0.7);
+  }
+
+  .svg-explain {
+    margin-top: -1.5svh;
+  }
+  .svg-explain p {
+    font-size: 0.6rem;
+    color: rgb(158, 146, 146);
+  }
+  .accomodation-svgline {
+    margin-top: -1.5svh;
+    height: 0.1svh;
+    width: 30%;
+    background-color: rgb(158, 146, 146);
+    border-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+  .accomodation-box {
+    margin: 7vh 1vw 8vh 1vw;
+  }
   .accomodationheading p {
     font-size: 1rem;
     width: 95%;
+  }
+
+  .accomodationbox-img {
+    width: 97%;
+  }
+
+  .accomodationbox-mainimg {
+    width: 40%;
+  }
+  .accomodationbox-mainimg img {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .accomodationbox-sideimg {
+    width: 60%;
+  }
+  .accomodationbox-sideimg img {
+    width: 100%;
+    height: 29.9vh;
   }
 }
