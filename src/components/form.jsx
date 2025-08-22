@@ -20,7 +20,7 @@ function Form() {
 
   const handlesubmit = async(e) => {
     e.preventDefault();
-    const a = await axios.post(`https://server-aanya-greens.onrender.com/dashboard`,FormData)
+    const a = await axios.post(`https://server-aanyagreens.onrender.com/dashboard`,FormData)
     console.log(a);
   };
 
