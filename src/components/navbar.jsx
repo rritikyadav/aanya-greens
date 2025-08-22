@@ -57,7 +57,7 @@ function Navbar() {
       ) : (
         <>
           <div className="mobile-nav">
-           <div className="mobile-fixed-svg"><Link to="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></Link></div>
+           <div className="mobile-fixed-svg"><a href="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></a></div>
             <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink></div>
             <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/hamburger.svg" alt="" /></div>
 
@@ -65,7 +65,7 @@ function Navbar() {
             <div className={`navlinks  ${Shownavitem ? 'show' : 'hide'}`}>
 
               <div className="navlinks-logo-icon">
-                <div className="mobile-fixed-svg"><Link to="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></Link></div>
+                <div className="mobile-fixed-svg"><a href="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></a></div>
                 <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink> </div>
                 <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
               </div>
@@ -80,7 +80,7 @@ function Navbar() {
 
               <div className="navcontactnumber">
                 <img src="./assets/svgs/phone-call.png" alt="" />
-                <p><Link to="tel:+917838381836">Call Us : 7838381836</Link></p>
+                <p><a href="tel:+917838381836">Call Us : 7838381836</a></p>
               </div>
 
             </div>

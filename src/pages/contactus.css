@@ -42,9 +42,15 @@
 .contactcarddiv p {
   font-size: 1rem;
 }
-.contactcard :link {
+.contactcard a {
   text-decoration: none;
   border-bottom: 1px solid rgb(175, 145, 100);
+  font-family: "glook";
+  letter-spacing: 0.05em;
+  font-size: 1.1rem;
+}
+.contactcard p {
+  font-size: 1.15rem;
 }
 .contactcarddiv img {
   width: 1.5vw;
@@ -68,7 +74,7 @@
   align-items: center;
 }
 .username {
-  margin-top: 4vh;
+  margin-top: 6vh;
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -77,9 +83,11 @@
   width: 2vw;
   aspect-ratio: 1/1;
 }
-.username :link {
+.username a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-family: "glook";
+  letter-spacing: 0.05em;
 }
 .postcards {
   display: flex;
@@ -110,14 +118,14 @@
   }
 
   .contact-info {
-    height: 80svh;
+    height: fit-content;
     width: 100%;
     top: 52svh;
     border-radius: 1.5rem 1.5rem 0.5rem 0.5rem;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 4svh;
-    padding: 2rem 0rem !important;
+    gap: 6svh;
+    padding: 1.5rem 0rem !important;
     box-sizing: border-box;
   }
   .contactcard {
@@ -129,10 +137,13 @@
   }
   .contactcard h1 {
     font-size: 1.1rem;
-    margin-bottom: 0rem;
+    margin-bottom: -1svh;
+  }
+  .contactcard a {
+    font-size: 0.9rem;
   }
   .contactcard p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .contactcarddiv img {
     width: 5svw;
@@ -157,8 +168,8 @@
     gap: 0.5rem;
     align-items: center;
   }
-  .username :link {
-    font-size: 1.3rem;
+  .username a {
+    font-size: 1.5rem;
   }
   .username img {
     width: 8svw;
@@ -194,7 +205,7 @@
   }
 
   .contact-info {
-    height: 90svh;
+    height: fit-content;
     width: 95%;
     top: 75svh;
     left: 50%;
@@ -217,8 +228,11 @@
     font-size: 1.5rem;
     margin-bottom: 0rem;
   }
+  .contactcard a{
+    font-size:1.1rem;
+  }
   .contactcard p {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
   .contactcarddiv img {
     width: 3svw;
@@ -243,7 +257,7 @@
     gap: 0.5rem;
     align-items: center;
   }
-  .username :link {
+  .username a {
     font-size: 1.5rem;
   }
   .username img {
@@ -272,7 +286,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 1080px) {
   .contact-info {
-    height: 50vh;
+    height: fit-content;
     width: 97%;
     border-radius: 2rem;
     gap: 1vw;

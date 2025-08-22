@@ -134,7 +134,7 @@
   gap: 3svw;
   margin-top: 15svh;
 }
-.navcontactnumber p :link {
+.navcontactnumber p a {
   font-size: 1rem;
   border-bottom: 1px solid rgb(175, 148, 100);
 }

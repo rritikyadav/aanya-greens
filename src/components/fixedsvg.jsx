@@ -17,7 +17,7 @@ function Fixedsvg() {
   return (
     <>
       <div className="fixed-svg-div">{mobile ? (
-        <Link className='desktop-svg' to="https://wa.me/7838381836" target="_blank" rel="noopener noreferrer"><img className="desktop-fixed-svg" src="./assets/svgs/whatsapp.png" alt="" /></Link>)
+        <a className='desktop-svg' href="https://wa.me/7838381836" target="_blank" rel="noopener noreferrer"><img className="desktop-fixed-svg" src="./assets/svgs/whatsapp.png" alt="" /></a>)
         :
         ("")
 
