@@ -45,7 +45,7 @@ function Navbar() {
           </div>
 
           <div className="logo">
-            <NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink>
+            <NavLink to="/"><img src="./assets/svgs/logo-svg.png" alt="ritik" /></NavLink>
           </div>
 
           <div className="Navright">
@@ -58,7 +58,7 @@ function Navbar() {
         <>
           <div className="mobile-nav">
            <div className="mobile-fixed-svg"><a href="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></a></div>
-            <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink></div>
+            <div className="mobile-logo"><NavLink to="/"><img src="./assets/svgs/logo-svg.png" alt="ritik" /></NavLink></div>
             <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/hamburger.svg" alt="" /></div>
 
 
@@ -66,7 +66,7 @@ function Navbar() {
 
               <div className="navlinks-logo-icon">
                 <div className="mobile-fixed-svg"><a href="tel:+917838381836"><img src="./assets/svgs/phone.svg" alt="" /></a></div>
-                <div className="mobile-logo"><NavLink to="/"><img src="./assets/logo3-edited.png" alt="ritik" /></NavLink> </div>
+                <div className="mobile-logo"><NavLink to="/"><img src="./assets/svgs/logo-svg.png" alt="ritik" /></NavLink> </div>
                 <div onClick={toggleNavItems} className="menu-icon"><img src="./assets/svgs/cross.svg" alt="" /></div>
               </div>
 
