@@ -53,7 +53,10 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        <video src="./assets/mainvideo_edited.mp4" muted autoPlay loop playsInline preload="auto"></video>
+        <video muted autoPlay loop playsInline preload="auto">
+          <source src="/assets/video-desktop.mp4" type="video/mp4" media="(min-width: 768px)" />
+          <source src="/assets/video-mobile.mp4" type="video/mp4" media="(max-width: 767px)" />
+        </video>
       </div>
 
       <div className="mainpagegallerysection">
