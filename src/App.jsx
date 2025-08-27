@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar.jsx";
 import Form from "./components/form.jsx";
 import Footer from "./components/footer.jsx";
-import { Link , useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ScrollToTop from "./rarecomponents/scrolltotop.jsx";
 import Activities from "./rarecomponents/activities.jsx";
 // import Wedding from "./rarecomponents/wedding.jsx";
@@ -40,13 +40,11 @@ const AccomodationBoxes = [
     text: "Open-Air Pool",
     link: "/Accomodations",
   },
-  // {id:6,image:"./src/assets/main.jpg",text:"Mud Room"},
 ];
 
 function App() {
   const [focusedIndex, setFocusedIndex] = useState(null);
 
-  const location = useLocation();
 
   return (
     <>
@@ -55,7 +53,7 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        <video defaultMuted muted autoPlay loop playsInline preload="auto" key={location.key}>
+        <video muted  playsInline autoPlay loop preload="auto">
           <source src="/assets/video-desktop.mp4" type="video/mp4" media="(min-width: 768px)" />
           <source src="/assets/video-mobile.mp4" type="video/mp4" media="(max-width: 767px)" />
         </video>
