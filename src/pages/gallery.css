@@ -31,7 +31,7 @@
 .galleryimages img {
   width: 100%;
   height: 35vh;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 

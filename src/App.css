@@ -1,17 +1,16 @@
 .mainimg {
   width: 100%;
   height: 90vh;
-  border-radius: 2rem 2rem 0rem 0rem;
   overflow: hidden;
 }
 
 .mainimg video {
   width: 100%;
   height: 100%;
-  border-radius: 2rem 2rem 0 0;
+  border-radius: 1rem 1rem 0 0;
   object-fit: cover;
   pointer-events: none;
-  background-image: url('./assets/contactimg.png');
+  background-image: url("./assets/contactimg.png");
   background-size: cover;
   background-position: top;
 }
@@ -25,7 +24,7 @@
   top: 100vh;
   left: 50%;
   transform: translate(-50%);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 .mainpagegallerytext {
   text-align: center;
@@ -52,13 +51,12 @@
 .mainpagegalleryimg {
   width: 100%;
   height: 38vh;
-  border-radius: 1rem;
   overflow: hidden;
 }
 .mainpagegalleryimg img {
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -102,10 +100,6 @@
   border-radius: 0.5rem;
   cursor: pointer;
 }
-/* .mainpageAccomodationbox:nth-child(1) img{
-  object-position: center top;
-} */
-
 .mainpageaccomodationtext {
   position: absolute;
   bottom: 2vh;
@@ -138,7 +132,7 @@
   background-color: rgb(3, 45, 39);
   width: 98%;
   margin: auto;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   padding: 1rem 0rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
@@ -199,7 +193,6 @@
     position: absolute;
     top: 65svh;
     right: 0svw;
-    border-radius: 1.5rem;
   }
   .mainpagegallerytext {
     text-align: center;
@@ -224,7 +217,6 @@
   .mainpagegalleryimg img {
     width: 100%;
     height: 100%;
-    border-radius: 1rem;
   }
 
   .mainpageaccomodationheading {
@@ -244,12 +236,12 @@
   }
 
   .mainpageaccomodation {
-    height: 116svh;
-    width: 98%;
+    height: 118svh;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 1.5svw;
+    gap: 2svw;
     overflow: hidden;
     padding: 0.5rem;
     box-sizing: border-box;
@@ -265,9 +257,6 @@
     cursor: pointer;
     border-radius: 0;
   }
-  /* .mainpageAccomodationbox:nth-child(1) img {
-    object-fit: cover !important;
-  } */
 
   .mainpageaccomodationtext {
     position: absolute;
@@ -291,7 +280,7 @@
     margin: auto;
     border-radius: 0.5rem;
     padding: 0.5rem 0rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0bo.7);
   }
 
   .mainpageeventheading {

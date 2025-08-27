@@ -6,7 +6,7 @@
 .contactus-main-imagesection img {
   width: 100%;
   height: 100%;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   object-fit: cover;
   object-position: top left;
 }
@@ -19,7 +19,7 @@
   top: 70vh;
   left: 50%;
   transform: translate(-50%);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1vw;
@@ -28,7 +28,6 @@
 .contactcard {
   height: 35vh;
   width: 100%;
-  border-radius: 2rem;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -96,12 +95,12 @@
 .postcard {
   width: 22vw;
   height: 80vh;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
 }
 .postcard img {
   width: 100%;
   height: 100%;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -114,7 +113,7 @@
   .contactus-main-imagesection img {
     width: 100%;
     height: 100%;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 1.5rem 1.5rem 0 0;
   }
 
   .contact-info {
@@ -131,7 +130,6 @@
   .contactcard {
     height: fit-content;
     width: 100%;
-    border-radius: 2rem;
     margin: auto;
     gap: 4svh;
   }
@@ -202,7 +200,7 @@
   .contactus-main-imagesection img {
     width: 100%;
     height: 100%;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 1.5rem 1.5rem 0 0;
   }
 
   .contact-info {
@@ -221,7 +219,6 @@
   .contactcard {
     height: fit-content;
     width: 100%;
-    border-radius: 2rem;
     margin: auto;
     gap: 4svh;
   }
@@ -289,7 +286,7 @@
   .contact-info {
     height: fit-content;
     width: 97%;
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     gap: 1vw;
     padding-left:1rem;
     padding-right: 1rem;

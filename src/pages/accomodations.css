@@ -37,7 +37,7 @@
   justify-content: center;
   align-items: center;
   gap: 5vh;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 1rem 0rem;
   background-color: white;
@@ -65,7 +65,7 @@
 .accomodationbox-img {
   width: 95%;
   height: fit-content;
-  border-radius: 2rem;
+  border-radius: 0.5rem;
   display: flex;
   gap: 0.5vw;
 }
@@ -75,7 +75,7 @@
 .accomodationbox-mainimg img {
   width: 100%;
   height: 75vh;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -84,12 +84,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.2vw;
-  /* background-color: blue; */
 }
 .accomodationbox-sideimg img {
   width: 100%;
   height: 37.4vh;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   object-fit: cover;
 }
 
@@ -137,7 +136,6 @@
     display: flex;
     flex-direction: column;
     gap: 2svh;
-    border-radius: 0.7rem;
     padding: 0.5rem 0rem;
   }
 
@@ -145,12 +143,10 @@
     font-size: 1.5rem;
     text-align: center;
     color: rgb(175, 132, 58);
-    /* background-color: yellow; */
   }
 
   .accomodation-box p {
     font-size: 0.8rem;
-    /* background-color: red; */
   }
   .accomodation-line {
     height: 0.1svh;
@@ -158,7 +154,6 @@
     background-color: rgb(158, 146, 146);
     margin-top: -0.5svh;
     margin-bottom: 1svh;
-    border-radius: 2rem;
   }
 
   .accomodationbox-img {
@@ -166,17 +161,13 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 0.8svw;
-    /* background-color: blue; */
-    border-radius: 0rem;
   }
   .accomodationbox-mainimg {
     width: 100%;
-    /* background-color: yellow; */
   }
   .accomodationbox-mainimg img {
     width: 100%;
     height: 50svh;
-    border-radius: 1rem;
   }
 
   .accomodationbox-sideimg {
@@ -184,23 +175,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5svw;
-    /* background-color: blue; */
   }
   .accomodationbox-sideimg img {
     width: 100%;
     height: 25vh;
-    border-radius: 0.5rem;
   }
 
   .accomodationbox-svgs {
     margin-top: 2svh;
     display: flex;
     gap: 10svw;
-    /* background-color: green; */
   }
 
   .svg img {
-    /* filter:invert(); */
     transform: scale(0.7);
   }
 
@@ -216,7 +203,6 @@
     height: 0.1svh;
     width: 30%;
     background-color: rgb(158, 146, 146);
-    border-radius: 2rem;
   }
 }
 
@@ -246,7 +232,6 @@
     display: flex;
     flex-direction: column;
     gap: 2svh;
-    border-radius: 0.7rem;
     padding: 0.5rem 0rem;
   }
 
@@ -264,7 +249,6 @@
     background-color: rgb(158, 146, 146);
     margin-top: -0.5svh;
     margin-bottom: 1svh;
-    border-radius: 2rem;
   }
 
   .accomodationbox-img {
@@ -272,7 +256,6 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 0.8svw;
-    border-radius: 0rem;
   }
   .accomodationbox-mainimg {
     width: 100%;
@@ -280,7 +263,6 @@
   .accomodationbox-mainimg img {
     width: 100%;
     height: 60svh;
-    border-radius: 1rem;
   }
 
   .accomodationbox-sideimg {
@@ -292,7 +274,6 @@
   .accomodationbox-sideimg img {
     width: 100%;
     height: 35svh;
-    border-radius: 0.5rem;
   }
 
   .accomodationbox-svgs {
@@ -317,7 +298,6 @@
     height: 0.1svh;
     width: 30%;
     background-color: rgb(158, 146, 146);
-    border-radius: 2rem;
   }
 }
 
