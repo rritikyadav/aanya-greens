@@ -49,7 +49,7 @@ const handleFooterlogo = () => {
           </div>
           <div className="footerlogosection">
             <div className="footerlogo">
-              <img onClick={handleFooterlogo} src="./assets/logo3-golden.png" alt="" />
+              <img onClick={handleFooterlogo} src="./assets/logo-golden.png" alt="" />
             </div>
             <div className="footersocials">
               <a href="https://www.instagram.com/aanya_green_farm/profilecard/?igsh=cjc3MjNmNXk3Y3pw" target="_blank" rel="noopener noreferrer"><img src="./assets/svgs/instagram.png" alt="" /></a>

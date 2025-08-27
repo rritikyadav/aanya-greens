@@ -2,8 +2,8 @@ import { React, useState } from "react";
 import "./App.css";
 import Navbar from "./components/navbar.jsx";
 import Form from "./components/form.jsx";
-import Footer from "./components/Footer.jsx";
-import { Link } from "react-router-dom";
+import Footer from "./components/footer.jsx";
+import { Link , useLocation } from "react-router-dom";
 import ScrollToTop from "./rarecomponents/scrolltotop.jsx";
 import Activities from "./rarecomponents/activities.jsx";
 // import Wedding from "./rarecomponents/wedding.jsx";
@@ -46,6 +46,8 @@ const AccomodationBoxes = [
 function App() {
   const [focusedIndex, setFocusedIndex] = useState(null);
 
+  const location = useLocation();
+
   return (
     <>
       <ScrollToTop />
@@ -53,7 +55,7 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        <video muted autoPlay loop playsInline preload="auto">
+        <video defaultMuted muted autoPlay loop playsInline preload="auto" key={location.key}>
           <source src="/assets/video-desktop.mp4" type="video/mp4" media="(min-width: 768px)" />
           <source src="/assets/video-mobile.mp4" type="video/mp4" media="(max-width: 767px)" />
         </video>
