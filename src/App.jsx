@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/navbar.jsx";
 import Form from "./components/form.jsx";
@@ -44,6 +44,21 @@ const AccomodationBoxes = [
 
 function App() {
   const [focusedIndex, setFocusedIndex] = useState(null);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = true;
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+         console.log("AutoPlay Fails , loading Poster Instead ....")
+        });
+      }
+    }
+  }, []);
+
 
 
   return (
@@ -53,7 +68,7 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        <video muted playsInline autoPlay loop preload="auto">
+        <video muted playsInline autoPlay loop preload="auto" ref={videoRef} poster="./assets/contactimg.png" >
           <source src={window.innerWidth < 768 ? "/assets/video-mobile.mp4" : "/assets/video-desktop.mp4"} type="video/mp4" />
         </video>
       </div>
