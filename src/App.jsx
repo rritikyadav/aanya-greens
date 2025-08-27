@@ -50,12 +50,7 @@ function App() {
     const video = videoRef.current;
     if (video) {
       video.muted = true;
-      const playPromise = video.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(() => {
-         console.log("AutoPlay Fails , loading Poster Instead ....")
-        });
-      }
+      video.play();
     }
   }, []);
 
