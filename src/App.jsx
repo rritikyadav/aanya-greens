@@ -53,9 +53,8 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        <video muted  playsInline autoPlay loop preload="auto">
-          <source src="/assets/video-desktop.mp4" type="video/mp4" media="(min-width: 768px)" />
-          <source src="/assets/video-mobile.mp4" type="video/mp4" media="(max-width: 767px)" />
+        <video muted playsInline autoPlay loop preload="auto">
+          <source src={window.innerWidth < 768 ? "/assets/video-mobile.mp4" : "/assets/video-desktop.mp4"} type="video/mp4" />
         </video>
       </div>
 
