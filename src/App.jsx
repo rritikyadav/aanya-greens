@@ -68,7 +68,7 @@ function App() {
       <Fixedsvg />
 
       <div className="mainimg">
-        <video muted playsInline autoPlay loop preload="auto" ref={videoRef} poster="./assets/contactimg.png" >
+        <video muted playsInline autoPlay loop preload="auto" ref={videoRef} >
           <source src={window.innerWidth < 768 ? "/assets/video-mobile.mp4" : "/assets/video-desktop.mp4"} type="video/mp4" />
         </video>
       </div>
