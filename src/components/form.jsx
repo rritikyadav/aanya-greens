@@ -22,9 +22,9 @@ function Form() {
     e.preventDefault();
     try{
       const a = await axios.post(`https://server-aanyagreens.onrender.com/dashboard`,FormData)
-      alert(a)
+      alert(a.data)
     }catch(err){
-
+      alert("Something Went Wrong . Please try Another Method To Contact .")
     }
   };
 
