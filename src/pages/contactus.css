@@ -38,9 +38,6 @@
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
-.contactcarddiv p {
-  font-size: 1rem;
-}
 .contactcard a {
   text-decoration: none;
   border-bottom: 1px solid rgb(175, 145, 100);
@@ -226,8 +223,8 @@
     font-size: 1.5rem;
     margin-bottom: 0rem;
   }
-  .contactcard a{
-    font-size:1.1rem;
+  .contactcard a {
+    font-size: 1.1rem;
   }
   .contactcard p {
     font-size: 1.1rem;
@@ -282,14 +279,71 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1080px) {
+@media screen and (min-width: 769px) and (max-width: 900px) {
+  .contactus-main-imagesection img {
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+  }
+
+  .contact-info {
+    padding: 2rem 0rem 4rem 0rem;
+    box-sizing: border-box;
+    height: fit-content;
+    width: 98%;
+    top: 65vh;
+    gap: 0.6vw;
+  }
+
+  .contactcard {
+    height: fit-content;
+  }
+  .contactcard h1 {
+    font-size: 1.7rem;
+    margin-bottom: 0.2rem;
+  }
+  .contactcard a {
+    letter-spacing: 0.04em;
+    font-size: 1rem;
+  }
+  .contactcard p {
+    font-size: 1rem;
+  }
+  .contactcarddiv img {
+    width: 2vw;
+  }
+  .contactcarddiv {
+    margin-left: 1.5rem;
+  }
+
+  .instagram {
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+  }
+  .username img {
+    width: 2.7vw;
+  }
+  .username a {
+    font-size: 2rem;
+    letter-spacing: 0.03em;
+  }
+  .postcards {
+    gap: 0.2vw;
+  }
+  .postcard {
+    width: 24.7vw;
+    height: 50vh;
+  }
+  .postcard img {
+    object-position: top;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
   .contact-info {
     height: fit-content;
     width: 97%;
     border-radius: 1.5rem;
     gap: 1vw;
-    padding-left:1rem;
-    padding-right: 1rem;
+    padding: 2rem 0rem 2rem 0rem;
     box-sizing: border-box;
   }
 
@@ -310,8 +364,24 @@
   .contactcarddiv {
     gap: 0.8vw;
   }
-  .postcard img{
+  .instagram {
+    margin-bottom: 10vh;
+  }
+  .username img {
+    width: 2.7vw;
+  }
+  .username a {
+    font-size: 2rem;
+    letter-spacing: 0.04em;
+  }
+  .postcards {
+    gap: 0.5vw;
+  }
+  .postcard {
+    width: 24.4vw;
+    height: 70vh;
+  }
+  .postcard img {
     object-position: left;
   }
-
 }
