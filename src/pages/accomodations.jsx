@@ -143,7 +143,7 @@ function Accomodations() {
           </div>
           <div className="accomodationbox-sideimg">
             <img src="./assets/mudroom4.jpeg" alt="" />
-            <img src="./assets/mudroom3.jpeg" alt="" />
+            <img src="./assets/mudroom3.jpg" alt="" />
             <img src="./assets/mudroom2.jpeg" alt="" />
             <img src="./assets/mudroom1.jpeg" alt="" />
           </div>
