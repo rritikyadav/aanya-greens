@@ -21,54 +21,6 @@ function Accomodations() {
       </div>
       <div className="accomodation-heading-line"></div>
 
-      <div className="accomodation-box accomodation-box1">
-        <h1>Mud Room</h1>
-        <p>
-          <b style={{ color: "rgb(3, 45, 39)" }}>
-            Experience the Earth’s Embrace in Our Traditional Mudroom — a true
-            retreat for body and soul.
-          </b>
-          <br /><br /> &gt;&nbsp; Crafted using ancient Indian techniques with natural
-          mud and cow dung, this serene space offers a cool, toxin-free, and
-          grounding atmosphere.
-          <br /> &gt;&nbsp; The walls breathe with nature, promoting better
-          sleep, improved air quality, and a deep sense of calm. Step into a
-          room where tradition meets wellness .<br />
-        </p>
-        <div className="accomodation-line"></div>
-        <div className="accomodationbox-img">
-          <div className="accomodationbox-mainimg">
-            <img style={{ objectPosition: "top" }} src="./assets/mudroom.jpeg" alt="" />
-          </div>
-          <div className="accomodationbox-sideimg">
-            <img src="./assets/mudroom4.jpeg" alt="" />
-            <img src="./assets/mudroom3.jpeg" alt="" />
-            <img src="./assets/mudroom2.jpeg" alt="" />
-            <img src="./assets/mudroom1.jpeg" alt="" />
-          </div>
-        </div>
-        <div className="accomodationbox-svgs">
-          <div className="svg">
-            <img src="./assets/svgs/wifi.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/roomservice.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/ac.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/bathroom.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/customersupport.svg" alt="" />
-          </div>
-        </div>
-        <div className="svg-explain">
-          <p>Wifi | RoomService | Ac | Attached Washrooms | customersupport</p>
-        </div>
-        <div className="accomodation-svgline"></div>
-      </div>
 
       <div className="accomodation-box">
         <h1>Luxury Suites</h1>
@@ -120,6 +72,105 @@ function Accomodations() {
         <div className="accomodation-svgline"></div>
       </div>
 
+      <div className="accomodation-box">
+        <h1>Glass Haul</h1>
+        <p>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
+            Dine, Dance, and Dream in Our Glass Haul — A space crafted for
+            intimacy, celebration, and timeless memories.
+          </b>
+          <br /><br />
+          &gt;&nbsp; Surrounded by serene views, this air-conditioned glass
+          haven features a private minibar, ambient lighting, and live music for
+          the perfect evening .
+          <br />
+          &gt;&nbsp; Whether it’s a romantic dinner or a night of dancing under
+          the stars, every moment here is unforgettable .
+        </p>
+        <div className="accomodation-line"></div>
+        <div className="accomodationbox-img">
+          <div className="accomodationbox-sideimg">
+            <img src="./assets/glassroom1.jpg" alt="" />
+            <img src="./assets/glassroom2.jpg" alt="" />
+            <img style={{ objectPosition: "left" }} src="./assets/glassroom.jpg" alt="" />
+            <img src="./assets/glassroom3.jpg" alt="" />
+          </div>
+          <div className="accomodationbox-mainimg">
+            <img src="./assets/glassroom.jpg" alt="" />
+          </div>
+        </div>
+        <div className="accomodationbox-svgs">
+          <div className="svg">
+            <img src="./assets/svgs/wifi.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/roomservice.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/speaker.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/ac.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/customersupport.svg" alt="" />
+          </div>
+        </div>
+        <div className="svg-explain">
+          <p>Wifi | RoomService | Live Music | Ac | customersupport</p>
+        </div>
+        <div className="accomodation-svgline"></div>
+      </div>
+
+      <div className="accomodation-box accomodation-box1">
+        <h1>Mud Room</h1>
+        <p>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
+            Experience the Earth’s Embrace in Our Traditional Mudroom — a true
+            retreat for body and soul.
+          </b>
+          <br /><br /> &gt;&nbsp; Crafted using ancient Indian techniques with natural
+          mud and cow dung, this serene space offers a cool, toxin-free, and
+          grounding atmosphere.
+          <br /> &gt;&nbsp; The walls breathe with nature, promoting better
+          sleep, improved air quality, and a deep sense of calm. Step into a
+          room where tradition meets wellness .<br />
+        </p>
+        <div className="accomodation-line"></div>
+        <div className="accomodationbox-img">
+          <div className="accomodationbox-mainimg">
+            <img style={{ objectPosition: "top" }} src="./assets/mudroom.jpeg" alt="" />
+          </div>
+          <div className="accomodationbox-sideimg">
+            <img src="./assets/mudroom4.jpeg" alt="" />
+            <img src="./assets/mudroom3.jpeg" alt="" />
+            <img src="./assets/mudroom2.jpeg" alt="" />
+            <img src="./assets/mudroom1.jpeg" alt="" />
+          </div>
+        </div>
+        <div className="accomodationbox-svgs">
+          <div className="svg">
+            <img src="./assets/svgs/wifi.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/roomservice.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/ac.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/bathroom.svg" alt="" />
+          </div>
+          <div className="svg">
+            <img src="./assets/svgs/customersupport.svg" alt="" />
+          </div>
+        </div>
+        <div className="svg-explain">
+          <p>Wifi | RoomService | Ac | Attached Washrooms | customersupport</p>
+        </div>
+        <div className="accomodation-svgline"></div>
+      </div>
+
 
       <div className="accomodation-box">
         <h1>Tent Suites</h1>
@@ -165,56 +216,6 @@ function Accomodations() {
         </div>
         <div className="svg-explain">
           <p>Wifi | RoomService | Ac | Attached Washrooms | customersupport</p>
-        </div>
-        <div className="accomodation-svgline"></div>
-      </div>
-
-      <div className="accomodation-box">
-        <h1>Glass Room</h1>
-        <p>
-          <b style={{ color: "rgb(3, 45, 39)" }}>
-            Dine, Dance, and Dream in Our Glass Room — A space crafted for
-            intimacy, celebration, and timeless memories.
-          </b>
-          <br /><br />
-          &gt;&nbsp; Surrounded by serene views, this air-conditioned glass
-          haven features a private minibar, ambient lighting, and live music for
-          the perfect evening .
-          <br />
-          &gt;&nbsp; Whether it’s a romantic dinner or a night of dancing under
-          the stars, every moment here is unforgettable .
-        </p>
-        <div className="accomodation-line"></div>
-        <div className="accomodationbox-img">
-          <div className="accomodationbox-sideimg">
-            <img src="./assets/glassroom1.jpg" alt="" />
-            <img src="./assets/glassroom2.jpg" alt="" />
-            <img style={{ objectPosition: "left" }} src="./assets/glassroom.jpg" alt="" />
-            <img src="./assets/glassroom3.jpg" alt="" />
-          </div>
-          <div className="accomodationbox-mainimg">
-            <img src="./assets/glassroom.jpg" alt="" />
-          </div>
-        </div>
-        <div className="accomodationbox-svgs">
-          <div className="svg">
-            <img src="./assets/svgs/wifi.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/roomservice.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/speaker.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/ac.svg" alt="" />
-          </div>
-          <div className="svg">
-            <img src="./assets/svgs/customersupport.svg" alt="" />
-          </div>
-        </div>
-        <div className="svg-explain">
-          <p>Wifi | RoomService | Live Music | Ac | customersupport</p>
         </div>
         <div className="accomodation-svgline"></div>
       </div>
@@ -275,7 +276,7 @@ function Accomodations() {
         <h1>Common Areas</h1>
         <p>
           <b style={{ color: "rgb(3, 45, 39)" }}>
-            Relax, Refresh, and Rejuvenate by the Scenic Views - Breathe in calm, surrounded by green. 
+            Relax, Refresh, and Rejuvenate by the Scenic Views - Breathe in calm, surrounded by green.
           </b>
           <br /><br />
           &gt;&nbsp; Stroll through lush, landscaped gardens where nature’s beauty meets serenity.
@@ -287,7 +288,7 @@ function Accomodations() {
           <div className="accomodationbox-sideimg">
             <img src="./assets/gallery7.jpg" alt="" />
             <img src="./assets/mainimg1.jpeg" alt="" />
-            <img style={{objectPosition:"bottom"}} src="./assets/bonfire.jpg" alt="" />
+            <img style={{ objectPosition: "bottom" }} src="./assets/bonfire.jpg" alt="" />
             <img src="./assets/gallery8.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
