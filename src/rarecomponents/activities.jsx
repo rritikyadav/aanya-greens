@@ -18,11 +18,11 @@ function Activities() {
           <h1>Trekking</h1>
         </div>
         <div className="activities activity2">
-          <img src="./assets/bonfire.jpeg" alt="" />
+          <img src="./assets/bonfire.jpg" alt="" />
           <h1>Bon-Fire Place</h1>
         </div>
         <div className="activities activity3">
-          <img src="./assets/poolparty2.jpeg" alt="" />
+          <img src="./assets/pool.jpg" alt="" />
           <h1>Pool Games</h1>
         </div>
         <div className="activities activity4">
@@ -30,7 +30,7 @@ function Activities() {
           <h1>Kids Activities</h1>
         </div>
         <div className="activities activity5">
-          <img src="./assets/outdoorsports.jpeg" alt="" />
+          <img src="./assets/sports.jpg" alt="" />
           <h1>Outdoor Sports</h1>
         </div>
       </div>

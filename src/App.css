@@ -166,8 +166,8 @@
   border-bottom: rgb(250, 235, 215) 1px solid;
 }
 .eventimages {
-  width: 46vw;
-  height: 60vh;
+  width: 50vw;
+  height: 70vh;
   display: flex;
   justify-content: center;
   gap: 1vw;

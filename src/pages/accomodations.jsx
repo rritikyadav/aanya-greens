@@ -187,13 +187,13 @@ function Accomodations() {
         <div className="accomodation-line"></div>
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
-            <img src="./assets/glassroom.jpeg" alt="" />
-            <img src="./assets/glassroom2.jpeg" alt="" />
-            <img style={{ objectPosition: "bottom" }} src="./assets/glassroom4.jpeg" alt="" />
-            <img style={{ objectPosition: "bottom" }} src="./assets/glassroom3.jpeg" alt="" />
+            <img src="./assets/glassroom1.jpg" alt="" />
+            <img src="./assets/glassroom2.jpg" alt="" />
+            <img style={{ objectPosition: "left" }} src="./assets/glassroom.jpg" alt="" />
+            <img src="./assets/glassroom3.jpg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./assets/glassroom1.jpeg" alt="" />
+            <img src="./assets/glassroom.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -219,6 +219,7 @@ function Accomodations() {
         <div className="accomodation-svgline"></div>
       </div>
 
+
       <div className="accomodation-box">
         <h1>Open-Air Pool</h1>
         <p>
@@ -238,12 +239,12 @@ function Accomodations() {
         <div className="accomodationbox-img">
           <div className="accomodationbox-sideimg">
             <img src="./assets/pool1.jpeg" alt="" />
-            <img src="./assets/pool2.jpeg" alt="" />
+            <img src="./assets/pool2.jpg" alt="" />
             <img style={{ objectPosition: "bottom" }} src="./assets/pool3.jpeg" alt="" />
             <img src="./assets/pool4.jpeg" alt="" />
           </div>
           <div className="accomodationbox-mainimg">
-            <img src="./assets/pool.jpeg" alt="" />
+            <img src="./assets/pool.jpg" alt="" />
           </div>
         </div>
         <div className="accomodationbox-svgs">
@@ -267,6 +268,32 @@ function Accomodations() {
           <p>Wifi | Open Shower | Swim Tube | Live Music | open-Air Sitting</p>
         </div>
         <div className="accomodation-svgline"></div>
+      </div>
+
+
+      <div className="accomodation-box">
+        <h1>Common Areas</h1>
+        <p>
+          <b style={{ color: "rgb(3, 45, 39)" }}>
+            Relax, Refresh, and Rejuvenate by the Scenic Views - Breathe in calm, surrounded by green. 
+          </b>
+          <br /><br />
+          &gt;&nbsp; Stroll through lush, landscaped gardens where nature’s beauty meets serenity.
+          <br />
+          &gt;&nbsp; The vibrant flora, peaceful walking paths, and cozy seating nooks invite guests to relax, reflect, or enjoy a quiet morning coffee surrounded by greenery.
+        </p>
+        <div className="accomodation-line"></div>
+        <div className="accomodationbox-img">
+          <div className="accomodationbox-sideimg">
+            <img src="./assets/gallery7.jpg" alt="" />
+            <img src="./assets/mainimg1.jpeg" alt="" />
+            <img style={{objectPosition:"bottom"}} src="./assets/bonfire.jpg" alt="" />
+            <img src="./assets/gallery8.jpg" alt="" />
+          </div>
+          <div className="accomodationbox-mainimg">
+            <img src="./assets/mainimg2.jpeg" alt="" />
+          </div>
+        </div>
       </div>
 
       <Footer />

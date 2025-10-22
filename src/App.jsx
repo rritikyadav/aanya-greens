@@ -30,13 +30,13 @@ const AccomodationBoxes = [
   },
   {
     id: 4,
-    image: "./assets/glassroom1.jpeg",
+    image: "./assets/glassroom.jpg",
     text: "Glass Room",
     link: "/Accomodations",
   },
   {
     id: 5,
-    image: "./assets/pool.jpeg",
+    image: "./assets/pool.jpg",
     text: "Open-Air Pool",
     link: "/Accomodations",
   },
@@ -74,7 +74,7 @@ function App() {
         </div>
         <div className="mainpage-gallery-imagesection">
           <div className="mainpagegalleryimg">
-            <img src="./assets/pool.jpeg" alt="" />
+            <img src="./assets/pool.jpg" alt="" />
           </div>
           <div className="mainpagegalleryimg">
             <img src="./assets/pool1.jpeg" alt="" />
@@ -139,8 +139,8 @@ function App() {
             </Link>
           </div>
           <div className="eventimages">
-            <img src="./assets/birthday2.jpeg" alt="" />
-            <img src="./assets/corporate1.jpeg" alt="" />
+            <img src="./assets/birthday2.jpg" alt="" />
+            <img src="./assets/event1.jpg" alt="" />
           </div>
         </div>
       </div>

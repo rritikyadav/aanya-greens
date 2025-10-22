@@ -20,6 +20,7 @@ function Gallery (){
 
             <div className="galleryimages">
                 <img src="./assets/bhole.jpeg" alt="" />
+                <img src="./assets/pool.jpg" alt="" />
                 <img src="./assets/mainimg3.jpeg" alt="" />
                 <img src="./assets/pool1.jpeg" alt="" />
                 <img src="./assets/mudroom.jpeg" alt="" />
@@ -30,10 +31,18 @@ function Gallery (){
                 <img src="./assets/tent.jpeg" alt="" />
                 <img src="./assets/pool3.jpeg" alt="" />
                 <img src="./assets/tent1.jpeg" alt="" />
-                <img src="./assets/birthday1.jpeg" alt="" />
+                <img src="./assets/birthday1.jpg" alt="" />
                 <img src="./assets/glassroom1.jpeg" alt="" />
+                <img src="./assets/gallery1.jpg" alt="" />
+                <img src="./assets/gallery2.jpg" alt="" />
+                <img src="./assets/gallery3.jpg" alt="" />
+                <img src="./assets/gallery4.jpg" alt="" />
+                <img src="./assets/gallery5.jpg" alt="" />
+                <img src="./assets/gallery6.jpg" alt="" />
+                <img src="./assets/gallery7.jpg" alt="" />
+                <img src="./assets/gallery8.jpg" alt="" />
                 <img src="./assets/tent2.jpeg" alt="" />
-                <img src="./assets/birthday2.jpeg" alt="" />
+                <img src="./assets/birthday2.jpg" alt="" />
                 <img src="./assets/mudroom1.jpeg" alt="" />
                 <img src="./assets/mainimg1.jpeg" alt="" />
                 <img src="./assets/mudroom2.jpeg" alt="" />
@@ -44,8 +53,6 @@ function Gallery (){
                 <img src="./assets/tent4.jpeg" alt="" />
                 <img src="./assets/trekking.jpeg" alt="" />
                 <img src="./assets/bathroom2.jpeg" alt="" />
-                <img src="./assets/gallery1.jpeg" alt="" />
-                <img src="./assets/gallery2.jpeg" alt="" />
             </div>
 
         <Footer/>
