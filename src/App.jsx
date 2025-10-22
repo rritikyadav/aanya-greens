@@ -146,6 +146,20 @@ function App() {
       </div>
 
       <Activities />
+
+        <div className="foodsection">
+          <div className="foodheading"><h1><span className="greenheading">Dining & Delights</span></h1>
+</div>
+          <div className="foodimgsection">
+          <img src="./assets/food1.jpg" alt="" />
+          <img src="./assets/food2.jpg" alt="" />
+          <img src="./assets/food3.jpg" alt="" />
+          <img src="./assets/food4.jpg" alt="" />
+          <img src="./assets/food5.jpg" alt="" />
+          <img src="./assets/food6.jpg" alt="" />
+          </div>
+        </div>
+
       <Form />
       <Footer />
     </>
