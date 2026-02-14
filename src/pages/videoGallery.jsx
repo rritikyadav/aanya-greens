@@ -13,7 +13,7 @@ function Videogallery() {
 
             <div className='videoGallery-main-line'></div>
 
-            <div className="videoGalleryheading">A Glimpse into the Heart of <span className='greenheading'>Aanya Greens</span></div>
+            <div className="videoGalleryheading">Stories and Moments from the Heart of <span className='greenheading'>Aanya Greens</span></div>
 
             <div className='videoGallery-heading-line'></div>
 
