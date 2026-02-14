@@ -26,13 +26,13 @@ function Gallery (){
                 <img src="./assets/mudroom.jpeg" alt="" />
                 <img src="./assets/common.jpeg" alt="" />
                 <img src="./assets/room1.jpeg" alt="" />
-                <img src="./assets/pool2.jpeg" alt="" />
+                {/* <img src="./assets/pool2.jpeg" alt="" /> */}
                 <img src="./assets/room2.jpeg" alt="" />
                 <img src="./assets/tent.jpeg" alt="" />
                 <img src="./assets/pool3.jpeg" alt="" />
                 <img src="./assets/tent1.jpeg" alt="" />
                 <img src="./assets/birthday1.jpg" alt="" />
-                <img src="./assets/glassroom1.jpeg" alt="" />
+                {/* <img src="./assets/glassroom1.jpeg" alt="" /> */}
                 <img src="./assets/gallery1.jpg" alt="" />
                 <img src="./assets/gallery2.jpg" alt="" />
                 <img src="./assets/gallery3.jpg" alt="" />
@@ -48,8 +48,8 @@ function Gallery (){
                 <img src="./assets/mudroom2.jpeg" alt="" />
                 <img src="./assets/mainimg2.jpeg" alt="" />
                 <img src="./assets/tent3.jpeg" alt="" />
-                <img src="./assets/mudroom3.jpeg" alt="" />
-                <img src="./assets/bathroom1.jpeg" alt="" />
+                {/* <img src="./assets/mudroom3.jpeg" alt="" /> */}
+                {/* <img src="./assets/bathroom1.jpeg" alt="bathroom" /> */}
                 <img src="./assets/tent4.jpeg" alt="" />
                 <img src="./assets/trekking.jpeg" alt="" />
                 <img src="./assets/bathroom2.jpeg" alt="" />

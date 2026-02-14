@@ -8,9 +8,15 @@ function Wedding() {
             <div className="weddingbox">
                 <div className="weddingheading"> <span className="greenheading">Vivaah </span> At Aanya Greens</div>
                 <div className="weddingimages">
-                    <img className="verticalweddingimg" src="./assets/main.jpg" alt="" />
-                    <img className="horizontalweddingimg" src="./assets/main.jpg" alt="" />
-                    <img className="verticalweddingimg" src="./assets/main.jpg" alt="" />
+                    <div className="verticalweddingimg">
+                        <video muted playsInline autoPlay loop preload="auto" > <source src='./assets/videos/video1.mp4' type="video/mp4" /></video>
+                    </div>
+                    <div className="horizontalweddingimg">
+                        <video muted playsInline autoPlay loop preload="auto" > <source src='./assets/videos/video7.mp4' type="video/mp4" /></video>
+                    </div>
+                    <div className="verticalweddingimg">
+                        <video muted playsInline autoPlay loop preload="auto" > <source src='./assets/videos/video6.mp4' type="video/mp4" /></video>
+                    </div>
                 </div>
             </div>
 

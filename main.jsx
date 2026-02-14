@@ -8,6 +8,7 @@ import Gallery from './src/pages/gallery.jsx';
 import Contactus from './src/pages/contactus.jsx';
 import AboutUs from './src/pages/aboutus.jsx';
 import EventsActivities from './src/pages/events&activities.jsx';
+import Videogallery from './src/pages/videoGallery.jsx';
 
 const router = createHashRouter([
 
@@ -20,6 +21,8 @@ const router = createHashRouter([
   {path: '/Contact', element: <Contactus />},
   
   {path: '/E-Gallery', element: <Gallery/>},
+
+  {path: '/Videogallery', element: <Videogallery/>},
 
   {path: '/About', element: <AboutUs/>}
 

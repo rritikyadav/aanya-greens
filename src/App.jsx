@@ -6,7 +6,7 @@ import Footer from "./components/footer.jsx";
 import { Link } from "react-router-dom";
 import ScrollToTop from "./rarecomponents/scrolltotop.jsx";
 import Activities from "./rarecomponents/activities.jsx";
-// import Wedding from "./rarecomponents/wedding.jsx";
+import Wedding from "./rarecomponents/wedding.jsx";
 import Fixedsvg from "./components/fixedsvg.jsx";
 
 const AccomodationBoxes = [
@@ -118,7 +118,7 @@ function App() {
         ))}
       </div>
 
-      {/* <Wedding /> */}
+      <Wedding />
 
       <div className="mainpageeventbox">
         <div className="mainpageeventheading"> Tailored  <span className="whiteheading"> Events </span>  For You  </div>

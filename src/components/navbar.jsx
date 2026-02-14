@@ -50,6 +50,7 @@ function Navbar() {
 
           <div className="Navright">
             <NavLink to="/E-Gallery">E-GALLERY</NavLink>
+            <NavLink to="/videogallery">videoGALLERY</NavLink>
             <NavLink to="/Contact">CONTACT</NavLink>
             <NavLink to="/About">ABOUT</NavLink>
           </div>
